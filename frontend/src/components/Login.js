@@ -18,7 +18,10 @@ const Login = () => {
       toast.success('Login successful!');
       navigate('/dashboard');
     } catch (error) {
-      toast.error(error.response?.data?.detail || 'Login failed');
+      const errorMsg = typeof error.response?.data?.detail === 'string' 
+        ? error.response.data.detail 
+        : 'Login failed';
+      toast.error(errorMsg);
     } finally {
       setLoading(false);
     }
