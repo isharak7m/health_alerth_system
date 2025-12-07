@@ -42,13 +42,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const login = async (username, password) => {
-    const formData = new URLSearchParams();
-    formData.append('username', username);
-    formData.append('password', password);
-    
-    const response = await axios.post('/api/users/login', formData, {
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-    });
+    const response = await axios.post('/api/users/login', { username, password });
     const { access_token } = response.data;
     
     localStorage.setItem('token', access_token);
