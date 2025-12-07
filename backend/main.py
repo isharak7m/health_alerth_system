@@ -14,13 +14,15 @@ app = FastAPI(title="Health Monitoring System", version="1.0.0")
 # CORS configuration for production and development
 allowed_origins = [
     "http://localhost:3000",
-    "https://*.vercel.app",
+    "https://health-alerth-system.vercel.app",
     os.getenv("FRONTEND_URL", "http://localhost:3000")
 ]
 
+# Allow all Vercel preview deployments
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
