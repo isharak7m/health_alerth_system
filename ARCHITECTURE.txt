@@ -1,0 +1,402 @@
+================================================================================
+                    PRODUCTION ARCHITECTURE DIAGRAM
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         HEALTH MONITORING SYSTEM                             │
+│                         Production Architecture                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              USER LAYER                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                 │
+│  │   Browser    │    │   Mobile     │    │   Tablet     │                 │
+│  │   (Chrome)   │    │   (Safari)   │    │   (Edge)     │                 │
+│  └──────┬───────┘    └──────┬───────┘    └──────┬───────┘                 │
+│         │                   │                   │                          │
+│         └───────────────────┴───────────────────┘                          │
+│                             │                                               │
+│                    HTTPS (SSL/TLS)                                          │
+│                             │                                               │
+└─────────────────────────────┼───────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         FRONTEND LAYER (VERCEL)                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │                    React 18 Single Page Application                 │    │
+│  ├────────────────────────────────────────────────────────────────────┤    │
+│  │                                                                     │    │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │    │
+│  │  │   Login      │  │  Dashboard   │  │  Admin Panel │            │    │
+│  │  │  Component   │  │  Component   │  │  Component   │            │    │
+│  │  └──────────────┘  └──────────────┘  └──────────────┘            │    │
+│  │                                                                     │    │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │    │
+│  │  │  Register    │  │     Chat     │  │   Health     │            │    │
+│  │  │  Component   │  │  Component   │  │   Alerts     │            │    │
+│  │  └──────────────┘  └──────────────┘  └──────────────┘            │    │
+│  │                                                                     │    │
+│  ├────────────────────────────────────────────────────────────────────┤    │
+│  │                    Tailwind CSS Styling                            │    │
+│  ├────────────────────────────────────────────────────────────────────┤    │
+│  │                    React Router (Navigation)                       │    │
+│  ├────────────────────────────────────────────────────────────────────┤    │
+│  │                    Axios (HTTP Client)                             │    │
+│  │                    → API_URL: process.env.REACT_APP_API_URL        │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  Deployment: Automatic on git push                                          │
+│  CDN: Global edge network                                                   │
+│  HTTPS: Automatic SSL                                                       │
+│  Cost: FREE (100 GB bandwidth/month)                                        │
+│                                                                              │
+└──────────────────────────────────┬───────────────────────────────────────────┘
+                                   │
+                          REST API Calls
+                          (JSON over HTTPS)
+                                   │
+                                   ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         BACKEND LAYER (RENDER)                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │                    Gunicorn WSGI Server                            │    │
+│  │                    (Production-grade)                              │    │
+│  └────────────────────────────┬───────────────────────────────────────┘    │
+│                               │                                             │
+│  ┌────────────────────────────▼───────────────────────────────────────┐    │
+│  │                    FastAPI Application                             │    │
+│  ├────────────────────────────────────────────────────────────────────┤    │
+│  │                                                                     │    │
+│  │  API ROUTERS:                                                       │    │
+│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │    │
+│  │  │   /api/users │  │  /api/admin  │  │  /api/health │            │    │
+│  │  │              │  │              │  │              │            │    │
+│  │  │  • register  │  │  • users     │  │  • outbreaks │            │    │
+│  │  │  • login     │  │  • outbreaks │  │  • vaccines  │            │    │
+│  │  │  • me        │  │  • vaccines  │  │  • alerts    │            │    │
+│  │  └──────────────┘  └──────────────┘  └──────────────┘            │    │
+│  │                                                                     │    │
+│  │  ┌──────────────┐                                                  │    │
+│  │  │  /api/chat   │                                                  │    │
+│  │  │              │                                                  │    │
+│  │  │  • message   │  ──────┐                                        │    │
+│  │  │  • history   │        │                                        │    │
+│  │  └──────────────┘        │                                        │    │
+│  │                          │                                        │    │
+│  ├──────────────────────────┼─────────────────────────────────────────┤    │
+│  │                          │                                        │    │
+│  │  MIDDLEWARE:             │                                        │    │
+│  │  • CORS (Cross-Origin)   │                                        │    │
+│  │  • JWT Authentication    │                                        │    │
+│  │  • Request Validation    │                                        │    │
+│  │                          │                                        │    │
+│  ├──────────────────────────┼─────────────────────────────────────────┤    │
+│  │                          │                                        │    │
+│  │  SERVICES:               │                                        │    │
+│  │  • SQLAlchemy ORM        │                                        │    │
+│  │  • JWT Token Manager     │                                        │    │
+│  │  • Password Hasher       │                                        │    │
+│  │  • Email Scheduler       │                                        │    │
+│  │  • CSV Processor         │                                        │    │
+│  │  • AI Chatbot Proxy ─────┘                                        │    │
+│  │                                                                     │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  Deployment: Automatic on git push                                          │
+│  Server: Gunicorn + Uvicorn workers                                         │
+│  Health Check: Enabled                                                      │
+│  Cost: FREE (750 hours/month)                                               │
+│                                                                              │
+└────────────┬─────────────────────────────────────┬─────────────────────────┘
+             │                                     │
+             │ PostgreSQL                          │ HTTP Proxy
+             │ Connection                          │ (User's Ollama)
+             │                                     │
+             ▼                                     ▼
+┌─────────────────────────────┐    ┌──────────────────────────────────────┐
+│   DATABASE LAYER (NEON)     │    │   AI SERVICE LAYER (LOCAL)           │
+├─────────────────────────────┤    ├──────────────────────────────────────┤
+│                             │    │                                      │
+│  ┌───────────────────────┐  │    │  ┌────────────────────────────┐    │
+│  │  PostgreSQL 15        │  │    │  │   User's Machine           │    │
+│  │  (Serverless)         │  │    │  ├────────────────────────────┤    │
+│  └───────────────────────┘  │    │  │                            │    │
+│                             │    │  │  ┌──────────────────────┐  │    │
+│  TABLES:                    │    │  │  │  Ollama Runtime      │  │    │
+│  ┌───────────────────────┐  │    │  │  │  localhost:11434     │  │    │
+│  │  users                │  │    │  │  └──────────────────────┘  │    │
+│  │  • id, email, role    │  │    │  │                            │    │
+│  │  • state, district    │  │    │  │  ┌──────────────────────┐  │    │
+│  │  • hashed_password    │  │    │  │  │  LLaMA 3 Model       │  │    │
+│  └───────────────────────┘  │    │  │  │  (7B parameters)     │  │    │
+│                             │    │  │  └──────────────────────┘  │    │
+│  ┌───────────────────────┐  │    │  │                            │    │
+│  │  outbreaks            │  │    │  │  Privacy: ✅ Local only    │    │
+│  │  • disease, location  │  │    │  │  Cost: ✅ Free             │    │
+│  │  • cases, severity    │  │    │  │  Speed: ✅ Fast            │    │
+│  └───────────────────────┘  │    │  │                            │    │
+│                             │    │  └────────────────────────────┘    │
+│  ┌───────────────────────┐  │    │                                      │
+│  │  vaccinations         │  │    │  User runs:                          │
+│  │  • vaccine, location  │  │    │  $ ollama serve                      │
+│  │  • doses, dates       │  │    │                                      │
+│  └───────────────────────┘  │    │  Backend proxies requests            │
+│                             │    │  with user's ollama_url              │
+│  ┌───────────────────────┐  │    │                                      │
+│  │  chat_messages        │  │    └──────────────────────────────────────┘
+│  │  • user_id, message   │  │
+│  │  • response, time     │  │
+│  └───────────────────────┘  │
+│                             │
+│  Features:                  │
+│  • Auto-backup (7 days)     │
+│  • Connection pooling       │
+│  • SSL encryption           │
+│  • Auto-suspend (saves $)   │
+│                             │
+│  Cost: FREE (3 GB storage)  │
+│                             │
+└─────────────────────────────┘
+
+================================================================================
+                            DATA FLOW EXAMPLES
+================================================================================
+
+1. USER REGISTRATION FLOW:
+   ┌──────┐    ┌─────────┐    ┌─────────┐    ┌──────────┐
+   │ User │───>│ Vercel  │───>│ Render  │───>│   Neon   │
+   │      │    │ (React) │    │(FastAPI)│    │(Postgres)│
+   └──────┘    └─────────┘    └─────────┘    └──────────┘
+      │             │              │               │
+      │ Fill form   │              │               │
+      │────────────>│              │               │
+      │             │ POST /register              │
+      │             │─────────────>│               │
+      │             │              │ Hash password │
+      │             │              │ INSERT user   │
+      │             │              │──────────────>│
+      │             │              │<──────────────│
+      │             │<─────────────│               │
+      │<────────────│              │               │
+      │ Success!    │              │               │
+
+2. VIEW DASHBOARD FLOW:
+   ┌──────┐    ┌─────────┐    ┌─────────┐    ┌──────────┐
+   │ User │───>│ Vercel  │───>│ Render  │───>│   Neon   │
+   │      │    │ (React) │    │(FastAPI)│    │(Postgres)│
+   └──────┘    └─────────┘    └─────────┘    └──────────┘
+      │             │              │               │
+      │ Open page   │              │               │
+      │────────────>│              │               │
+      │             │ GET /health/location-data   │
+      │             │─────────────>│               │
+      │             │              │ Verify JWT    │
+      │             │              │ SELECT data   │
+      │             │              │──────────────>│
+      │             │              │<──────────────│
+      │             │<─────────────│               │
+      │<────────────│              │               │
+      │ Display data│              │               │
+
+3. AI CHAT FLOW:
+   ┌──────┐    ┌─────────┐    ┌─────────┐    ┌──────────┐
+   │ User │───>│ Vercel  │───>│ Render  │───>│  Ollama  │
+   │      │    │ (React) │    │(FastAPI)│    │  (Local) │
+   └──────┘    └─────────┘    └─────────┘    └──────────┘
+      │             │              │               │
+      │ Type msg    │              │               │
+      │────────────>│              │               │
+      │             │ POST /chat/message          │
+      │             │ {message, ollama_url}       │
+      │             │─────────────>│               │
+      │             │              │ Proxy request │
+      │             │              │──────────────>│
+      │             │              │ LLaMA process │
+      │             │              │<──────────────│
+      │             │<─────────────│               │
+      │<────────────│              │               │
+      │ AI response │              │               │
+
+================================================================================
+                            SECURITY LAYERS
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         SECURITY ARCHITECTURE                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  LAYER 1: TRANSPORT SECURITY                                                │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • HTTPS/TLS 1.3 (Vercel + Render automatic)                       │    │
+│  │  • SSL Certificate auto-renewal                                    │    │
+│  │  • Encrypted data in transit                                       │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  LAYER 2: AUTHENTICATION                                                    │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • JWT tokens (30 min expiry)                                      │    │
+│  │  • bcrypt password hashing (salt + 12 rounds)                      │    │
+│  │  • Token stored in localStorage                                    │    │
+│  │  • Bearer token in Authorization header                            │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  LAYER 3: AUTHORIZATION                                                     │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • Role-based access control (user/admin)                          │    │
+│  │  • Protected routes (React Router)                                 │    │
+│  │  • API endpoint guards (FastAPI Depends)                           │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  LAYER 4: DATA PROTECTION                                                   │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • Database SSL encryption (Neon)                                  │    │
+│  │  • Environment variables (not in code)                             │    │
+│  │  • SQL injection prevention (SQLAlchemy ORM)                       │    │
+│  │  • XSS protection (React auto-escaping)                            │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+│  LAYER 5: NETWORK SECURITY                                                  │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • CORS policy (specific origins only)                             │    │
+│  │  • Rate limiting ready                                             │    │
+│  │  • DDoS protection (Vercel/Render)                                 │    │
+│  └────────────────────────────────────────────────────────────────────┘    │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+================================================================================
+                            DEPLOYMENT PIPELINE
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         CI/CD PIPELINE                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  DEVELOPER                                                                   │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  $ git add .                                                        │    │
+│  │  $ git commit -m "Update feature"                                  │    │
+│  │  $ git push origin main                                            │    │
+│  └────────────────────────────┬───────────────────────────────────────┘    │
+│                               │                                             │
+│                               ▼                                             │
+│  GITHUB REPOSITORY                                                           │
+│  ┌────────────────────────────────────────────────────────────────────┐    │
+│  │  • Code stored                                                      │    │
+│  │  • Webhook triggers                                                 │    │
+│  └────────────┬───────────────────────────────┬───────────────────────┘    │
+│               │                               │                             │
+│               ▼                               ▼                             │
+│  VERCEL BUILD              RENDER BUILD                                     │
+│  ┌─────────────────────┐  ┌─────────────────────────────────────────┐     │
+│  │ 1. Detect push      │  │ 1. Detect push                          │     │
+│  │ 2. Clone repo       │  │ 2. Clone repo                           │     │
+│  │ 3. npm install      │  │ 3. pip install -r requirements.txt      │     │
+│  │ 4. npm run build    │  │ 4. Start gunicorn                       │     │
+│  │ 5. Deploy to CDN    │  │ 5. Health check                         │     │
+│  │ 6. Update DNS       │  │ 6. Route traffic                        │     │
+│  │ Time: ~2 minutes    │  │ Time: ~5 minutes                        │     │
+│  └─────────────────────┘  └─────────────────────────────────────────┘     │
+│               │                               │                             │
+│               ▼                               ▼                             │
+│  PRODUCTION LIVE          PRODUCTION LIVE                                   │
+│  ┌─────────────────────┐  ┌─────────────────────────────────────────┐     │
+│  │ ✅ Frontend updated  │  │ ✅ Backend updated                       │     │
+│  │ ✅ Zero downtime     │  │ ✅ Rolling deployment                    │     │
+│  │ ✅ Instant global    │  │ ✅ Health checks pass                    │     │
+│  └─────────────────────┘  └─────────────────────────────────────────┘     │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+================================================================================
+                            COST BREAKDOWN
+================================================================================
+
+SERVICE         TIER        COST        LIMITS                  USAGE
+─────────────────────────────────────────────────────────────────────────────
+Vercel          Free        $0/mo       100 GB bandwidth        ~5%
+                                        Unlimited deployments
+                                        Automatic HTTPS
+
+Render          Free        $0/mo       750 hours/month         100%
+                                        512 MB RAM
+                                        Cold starts after 15min
+
+Neon            Free        $0/mo       3 GB storage            ~10%
+                                        1 project
+                                        Auto-suspend
+
+Ollama          Local       $0/mo       Unlimited               N/A
+                                        Runs on user's machine
+
+GitHub          Free        $0/mo       Unlimited public repos  N/A
+─────────────────────────────────────────────────────────────────────────────
+TOTAL                       $0/mo       ✅ 100% FREE
+
+UPGRADE OPTIONS (if needed):
+  • Vercel Pro: $20/mo (more bandwidth, analytics)
+  • Render Starter: $7/mo (no cold starts, more RAM)
+  • Neon Pro: $19/mo (more storage, read replicas)
+
+================================================================================
+                            MONITORING & LOGS
+================================================================================
+
+VERCEL DASHBOARD:
+  • Real-time deployment logs
+  • Build success/failure
+  • Analytics (page views, performance)
+  • Error tracking
+  • Custom domains
+
+RENDER DASHBOARD:
+  • Live application logs
+  • CPU/Memory usage
+  • Request metrics
+  • Health check status
+  • Shell access
+
+NEON DASHBOARD:
+  • Connection metrics
+  • Query performance
+  • Storage usage
+  • Backup status
+  • Connection pooling stats
+
+================================================================================
+                            SCALABILITY
+================================================================================
+
+CURRENT CAPACITY:
+  • Concurrent users: ~1,000
+  • Requests/month: ~100,000
+  • Database records: ~100,000
+  • Response time: <500ms (warm)
+
+SCALE UP OPTIONS:
+  1. Upgrade Render to Starter ($7/mo)
+     → No cold starts
+     → More RAM/CPU
+     → Better performance
+
+  2. Add Redis caching
+     → Faster data access
+     → Reduced database load
+
+  3. Upgrade Neon to Pro ($19/mo)
+     → More storage
+     → Read replicas
+     → Better performance
+
+  4. Add CDN for assets
+     → Faster global delivery
+     → Reduced bandwidth
+
+================================================================================

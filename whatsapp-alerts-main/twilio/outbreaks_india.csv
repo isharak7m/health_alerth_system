@@ -1,0 +1,1531 @@
+outbreak_id,disease,report_date,country,state,district,cases_reported,deaths,severity,confirmed,source_url,notes
+OUT-IND-00001,Cholera,2025-07-25 02:43:04,India,Tamil Nadu,Salem,2385,98,moderate,True,https://news.example/1,Reported by PHC
+OUT-IND-00002,Scrub Typhus,2025-10-06,India,Assam,Tezpur,2742,156,low,False,,Reported by PHC
+OUT-IND-00003,Measles,2025-04-05,India,Tamil Nadu,Chennai,4906,369,low,True,https://news.example/3,
+OUT-IND-00004,COVID-19,22-03-2025,India,Maharashtra,Mumbai,309,23,low,False,https://news.example/4,
+OUT-IND-00005,Dengue,2025-12-09,India,Delhi,South Delhi,4436,110,low,Unknown,https://news.example/5,
+OUT-IND-00006,COVID-19,2024-06-04,India,Assam,Tezpur,404,32,high,False,,
+OUT-IND-00007,Hepatitis A,28-05-2023,India,Rajasthan,Jaipur,2734,112,moderate,False,https://news.example/7,
+OUT-IND-00008,Scrub Typhus,2024-10-30,India,Kerala,Kozhikode,3415,176,low,True,https://news.example/8,Spike after monsoon
+OUT-IND-00009,COVID-19,2025-04-05,India,Gujarat,Vadodara,1129,6,moderate,Unknown,,Lab confirmed cases
+OUT-IND-00010,Kala-azar,2023-05-09,India,Assam,Tezpur,1255,44,low,Unknown,https://news.example/10,
+OUT-IND-00011,Cholera,2023-12-16 11:20:46,India,Odisha,Bhubaneswar,1782,5,moderate,False,https://news.example/11,Reported by PHC
+OUT-IND-00012,Dengue,2024-01-09,India,Delhi,East Delhi,1783,94,low,Unknown,https://news.example/12,Reported by PHC
+OUT-IND-00013,Cholera,15-02-2023,India,Gujarat,Bhavnagar,2814,200,moderate,Unknown,https://news.example/13,Spike after monsoon
+OUT-IND-00014,Kala-azar,2025-02-06,India,Gujarat,Rajkot,1255,88,low,True,https://news.example/14,Under investigation
+OUT-IND-00015,Hepatitis A,2025-05-29 19:34:11,India,Karnataka,Bengaluru,4260,125,low,Unknown,https://news.example/15,Under investigation
+OUT-IND-00016,Influenza,2024-12-18,India,Gujarat,Rajkot,2616,9,low,False,https://news.example/16,Lab confirmed cases
+OUT-IND-00017,COVID-19,2024-03-31 13:34:30,India,Bihar,Bhagalpur,4036,210,moderate,True,https://news.example/17,
+OUT-IND-00018,Dengue,2025-09-24,India,Assam,Guwahati,1975,28,low,False,https://news.example/18,
+OUT-IND-00019,Influenza,2023-08-13,India,Bihar,Patna,2729,118,low,True,https://news.example/19,Under investigation
+OUT-IND-00020,Cholera,2024-06-21,India,Bihar,Patna,3963,180,high,False,https://news.example/20,Reported by PHC
+OUT-IND-00021,Kala-azar,2024-07-07,India,Karnataka,Mangalore,3997,201,low,Unknown,https://news.example/21,Cluster in school
+OUT-IND-00022,COVID-19,2023-10-24,India,Delhi,South Delhi,3055,4,moderate,Unknown,https://news.example/22,Reported by PHC
+OUT-IND-00023,Cholera,2025-10-24,India,Gujarat,Vadodara,3349,79,moderate,Unknown,https://news.example/23,Reported by PHC
+OUT-IND-00024,Hepatitis A,2023-12-10,India,Karnataka,Hubli,2474,76,low,True,https://news.example/24,Under investigation
+OUT-IND-00025,Kala-azar,05-06-2024,India,Bihar,Patna,4037,250,moderate,Unknown,,
+OUT-IND-00026,Scrub Typhus,2024-11-27 16:45:13,India,Odisha,Rourkela,4091,190,moderate,False,,
+OUT-IND-00027,COVID-19,2023-06-09,India,Kerala,Thiruvananthapuram,256,1,moderate,False,https://news.example/27,Hospital admissions rising
+OUT-IND-00028,Kala-azar,2025-09-28,India,Assam,Guwahati,4894,270,low,Unknown,,
+OUT-IND-00029,Kala-azar,2025-05-18,India,Assam,Dibrugarh,2048,50,moderate,False,https://news.example/29,Reported by PHC
+OUT-IND-00030,Influenza,2025-04-14,India,Odisha,Sambalpur,474,8,low,True,https://news.example/30,Spike after monsoon
+OUT-IND-00031,Influenza,2024-02-02,India,Uttar Pradesh,Lucknow,610,3,moderate,False,,
+OUT-IND-00032,Dengue,2024-04-05,India,West Bengal,Siliguri,4652,32,high,False,https://news.example/32,
+OUT-IND-00033,Measles,2025-07-23,India,Bihar,Patna,1871,111,moderate,Unknown,https://news.example/33,Hospital admissions rising
+OUT-IND-00034,Scrub Typhus,2025-04-30,India,Uttar Pradesh,Kanpur,3858,135,moderate,True,,Under investigation
+OUT-IND-00035,Kala-azar,2023-08-01,India,West Bengal,Bardhaman,1035,25,moderate,True,,Lab confirmed cases
+OUT-IND-00036,Kala-azar,2023-06-19 18:31:50,India,Delhi,East Delhi,4478,75,moderate,Unknown,https://news.example/36,Hospital admissions rising
+OUT-IND-00037,Cholera,2024-07-12,India,Gujarat,Vadodara,3050,46,low,False,https://news.example/37,
+OUT-IND-00038,Cholera,2024-12-02,India,Odisha,Sambalpur,3130,48,low,True,https://news.example/38,
+OUT-IND-00039,Measles,2024-03-19,India,Odisha,Sambalpur,3514,51,low,False,https://news.example/39,
+OUT-IND-00040,Measles,2023-06-02,India,Delhi,Central Delhi,4279,124,low,True,https://news.example/40,
+OUT-IND-00041,Dengue,2025-03-08,India,Rajasthan,Jodhpur,14,1,high,False,https://news.example/41,Spike after monsoon
+OUT-IND-00042,Hepatitis A,2025-06-10,India,West Bengal,Siliguri,4453,238,low,Unknown,https://news.example/42,Spike after monsoon
+OUT-IND-00043,COVID-19,2025-05-02,India,Odisha,Bhubaneswar,769,2,low,Unknown,https://news.example/43,Hospital admissions rising
+OUT-IND-00044,Scrub Typhus,09-03-2025,India,Kerala,Thrissur,1822,41,low,False,https://news.example/44,
+OUT-IND-00045,Scrub Typhus,2023-08-12,India,Gujarat,Vadodara,683,20,moderate,Unknown,https://news.example/45,Under investigation
+OUT-IND-00046,Hepatitis A,2023-03-09 23:45:48,India,Tamil Nadu,Salem,3986,117,low,False,https://news.example/46,Spike after monsoon
+OUT-IND-00047,Dengue,2023-09-10,India,Bihar,Patna,3062,25,low,Unknown,,Hospital admissions rising
+OUT-IND-00048,Kala-azar,2023-12-25,India,Gujarat,Vadodara,2721,17,low,Unknown,https://news.example/48,
+OUT-IND-00049,Measles,2023-01-08,India,Delhi,East Delhi,927,3,low,Unknown,https://news.example/49,Reported by PHC
+OUT-IND-00050,Dengue,12-02-2024,India,Assam,Dibrugarh,3016,193,low,False,,Under investigation
+OUT-IND-00051,Kala-azar,2025-07-07,India,West Bengal,Howrah,2673,122,low,False,https://news.example/51,Cluster in school
+OUT-IND-00052,Kala-azar,30-11-2023,India,Kerala,Thiruvananthapuram,2493,195,low,Unknown,,Spike after monsoon
+OUT-IND-00053,Cholera,2025-09-14,India,Rajasthan,Alwar,98,5,moderate,Unknown,https://news.example/53,Hospital admissions rising
+OUT-IND-00054,Scrub Typhus,2024-01-29,India,Gujarat,Ahmedabad,3366,29,moderate,False,,Reported by PHC
+OUT-IND-00055,Cholera,2023-07-10 08:34:51,India,Maharashtra,Nagpur,1900,142,low,True,,Hospital admissions rising
+OUT-IND-00056,Hepatitis A,2025-04-06,India,Rajasthan,Bikaner,3569,4,low,True,https://news.example/56,Lab confirmed cases
+OUT-IND-00057,Hepatitis A,2023-06-13,India,Bihar,Gaya,3871,22,low,True,https://news.example/57,Hospital admissions rising
+OUT-IND-00058,Hepatitis A,2024-06-24 10:07:49,India,Uttar Pradesh,Agra,3,0,moderate,True,https://news.example/58,Lab confirmed cases
+OUT-IND-00059,Kala-azar,2023-08-28,India,Odisha,Cuttack,2822,219,low,False,,Spike after monsoon
+OUT-IND-00060,Kala-azar,2025-09-04,India,Assam,Silchar,962,6,low,Unknown,https://news.example/60,Reported by PHC
+OUT-IND-00061,Kala-azar,2025-05-06,India,Tamil Nadu,Madurai,1228,58,low,False,https://news.example/61,
+OUT-IND-00062,Scrub Typhus,2024-02-21,India,Tamil Nadu,Chennai,4988,350,low,False,https://news.example/62,Spike after monsoon
+OUT-IND-00063,Hepatitis A,2024-01-08 20:45:55,India,Odisha,Sambalpur,3341,265,low,False,https://news.example/63,
+OUT-IND-00064,Measles,2025-06-18,India,Gujarat,Rajkot,3838,105,low,False,,Cluster in school
+OUT-IND-00065,Measles,2023-05-23,India,Odisha,Puri,700,28,moderate,False,,Under investigation
+OUT-IND-00066,Measles,2025-04-13,India,Delhi,Central Delhi,1376,20,low,Unknown,https://news.example/66,
+OUT-IND-00067,COVID-19,2024-04-15,India,Karnataka,Belgaum,3106,,low,Unknown,https://news.example/67,Hospital admissions rising
+OUT-IND-00068,COVID-19,2023-01-05,India,Odisha,Cuttack,2817,48,low,Unknown,https://news.example/68,Reported by PHC
+OUT-IND-00069,Kala-azar,2025-11-01,India,Kerala,Kochi,3952,24,low,False,https://news.example/69,
+OUT-IND-00070,COVID-19,07-09-2025,India,Tamil Nadu,Salem,2791,29,high,Unknown,https://news.example/70,Under investigation
+OUT-IND-00071,Dengue,2024-12-17 04:33:51,India,Delhi,North Delhi,53,3,low,False,https://news.example/71,
+OUT-IND-00072,Measles,2025-05-18,India,Gujarat,Bhavnagar,3659,14,moderate,True,,Under investigation
+OUT-IND-00073,Measles,2023-06-03 01:57:57,India,Kerala,Kochi,763,45,high,Unknown,https://news.example/73,Hospital admissions rising
+OUT-IND-00074,Kala-azar,10-12-2025,India,Rajasthan,Bikaner,1307,66,low,Unknown,,Cluster in school
+OUT-IND-00075,Dengue,2023-08-20,India,West Bengal,Darjeeling,4731,153,low,True,,Cluster in school
+OUT-IND-00076,Measles,2023-02-09,India,Gujarat,Ahmedabad,339,15,low,Unknown,,
+OUT-IND-00077,Measles,18-06-2023,India,Odisha,Bhubaneswar,4007,187,high,True,https://news.example/77,Under investigation
+OUT-IND-00078,Kala-azar,24-04-2023,India,Bihar,Patna,2205,33,moderate,False,https://news.example/78,Spike after monsoon
+OUT-IND-00079,Kala-azar,2025-07-05,India,Delhi,East Delhi,1400,29,moderate,False,,Under investigation
+OUT-IND-00080,Scrub Typhus,2024-01-22,India,Tamil Nadu,Salem,4693,259,high,True,https://news.example/80,Lab confirmed cases
+OUT-IND-00081,Cholera,2025-05-22,India,Rajasthan,Jaipur,721,21,low,Unknown,,Cluster in school
+OUT-IND-00082,Hepatitis A,2024-12-01,India,Tamil Nadu,Salem,817,58,low,False,,Spike after monsoon
+OUT-IND-00083,Kala-azar,2023-09-28,India,Assam,Jorhat,1058,73,low,True,https://news.example/83,Cluster in school
+OUT-IND-00084,Kala-azar,09-04-2024,India,Delhi,South Delhi,4630,1,moderate,Unknown,https://news.example/84,Cluster in school
+OUT-IND-00085,Cholera,2023-07-31,India,Rajasthan,Jodhpur,3048,207,low,False,https://news.example/85,Under investigation
+OUT-IND-00086,Hepatitis A,2023-12-04 14:21:53,India,Tamil Nadu,Salem,3765,56,high,False,https://news.example/86,Reported by PHC
+OUT-IND-00087,Hepatitis A,2025-04-23,India,Karnataka,Belgaum,1068,10,low,Unknown,,
+OUT-IND-00088,Kala-azar,27-04-2024,India,Odisha,Puri,3558,236,low,False,https://news.example/88,
+OUT-IND-00089,COVID-19,2025-08-05,India,Tamil Nadu,Salem,1350,48,low,True,https://news.example/89,Hospital admissions rising
+OUT-IND-00090,COVID-19,30-03-2023,India,Karnataka,Belgaum,4681,115,low,Unknown,https://news.example/90,
+OUT-IND-00091,Scrub Typhus,2025-05-07 20:01:46,India,Gujarat,Bhavnagar,409,0,moderate,False,https://news.example/91,
+OUT-IND-00092,Cholera,2023-12-10,India,Delhi,North Delhi,1134,33,low,True,,
+OUT-IND-00093,Cholera,2023-05-01 21:21:09,India,Odisha,Rourkela,3824,58,moderate,True,https://news.example/93,
+OUT-IND-00094,Kala-azar,2024-11-03,India,Tamil Nadu,Tiruchirappalli,105,1,low,True,https://news.example/94,
+OUT-IND-00095,Scrub Typhus,2024-07-12,India,Assam,Tezpur,2509,147,low,True,https://news.example/95,Lab confirmed cases
+OUT-IND-00096,Measles,12-09-2025,India,Bihar,Muzaffarpur,676,15,moderate,True,https://news.example/96,Cluster in school
+OUT-IND-00097,Dengue,10-08-2025,India,Odisha,Rourkela,1936,2,low,True,,
+OUT-IND-00098,Kala-azar,2025-06-04,India,Odisha,Bhubaneswar,3714,159,low,False,https://news.example/98,Cluster in school
+OUT-IND-00099,Dengue,18-04-2023,India,Uttar Pradesh,Varanasi,2328,63,low,Unknown,https://news.example/99,Cluster in school
+OUT-IND-00100,Influenza,2025-06-26 08:36:14,India,Odisha,Puri,1610,59,moderate,False,https://news.example/100,
+OUT-IND-00101,Cholera,11-01-2024,India,Odisha,Sambalpur,2841,120,low,True,https://news.example/101,
+OUT-IND-00102,Measles,2023-02-10 07:17:21,India,Karnataka,Mysuru,2037,53,low,True,https://news.example/102,Spike after monsoon
+OUT-IND-00103,Dengue,2024-06-03,India,Tamil Nadu,Tiruchirappalli,4670,97,moderate,False,,
+OUT-IND-00104,Kala-azar,2025-03-29,India,Uttar Pradesh,Lucknow,2037,83,low,True,https://news.example/104,
+OUT-IND-00105,COVID-19,2025-10-18,India,Uttar Pradesh,Meerut,4815,136,moderate,Unknown,,
+OUT-IND-00106,Dengue,2024-09-17,India,Uttar Pradesh,Agra,4864,190,moderate,True,,Cluster in school
+OUT-IND-00107,COVID-19,2023-06-04,India,Gujarat,Bhavnagar,2044,88,high,False,https://news.example/107,Cluster in school
+OUT-IND-00108,Scrub Typhus,2023-05-21,India,Assam,Silchar,3854,254,moderate,False,https://news.example/108,Spike after monsoon
+OUT-IND-00109,Cholera,2023-12-22 20:41:08,India,West Bengal,Darjeeling,2275,4,moderate,False,,
+OUT-IND-00110,COVID-19,16-01-2025,India,Bihar,Purnia,3544,67,low,True,https://news.example/110,
+OUT-IND-00111,COVID-19,2024-10-05,India,Delhi,Central Delhi,3158,91,moderate,False,https://news.example/111,Hospital admissions rising
+OUT-IND-00112,Scrub Typhus,2025-05-15,India,Karnataka,Mysuru,4139,303,low,True,,Reported by PHC
+OUT-IND-00113,COVID-19,13-04-2023,India,Odisha,Bhubaneswar,4915,262,low,Unknown,,
+OUT-IND-00114,Kala-azar,2025-03-01 17:33:07,India,West Bengal,Kolkata,3340,242,moderate,Unknown,https://news.example/114,Under investigation
+OUT-IND-00115,Dengue,2023-04-04 20:02:42,India,West Bengal,Bardhaman,4844,204,moderate,Unknown,https://news.example/115,Hospital admissions rising
+OUT-IND-00116,COVID-19,16-11-2023,India,Maharashtra,Nashik,1283,92,moderate,Unknown,,Lab confirmed cases
+OUT-IND-00117,Influenza,2024-01-31,India,Gujarat,Surat,2882,4,low,True,https://news.example/117,Lab confirmed cases
+OUT-IND-00118,Influenza,2025-06-27 16:48:38,India,Maharashtra,Nashik,4785,291,low,Unknown,https://news.example/118,Reported by PHC
+OUT-IND-00119,Kala-azar,2023-06-12,India,West Bengal,Siliguri,3939,18,high,False,https://news.example/119,Lab confirmed cases
+OUT-IND-00120,Scrub Typhus,22-11-2024,India,Kerala,Thrissur,828,38,low,True,https://news.example/120,Under investigation
+OUT-IND-00121,Kala-azar,2024-05-24 02:32:03,India,Karnataka,Mangalore,3596,75,low,True,,Under investigation
+OUT-IND-00122,Hepatitis A,2024-03-14,India,West Bengal,Howrah,3848,246,moderate,True,https://news.example/122,
+OUT-IND-00123,Dengue,26-11-2023,India,Kerala,Thrissur,883,70,low,True,,
+OUT-IND-00124,Influenza,2024-08-17,India,Delhi,North Delhi,195,10,low,True,https://news.example/124,Lab confirmed cases
+OUT-IND-00125,COVID-19,2025-04-02,India,Assam,Jorhat,1941,122,low,False,,
+OUT-IND-00126,Influenza,26-03-2024,India,Karnataka,Belgaum,487,,low,False,,Cluster in school
+OUT-IND-00127,Hepatitis A,2024-07-23,India,Maharashtra,Nashik,4655,329,low,False,https://news.example/127,
+OUT-IND-00128,Dengue,2025-01-05,India,Odisha,Cuttack,4962,80,low,True,https://news.example/128,Reported by PHC
+OUT-IND-00129,Cholera,2023-09-18,India,Maharashtra,Pune,1063,36,low,False,https://news.example/129,Hospital admissions rising
+OUT-IND-00130,Dengue,2023-06-11,India,Delhi,North Delhi,4249,22,moderate,True,https://news.example/130,
+OUT-IND-00131,COVID-19,2025-04-25,India,Uttar Pradesh,Lucknow,356,25,low,True,,Cluster in school
+OUT-IND-00132,COVID-19,2023-03-10,India,Tamil Nadu,Tiruchirappalli,3127,106,low,True,https://news.example/132,
+OUT-IND-00133,Influenza,2023-11-15,India,Tamil Nadu,Madurai,1312,33,moderate,True,https://news.example/133,Under investigation
+OUT-IND-00134,Dengue,15-05-2024,India,Odisha,Bhubaneswar,1923,76,low,True,https://news.example/134,Spike after monsoon
+OUT-IND-00135,Dengue,2025-02-17,India,Odisha,Cuttack,4811,134,moderate,Unknown,https://news.example/135,Lab confirmed cases
+OUT-IND-00136,Measles,2023-02-20,India,West Bengal,Kolkata,758,36,moderate,True,https://news.example/136,Under investigation
+OUT-IND-00137,Dengue,2025-02-13 21:38:09,India,Odisha,Rourkela,2489,104,low,Unknown,https://news.example/137,
+OUT-IND-00138,Kala-azar,2023-06-10,India,Karnataka,Mangalore,1623,26,low,Unknown,https://news.example/138,
+OUT-IND-00139,Scrub Typhus,2023-11-17,India,Kerala,Kochi,949,75,moderate,False,https://news.example/139,Spike after monsoon
+OUT-IND-00140,Influenza,16-07-2024,India,Maharashtra,Thane,3166,75,moderate,Unknown,https://news.example/140,
+OUT-IND-00141,COVID-19,25-12-2024,India,Kerala,Kozhikode,3193,242,low,True,https://news.example/141,Lab confirmed cases
+OUT-IND-00142,Hepatitis A,2024-07-02,India,Maharashtra,Nashik,1760,115,low,Unknown,https://news.example/142,Under investigation
+OUT-IND-00143,Scrub Typhus,2024-04-15,India,Maharashtra,Thane,873,50,moderate,Unknown,https://news.example/143,Cluster in school
+OUT-IND-00144,Dengue,09-01-2023,India,Tamil Nadu,Chennai,139,6,moderate,False,https://news.example/144,Spike after monsoon
+OUT-IND-00145,Measles,2025-03-23,India,Uttar Pradesh,Agra,297,17,moderate,Unknown,https://news.example/145,Hospital admissions rising
+OUT-IND-00146,COVID-19,2025-03-22,India,Uttar Pradesh,Kanpur,2365,,low,False,https://news.example/146,Hospital admissions rising
+OUT-IND-00147,Dengue,2025-11-28,India,Rajasthan,Bikaner,4168,35,low,Unknown,,
+OUT-IND-00148,Influenza,09-01-2023,India,Gujarat,Rajkot,3642,113,moderate,False,https://news.example/148,Reported by PHC
+OUT-IND-00149,Dengue,2025-12-16,India,Maharashtra,Nashik,606,36,moderate,False,https://news.example/149,
+OUT-IND-00150,Influenza,2024-07-02,India,Delhi,Central Delhi,706,51,low,Unknown,https://news.example/150,
+OUT-IND-00151,Dengue,2024-09-12,India,Bihar,Purnia,3336,175,low,True,,Spike after monsoon
+OUT-IND-00152,Scrub Typhus,2025-01-07,India,Karnataka,Mysuru,11,0,low,Unknown,https://news.example/152,
+OUT-IND-00153,Scrub Typhus,01-03-2025,India,Uttar Pradesh,Kanpur,3913,233,low,False,,Under investigation
+OUT-IND-00154,Kala-azar,2024-07-13,India,Odisha,Cuttack,1248,25,moderate,Unknown,https://news.example/154,
+OUT-IND-00155,Influenza,11-11-2023,India,Bihar,Gaya,3179,169,low,Unknown,,
+OUT-IND-00156,Hepatitis A,2025-03-10,India,Kerala,Kannur,274,11,low,Unknown,,Cluster in school
+OUT-IND-00157,Kala-azar,31-08-2023,India,Assam,Dibrugarh,995,43,low,Unknown,https://news.example/157,Under investigation
+OUT-IND-00158,Kala-azar,2024-09-11,India,Tamil Nadu,Tiruchirappalli,4855,305,low,True,https://news.example/158,Lab confirmed cases
+OUT-IND-00159,Scrub Typhus,11-01-2023,India,Uttar Pradesh,Agra,1891,60,low,True,https://news.example/159,Spike after monsoon
+OUT-IND-00160,Dengue,2023-11-06,India,West Bengal,Bardhaman,1034,7,low,Unknown,https://news.example/160,Hospital admissions rising
+OUT-IND-00161,COVID-19,2023-08-16,India,Maharashtra,Mumbai,454,20,low,False,,Under investigation
+OUT-IND-00162,Influenza,2025-11-19,India,Tamil Nadu,Salem,719,0,low,Unknown,https://news.example/162,Cluster in school
+OUT-IND-00163,COVID-19,07-02-2025,India,Rajasthan,Udaipur,420,25,low,True,https://news.example/163,
+OUT-IND-00164,Scrub Typhus,2025-12-19,India,Bihar,Bhagalpur,3820,125,moderate,False,https://news.example/164,Reported by PHC
+OUT-IND-00165,Scrub Typhus,2023-10-11,India,Kerala,Thrissur,589,33,low,True,,Cluster in school
+OUT-IND-00166,Influenza,2025-09-11,India,Tamil Nadu,Chennai,1830,39,low,False,https://news.example/166,Lab confirmed cases
+OUT-IND-00167,Cholera,2024-01-23,India,West Bengal,Bardhaman,4993,211,moderate,False,https://news.example/167,
+OUT-IND-00168,Measles,2024-04-12,India,Odisha,Sambalpur,2813,136,low,Unknown,https://news.example/168,Hospital admissions rising
+OUT-IND-00169,Scrub Typhus,2024-05-07,India,West Bengal,Bardhaman,2131,159,low,True,https://news.example/169,
+OUT-IND-00170,Scrub Typhus,2024-09-09,India,Tamil Nadu,Madurai,2281,63,moderate,Unknown,https://news.example/170,Lab confirmed cases
+OUT-IND-00171,Hepatitis A,2023-08-26,India,Rajasthan,Jaipur,1824,109,low,Unknown,https://news.example/171,
+OUT-IND-00172,Measles,2024-11-14,India,Gujarat,Ahmedabad,2849,168,moderate,True,https://news.example/172,Hospital admissions rising
+OUT-IND-00173,Hepatitis A,2025-09-07 01:10:59,India,Gujarat,Bhavnagar,2920,176,low,Unknown,https://news.example/173,Hospital admissions rising
+OUT-IND-00174,Dengue,2025-04-24,India,Delhi,Central Delhi,3251,11,low,True,https://news.example/174,
+OUT-IND-00175,Kala-azar,2024-10-16,India,Delhi,West Delhi,4829,250,low,True,https://news.example/175,
+OUT-IND-00176,Cholera,08-10-2024,India,Gujarat,Bhavnagar,553,41,moderate,False,https://news.example/176,Reported by PHC
+OUT-IND-00177,Measles,2024-03-19 14:00:13,India,Kerala,Kannur,4323,181,low,Unknown,https://news.example/177,
+OUT-IND-00178,Dengue,20-08-2024,India,Uttar Pradesh,Meerut,1314,3,moderate,Unknown,,Hospital admissions rising
+OUT-IND-00179,Dengue,2023-10-27,India,Odisha,Sambalpur,1361,81,low,Unknown,https://news.example/179,Cluster in school
+OUT-IND-00180,Measles,2025-12-10,India,Gujarat,Bhavnagar,1408,29,moderate,False,https://news.example/180,Reported by PHC
+OUT-IND-00181,Cholera,2025-08-24,India,Delhi,Central Delhi,525,1,low,True,https://news.example/181,Reported by PHC
+OUT-IND-00182,Kala-azar,2025-09-30,India,West Bengal,Darjeeling,3522,107,moderate,False,,Under investigation
+OUT-IND-00183,COVID-19,2023-07-07,India,Uttar Pradesh,Varanasi,160,,low,True,,Spike after monsoon
+OUT-IND-00184,Influenza,2023-09-21,India,Odisha,Cuttack,1417,6,low,False,,
+OUT-IND-00185,Hepatitis A,11-11-2023,India,Uttar Pradesh,Lucknow,4334,97,moderate,Unknown,,
+OUT-IND-00186,Scrub Typhus,2023-08-23 18:09:54,India,Uttar Pradesh,Kanpur,4590,310,low,False,https://news.example/186,
+OUT-IND-00187,Cholera,23-08-2025,India,Assam,Jorhat,2504,,low,True,https://news.example/187,Reported by PHC
+OUT-IND-00188,Dengue,2023-07-23,India,Maharashtra,Nashik,2162,1,low,Unknown,https://news.example/188,
+OUT-IND-00189,Cholera,2023-07-14,India,Kerala,Kozhikode,2453,105,moderate,True,https://news.example/189,
+OUT-IND-00190,Influenza,2023-01-13,India,Kerala,Kozhikode,149,6,moderate,Unknown,https://news.example/190,Lab confirmed cases
+OUT-IND-00191,Kala-azar,29-11-2023,India,Kerala,Kozhikode,3052,62,moderate,True,https://news.example/191,Under investigation
+OUT-IND-00192,Scrub Typhus,2024-01-31 20:28:40,India,Rajasthan,Alwar,2492,69,moderate,Unknown,https://news.example/192,Reported by PHC
+OUT-IND-00193,Scrub Typhus,2024-02-11,India,Delhi,North Delhi,383,2,low,False,https://news.example/193,
+OUT-IND-00194,Dengue,01-07-2025,India,Delhi,East Delhi,4524,205,low,True,https://news.example/194,Reported by PHC
+OUT-IND-00195,COVID-19,2024-06-05 11:51:57,India,Karnataka,Bengaluru,4372,259,low,Unknown,https://news.example/195,Under investigation
+OUT-IND-00196,Kala-azar,2024-03-26,India,Delhi,South Delhi,2691,196,low,Unknown,https://news.example/196,
+OUT-IND-00197,Influenza,2025-06-26,India,Assam,Jorhat,4063,45,low,True,https://news.example/197,Under investigation
+OUT-IND-00198,Kala-azar,2024-11-09,India,Maharashtra,Nagpur,1170,32,low,Unknown,,
+OUT-IND-00199,Scrub Typhus,2025-08-09 01:51:48,India,Rajasthan,Alwar,894,21,low,True,,Lab confirmed cases
+OUT-IND-00200,Influenza,2025-11-18,India,Maharashtra,Mumbai,3757,36,low,Unknown,https://news.example/200,Under investigation
+OUT-IND-00201,Measles,2024-07-29,India,Maharashtra,Nashik,867,31,moderate,Unknown,https://news.example/201,Lab confirmed cases
+OUT-IND-00202,Kala-azar,2024-11-03,India,Gujarat,Ahmedabad,399,14,low,Unknown,https://news.example/202,Under investigation
+OUT-IND-00203,Hepatitis A,18-01-2025,India,Delhi,West Delhi,4595,262,low,Unknown,,Reported by PHC
+OUT-IND-00204,COVID-19,15-04-2023,India,West Bengal,Darjeeling,4657,,low,True,https://news.example/204,Reported by PHC
+OUT-IND-00205,Measles,2025-08-05,India,Tamil Nadu,Madurai,2070,79,low,True,https://news.example/205,Under investigation
+OUT-IND-00206,Scrub Typhus,2023-10-05,India,Odisha,Puri,2813,59,low,False,https://news.example/206,
+OUT-IND-00207,Hepatitis A,2024-05-25,India,Maharashtra,Nagpur,4223,312,low,Unknown,https://news.example/207,Under investigation
+OUT-IND-00208,Cholera,2025-05-28,India,Assam,Tezpur,2575,193,low,Unknown,https://news.example/208,Hospital admissions rising
+OUT-IND-00209,Cholera,2025-12-13,India,West Bengal,Siliguri,1787,9,low,Unknown,,Hospital admissions rising
+OUT-IND-00210,Measles,2025-08-11 03:56:58,India,Bihar,Muzaffarpur,1584,3,moderate,True,https://news.example/210,
+OUT-IND-00211,Measles,09-02-2024,India,Delhi,South Delhi,4105,6,low,True,https://news.example/211,Under investigation
+OUT-IND-00212,Hepatitis A,30-03-2023,India,Rajasthan,Udaipur,1837,35,high,Unknown,https://news.example/212,
+OUT-IND-00213,Influenza,08-11-2024,India,Karnataka,Mangalore,2333,39,low,Unknown,,Cluster in school
+OUT-IND-00214,Kala-azar,2025-09-24,India,Tamil Nadu,Tiruchirappalli,3473,168,moderate,Unknown,,
+OUT-IND-00215,Kala-azar,2023-03-27 04:02:02,India,Odisha,Puri,3368,128,low,False,https://news.example/215,Reported by PHC
+OUT-IND-00216,Measles,20-08-2025,India,Assam,Silchar,911,13,low,True,https://news.example/216,
+OUT-IND-00217,Dengue,2025-05-07,India,Gujarat,Ahmedabad,3585,52,high,True,https://news.example/217,Under investigation
+OUT-IND-00218,Kala-azar,2024-08-29,India,Uttar Pradesh,Agra,4567,127,moderate,False,https://news.example/218,Reported by PHC
+OUT-IND-00219,COVID-19,2023-04-15,India,Assam,Silchar,3342,170,low,False,https://news.example/219,Under investigation
+OUT-IND-00220,Measles,2023-10-08,India,Karnataka,Mysuru,1571,76,low,Unknown,https://news.example/220,
+OUT-IND-00221,Dengue,2025-03-30,India,Odisha,Cuttack,1165,54,moderate,Unknown,,
+OUT-IND-00222,Kala-azar,2025-02-06 21:01:25,India,Assam,Jorhat,854,4,low,False,,
+OUT-IND-00223,Measles,2023-12-20,India,Bihar,Patna,1698,53,low,Unknown,,Hospital admissions rising
+OUT-IND-00224,Cholera,09-01-2024,India,Kerala,Kannur,4516,351,low,Unknown,https://news.example/224,Under investigation
+OUT-IND-00225,Cholera,2023-11-19,India,Odisha,Sambalpur,3096,156,low,True,https://news.example/225,
+OUT-IND-00226,COVID-19,2025-05-05,India,Delhi,South Delhi,456,8,moderate,Unknown,,Hospital admissions rising
+OUT-IND-00227,Dengue,2023-04-21,India,Delhi,East Delhi,4585,277,low,False,https://news.example/227,Under investigation
+OUT-IND-00228,COVID-19,2023-11-05,India,West Bengal,Darjeeling,4248,13,high,True,https://news.example/228,Under investigation
+OUT-IND-00229,Dengue,2025-05-08,India,Tamil Nadu,Tiruchirappalli,4749,379,moderate,False,https://news.example/229,Under investigation
+OUT-IND-00230,COVID-19,2024-06-27,India,Bihar,Muzaffarpur,2106,87,low,False,,Under investigation
+OUT-IND-00231,Dengue,2024-06-18,India,Gujarat,Rajkot,30,2,moderate,False,https://news.example/231,Hospital admissions rising
+OUT-IND-00232,Measles,2023-10-19 16:32:38,India,West Bengal,Kolkata,3718,78,low,True,https://news.example/232,Spike after monsoon
+OUT-IND-00233,Hepatitis A,2025-04-01,India,Rajasthan,Jodhpur,584,24,low,False,,
+OUT-IND-00234,Scrub Typhus,2025-05-18,India,Kerala,Thrissur,3172,101,low,True,https://news.example/234,Spike after monsoon
+OUT-IND-00235,Kala-azar,2025-08-24 18:53:23,India,West Bengal,Howrah,526,37,low,True,https://news.example/235,
+OUT-IND-00236,Dengue,2024-07-07,India,Karnataka,Mangalore,3268,43,low,True,https://news.example/236,Under investigation
+OUT-IND-00237,Cholera,2023-01-06 03:30:00,India,Rajasthan,Bikaner,4215,204,low,True,https://news.example/237,Spike after monsoon
+OUT-IND-00238,Scrub Typhus,23-08-2025,India,Odisha,Bhubaneswar,477,14,low,Unknown,https://news.example/238,Lab confirmed cases
+OUT-IND-00239,Dengue,2024-08-24,India,Gujarat,Surat,440,4,low,Unknown,https://news.example/239,Spike after monsoon
+OUT-IND-00240,Influenza,2025-01-11,India,Kerala,Kannur,1447,,low,False,https://news.example/240,Under investigation
+OUT-IND-00241,Hepatitis A,2023-12-26,India,Odisha,Sambalpur,98,2,moderate,False,https://news.example/241,Under investigation
+OUT-IND-00242,Measles,2024-11-14,India,Tamil Nadu,Tiruchirappalli,4909,304,moderate,False,https://news.example/242,Reported by PHC
+OUT-IND-00243,Influenza,2025-02-24,India,Uttar Pradesh,Kanpur,2113,42,low,True,https://news.example/243,
+OUT-IND-00244,Scrub Typhus,2023-03-22 21:54:23,India,Gujarat,Vadodara,762,12,low,Unknown,https://news.example/244,Hospital admissions rising
+OUT-IND-00245,Cholera,2025-07-05,India,Odisha,Sambalpur,944,48,moderate,True,https://news.example/245,
+OUT-IND-00246,Dengue,06-04-2023,India,Gujarat,Vadodara,4268,200,low,True,https://news.example/246,Under investigation
+OUT-IND-00247,Scrub Typhus,2025-10-27,India,Karnataka,Mangalore,2321,172,low,False,https://news.example/247,Spike after monsoon
+OUT-IND-00248,Dengue,2024-06-13,India,Karnataka,Mysuru,1995,112,moderate,True,,
+OUT-IND-00249,Kala-azar,31-01-2025,India,Odisha,Sambalpur,581,16,low,False,https://news.example/249,Under investigation
+OUT-IND-00250,Influenza,2023-12-06,India,Assam,Dibrugarh,2925,105,low,Unknown,,Lab confirmed cases
+OUT-IND-00251,Hepatitis A,2025-12-25,India,Bihar,Bhagalpur,327,4,moderate,False,https://news.example/251,Reported by PHC
+OUT-IND-00252,Cholera,2023-01-18,India,Bihar,Gaya,2719,211,low,Unknown,https://news.example/252,Hospital admissions rising
+OUT-IND-00253,Influenza,2023-10-16 09:30:43,India,Odisha,Sambalpur,2093,138,low,False,https://news.example/253,
+OUT-IND-00254,Dengue,13-09-2025,India,Gujarat,Ahmedabad,2065,46,low,False,,Cluster in school
+OUT-IND-00255,Hepatitis A,2023-10-23,India,Tamil Nadu,Madurai,1483,110,high,False,https://news.example/255,Under investigation
+OUT-IND-00256,Influenza,2025-12-10,India,Assam,Tezpur,3856,142,low,False,https://news.example/256,Reported by PHC
+OUT-IND-00257,Hepatitis A,2023-08-25 04:46:59,India,Tamil Nadu,Chennai,4762,109,low,True,https://news.example/257,Under investigation
+OUT-IND-00258,COVID-19,2024-03-03,India,Uttar Pradesh,Lucknow,2042,6,low,False,https://news.example/258,
+OUT-IND-00259,Measles,2024-05-11,India,Gujarat,Bhavnagar,2863,227,low,False,https://news.example/259,
+OUT-IND-00260,Measles,2023-05-08 14:01:42,India,Odisha,Cuttack,3432,129,low,False,https://news.example/260,
+OUT-IND-00261,Hepatitis A,2025-07-09,India,Odisha,Cuttack,2454,13,low,False,https://news.example/261,Cluster in school
+OUT-IND-00262,Cholera,2025-04-27,India,Kerala,Thrissur,1327,58,moderate,False,https://news.example/262,Spike after monsoon
+OUT-IND-00263,Scrub Typhus,2024-03-05,India,Delhi,Central Delhi,118,2,low,False,https://news.example/263,Spike after monsoon
+OUT-IND-00264,Cholera,2024-09-03,India,Kerala,Kozhikode,4184,205,low,False,https://news.example/264,Lab confirmed cases
+OUT-IND-00265,Scrub Typhus,2023-12-05,India,Rajasthan,Jaipur,4514,90,low,True,https://news.example/265,Lab confirmed cases
+OUT-IND-00266,COVID-19,2023-03-26 10:53:39,India,West Bengal,Bardhaman,2233,155,low,False,,Under investigation
+OUT-IND-00267,Hepatitis A,2024-11-03,India,Gujarat,Ahmedabad,1987,56,moderate,True,https://news.example/267,Under investigation
+OUT-IND-00268,Hepatitis A,05-03-2024,India,Kerala,Kochi,138,6,high,Unknown,https://news.example/268,
+OUT-IND-00269,Dengue,2025-03-08,India,Odisha,Puri,4437,173,low,True,https://news.example/269,
+OUT-IND-00270,Measles,2023-11-03,India,Odisha,Cuttack,3958,115,moderate,False,https://news.example/270,
+OUT-IND-00271,Scrub Typhus,11-04-2024,India,Bihar,Purnia,2179,88,moderate,Unknown,https://news.example/271,
+OUT-IND-00272,Hepatitis A,22-09-2023,India,Delhi,South Delhi,3711,18,low,False,,
+OUT-IND-00273,Dengue,15-09-2023,India,Karnataka,Bengaluru,1808,32,low,False,https://news.example/273,Hospital admissions rising
+OUT-IND-00274,Influenza,2024-06-05,India,Tamil Nadu,Coimbatore,1249,43,low,False,https://news.example/274,Lab confirmed cases
+OUT-IND-00275,Scrub Typhus,2025-07-27,India,Assam,Jorhat,2402,106,low,Unknown,https://news.example/275,
+OUT-IND-00276,COVID-19,29-03-2025,India,Bihar,Bhagalpur,3771,200,moderate,False,https://news.example/276,
+OUT-IND-00277,Kala-azar,2025-06-02,India,Rajasthan,Udaipur,1870,45,moderate,True,https://news.example/277,
+OUT-IND-00278,COVID-19,2025-08-10 14:01:00,India,Uttar Pradesh,Meerut,3468,122,moderate,False,https://news.example/278,Under investigation
+OUT-IND-00279,Dengue,2024-07-16,India,Delhi,East Delhi,3380,,low,False,,
+OUT-IND-00280,Scrub Typhus,2025-11-13,India,Karnataka,Mysuru,962,64,low,False,,
+OUT-IND-00281,Influenza,2023-04-20,India,Rajasthan,Alwar,4491,38,low,Unknown,,
+OUT-IND-00282,Hepatitis A,27-07-2024,India,Karnataka,Hubli,1620,117,low,Unknown,https://news.example/282,
+OUT-IND-00283,Hepatitis A,2025-02-19,India,Kerala,Kozhikode,3535,188,low,Unknown,https://news.example/283,
+OUT-IND-00284,Scrub Typhus,2024-12-03,India,Uttar Pradesh,Meerut,3039,6,moderate,False,https://news.example/284,Cluster in school
+OUT-IND-00285,Kala-azar,2023-06-19,India,Delhi,West Delhi,2461,73,moderate,Unknown,,Reported by PHC
+OUT-IND-00286,Kala-azar,21-10-2023,India,Delhi,North Delhi,506,33,moderate,Unknown,,
+OUT-IND-00287,Measles,2024-01-14,India,Kerala,Thiruvananthapuram,3066,181,low,True,,
+OUT-IND-00288,Influenza,2024-06-20,India,Gujarat,Rajkot,211,4,low,True,,
+OUT-IND-00289,Scrub Typhus,12-12-2023,India,Delhi,Central Delhi,2331,73,low,Unknown,,Cluster in school
+OUT-IND-00290,Measles,2023-02-15,India,Karnataka,Mangalore,740,45,low,Unknown,https://news.example/290,Reported by PHC
+OUT-IND-00291,Influenza,2024-10-11,India,Uttar Pradesh,Agra,501,18,high,False,https://news.example/291,
+OUT-IND-00292,Influenza,2024-09-11,India,Delhi,North Delhi,708,38,low,True,,Reported by PHC
+OUT-IND-00293,Hepatitis A,2025-01-21,India,Tamil Nadu,Salem,1656,110,moderate,False,https://news.example/293,
+OUT-IND-00294,Influenza,2023-09-21,India,Karnataka,Mangalore,955,21,moderate,Unknown,https://news.example/294,
+OUT-IND-00295,Cholera,2024-08-16,India,Maharashtra,Mumbai,2502,41,moderate,Unknown,,Under investigation
+OUT-IND-00296,Measles,2025-04-24,India,Assam,Jorhat,2953,29,moderate,True,https://news.example/296,
+OUT-IND-00297,Scrub Typhus,2024-01-29,India,Kerala,Kochi,4601,356,low,False,https://news.example/297,Cluster in school
+OUT-IND-00298,Cholera,2024-09-07 22:56:44,India,Gujarat,Ahmedabad,567,5,low,Unknown,,Under investigation
+OUT-IND-00299,Measles,02-11-2025,India,Assam,Guwahati,3926,164,moderate,True,,
+OUT-IND-00300,Kala-azar,2024-07-11 08:37:23,India,Maharashtra,Pune,3522,,low,False,https://news.example/300,Hospital admissions rising
+OUT-IND-00301,Influenza,2025-07-18,India,Maharashtra,Nashik,1258,83,low,True,,Hospital admissions rising
+OUT-IND-00302,Dengue,23-02-2023,India,Kerala,Kannur,4076,257,moderate,True,https://news.example/302,Lab confirmed cases
+OUT-IND-00303,Scrub Typhus,2023-03-05 18:39:24,India,Uttar Pradesh,Agra,1686,102,moderate,True,,Under investigation
+OUT-IND-00304,Hepatitis A,2025-03-24,India,Assam,Jorhat,2012,35,high,True,,
+OUT-IND-00305,Influenza,06-12-2025,India,Kerala,Kozhikode,217,2,low,True,https://news.example/305,
+OUT-IND-00306,Measles,04-03-2023,India,Tamil Nadu,Coimbatore,3328,251,low,Unknown,https://news.example/306,Under investigation
+OUT-IND-00307,Measles,2024-11-17,India,Karnataka,Hubli,43,3,low,Unknown,https://news.example/307,Reported by PHC
+OUT-IND-00308,Dengue,22-11-2024,India,Bihar,Bhagalpur,2917,222,low,Unknown,https://news.example/308,Under investigation
+OUT-IND-00309,Influenza,29-11-2025,India,Karnataka,Mangalore,1927,138,low,True,https://news.example/309,
+OUT-IND-00310,COVID-19,2025-12-25,India,Delhi,South Delhi,2115,105,low,False,https://news.example/310,Hospital admissions rising
+OUT-IND-00311,Measles,2025-09-09 08:06:25,India,Rajasthan,Bikaner,1892,22,low,False,,
+OUT-IND-00312,COVID-19,2025-09-11,India,Assam,Jorhat,999,65,low,Unknown,,Lab confirmed cases
+OUT-IND-00313,Cholera,2025-06-18,India,Kerala,Kozhikode,924,27,moderate,True,,
+OUT-IND-00314,Kala-azar,05-03-2023,India,Tamil Nadu,Tiruchirappalli,3073,132,moderate,False,https://news.example/314,Spike after monsoon
+OUT-IND-00315,Cholera,2025-02-15 08:11:47,India,Uttar Pradesh,Varanasi,3263,126,low,False,https://news.example/315,Cluster in school
+OUT-IND-00316,Scrub Typhus,2024-02-11,India,Tamil Nadu,Chennai,2234,80,low,False,https://news.example/316,Reported by PHC
+OUT-IND-00317,Hepatitis A,2024-04-17 02:05:38,India,Maharashtra,Mumbai,3389,70,low,True,https://news.example/317,
+OUT-IND-00318,Dengue,2023-07-22,India,Tamil Nadu,Coimbatore,3646,106,low,Unknown,,Reported by PHC
+OUT-IND-00319,Kala-azar,2025-07-12,India,Assam,Silchar,4797,15,moderate,Unknown,https://news.example/319,Hospital admissions rising
+OUT-IND-00320,COVID-19,2023-08-21,India,Maharashtra,Thane,3374,132,moderate,True,,Under investigation
+OUT-IND-00321,Cholera,2025-08-07,India,Karnataka,Hubli,3441,249,high,False,https://news.example/321,
+OUT-IND-00322,Kala-azar,2024-12-28,India,Tamil Nadu,Coimbatore,3172,84,low,True,https://news.example/322,Lab confirmed cases
+OUT-IND-00323,Cholera,2025-08-30,India,West Bengal,Darjeeling,4101,,low,False,https://news.example/323,Lab confirmed cases
+OUT-IND-00324,Cholera,2024-02-24,India,Bihar,Muzaffarpur,3777,145,moderate,False,https://news.example/324,
+OUT-IND-00325,Dengue,11-04-2024,India,West Bengal,Darjeeling,3462,263,moderate,Unknown,,Lab confirmed cases
+OUT-IND-00326,Influenza,2023-01-27,India,Kerala,Kannur,848,36,moderate,False,https://news.example/326,Spike after monsoon
+OUT-IND-00327,Influenza,2024-09-09,India,Maharashtra,Nagpur,737,54,low,Unknown,https://news.example/327,Lab confirmed cases
+OUT-IND-00328,Scrub Typhus,03-11-2023,India,Uttar Pradesh,Varanasi,4439,109,low,Unknown,https://news.example/328,Hospital admissions rising
+OUT-IND-00329,Hepatitis A,2023-09-13,India,Bihar,Muzaffarpur,396,26,moderate,False,https://news.example/329,Hospital admissions rising
+OUT-IND-00330,COVID-19,2024-11-30,India,Kerala,Thiruvananthapuram,1065,8,moderate,False,https://news.example/330,Lab confirmed cases
+OUT-IND-00331,Cholera,25-09-2025,India,Kerala,Thiruvananthapuram,990,53,low,False,https://news.example/331,
+OUT-IND-00332,Kala-azar,2025-10-30,India,Kerala,Thrissur,4724,155,low,False,https://news.example/332,
+OUT-IND-00333,Cholera,2024-05-08,India,Odisha,Cuttack,3956,286,moderate,Unknown,https://news.example/333,
+OUT-IND-00334,Measles,2024-11-28,India,Bihar,Gaya,2739,40,low,Unknown,https://news.example/334,Under investigation
+OUT-IND-00335,Kala-azar,2025-09-16,India,Delhi,East Delhi,4797,209,moderate,False,https://news.example/335,Cluster in school
+OUT-IND-00336,Dengue,16-03-2024,India,Odisha,Cuttack,2958,104,low,Unknown,https://news.example/336,Spike after monsoon
+OUT-IND-00337,Scrub Typhus,2025-08-25,India,Maharashtra,Pune,4864,10,low,True,https://news.example/337,Spike after monsoon
+OUT-IND-00338,Measles,2024-04-05,India,Odisha,Puri,4086,17,low,Unknown,,
+OUT-IND-00339,Hepatitis A,04-10-2025,India,Bihar,Muzaffarpur,4431,209,high,True,https://news.example/339,
+OUT-IND-00340,Cholera,2024-11-27,India,Tamil Nadu,Madurai,3618,241,low,Unknown,https://news.example/340,Under investigation
+OUT-IND-00341,Scrub Typhus,2024-07-09,India,Gujarat,Bhavnagar,4731,20,low,False,https://news.example/341,
+OUT-IND-00342,Influenza,2024-04-07,India,Delhi,East Delhi,1025,49,moderate,False,https://news.example/342,Reported by PHC
+OUT-IND-00343,Measles,2023-03-09 14:48:49,India,Karnataka,Bengaluru,2113,10,moderate,True,https://news.example/343,Hospital admissions rising
+OUT-IND-00344,Dengue,2024-07-10,India,Bihar,Gaya,3921,64,low,Unknown,,Lab confirmed cases
+OUT-IND-00345,Measles,2024-03-05,India,Maharashtra,Nagpur,3344,106,low,False,https://news.example/345,Cluster in school
+OUT-IND-00346,Measles,2024-12-27,India,Delhi,West Delhi,1306,98,low,False,,Cluster in school
+OUT-IND-00347,COVID-19,2024-03-01,India,Delhi,North Delhi,1910,120,moderate,Unknown,https://news.example/347,
+OUT-IND-00348,Influenza,2024-05-29 01:13:47,India,Delhi,South Delhi,3652,,low,True,https://news.example/348,Cluster in school
+OUT-IND-00349,Influenza,2025-01-21,India,Rajasthan,Udaipur,676,41,low,Unknown,https://news.example/349,
+OUT-IND-00350,Dengue,08-12-2025,India,Gujarat,Ahmedabad,3045,175,moderate,False,https://news.example/350,Under investigation
+OUT-IND-00351,Influenza,2024-08-28,India,Bihar,Muzaffarpur,2921,186,moderate,True,,Hospital admissions rising
+OUT-IND-00352,Kala-azar,2023-11-19,India,Gujarat,Bhavnagar,247,4,moderate,False,,Under investigation
+OUT-IND-00353,Hepatitis A,22-06-2024,India,Assam,Dibrugarh,1088,71,low,Unknown,,Under investigation
+OUT-IND-00354,Scrub Typhus,2024-03-21,India,Bihar,Purnia,658,1,low,True,https://news.example/354,Reported by PHC
+OUT-IND-00355,Scrub Typhus,2023-06-15,India,Uttar Pradesh,Varanasi,245,0,low,False,https://news.example/355,Lab confirmed cases
+OUT-IND-00356,Scrub Typhus,2025-04-05,India,Bihar,Patna,1829,126,low,True,https://news.example/356,Under investigation
+OUT-IND-00357,Scrub Typhus,03-01-2025,India,Karnataka,Mysuru,730,0,low,False,,Cluster in school
+OUT-IND-00358,Scrub Typhus,2023-07-31,India,Delhi,South Delhi,4637,123,high,False,https://news.example/358,Under investigation
+OUT-IND-00359,Kala-azar,2024-06-10,India,Karnataka,Belgaum,4887,102,low,False,https://news.example/359,
+OUT-IND-00360,Measles,2024-02-11,India,West Bengal,Howrah,477,13,low,True,https://news.example/360,
+OUT-IND-00361,Influenza,2024-02-22,India,Odisha,Puri,3081,190,high,False,https://news.example/361,Lab confirmed cases
+OUT-IND-00362,Cholera,2023-12-15 06:18:58,India,Odisha,Cuttack,4137,288,low,True,https://news.example/362,
+OUT-IND-00363,Measles,2023-03-10,India,Assam,Guwahati,2477,110,low,Unknown,,
+OUT-IND-00364,COVID-19,2024-09-15 14:49:49,India,West Bengal,Howrah,4569,321,moderate,Unknown,https://news.example/364,Reported by PHC
+OUT-IND-00365,Kala-azar,01-06-2025,India,Kerala,Kannur,191,15,low,False,https://news.example/365,Lab confirmed cases
+OUT-IND-00366,COVID-19,2023-08-09,India,Bihar,Purnia,2868,208,low,False,https://news.example/366,Under investigation
+OUT-IND-00367,Kala-azar,2024-04-23,India,Gujarat,Surat,4499,166,low,Unknown,,
+OUT-IND-00368,Hepatitis A,2024-01-27,India,Kerala,Thrissur,2482,113,low,Unknown,https://news.example/368,Under investigation
+OUT-IND-00369,Kala-azar,2024-06-24,India,Tamil Nadu,Coimbatore,4967,260,low,True,https://news.example/369,
+OUT-IND-00370,Influenza,2024-05-05,India,Maharashtra,Pune,4675,344,low,False,https://news.example/370,
+OUT-IND-00371,Dengue,2025-01-03,India,Tamil Nadu,Coimbatore,3324,90,high,True,https://news.example/371,
+OUT-IND-00372,Dengue,2025-07-14,India,Karnataka,Belgaum,4269,107,low,False,https://news.example/372,
+OUT-IND-00373,Cholera,2023-05-01,India,Tamil Nadu,Salem,3297,141,low,Unknown,https://news.example/373,Spike after monsoon
+OUT-IND-00374,Kala-azar,2024-01-17,India,West Bengal,Kolkata,2770,193,low,Unknown,https://news.example/374,Hospital admissions rising
+OUT-IND-00375,Influenza,26-10-2025,India,Rajasthan,Bikaner,575,40,low,False,,Under investigation
+OUT-IND-00376,Dengue,26-09-2023,India,Karnataka,Mangalore,3408,205,low,True,https://news.example/376,Reported by PHC
+OUT-IND-00377,Hepatitis A,24-11-2024,India,Delhi,West Delhi,3948,265,low,True,,Reported by PHC
+OUT-IND-00378,Kala-azar,2023-07-09 17:03:24,India,Kerala,Thrissur,743,38,low,Unknown,,Hospital admissions rising
+OUT-IND-00379,Hepatitis A,2024-11-19,India,Maharashtra,Nagpur,778,47,moderate,True,https://news.example/379,Under investigation
+OUT-IND-00380,Influenza,05-06-2025,India,Kerala,Thrissur,4035,3,low,Unknown,https://news.example/380,Cluster in school
+OUT-IND-00381,Influenza,2025-01-18,India,Odisha,Cuttack,831,10,low,Unknown,,
+OUT-IND-00382,Cholera,2024-12-23,India,Tamil Nadu,Salem,1105,33,low,True,https://news.example/382,Cluster in school
+OUT-IND-00383,Measles,2025-01-13,India,Gujarat,Rajkot,2858,183,low,Unknown,,
+OUT-IND-00384,Cholera,2023-03-09,India,West Bengal,Darjeeling,488,37,high,False,https://news.example/384,
+OUT-IND-00385,Influenza,2023-08-30,India,Delhi,Central Delhi,394,4,low,True,https://news.example/385,Cluster in school
+OUT-IND-00386,Measles,2024-03-29,India,Bihar,Purnia,1492,74,moderate,Unknown,https://news.example/386,Under investigation
+OUT-IND-00387,Cholera,2023-11-05,India,Maharashtra,Nashik,2331,87,moderate,Unknown,https://news.example/387,Under investigation
+OUT-IND-00388,Cholera,2025-03-03,India,Maharashtra,Thane,4676,280,low,False,https://news.example/388,
+OUT-IND-00389,COVID-19,20-03-2024,India,Delhi,Central Delhi,49,3,moderate,True,https://news.example/389,Under investigation
+OUT-IND-00390,COVID-19,29-03-2023,India,Tamil Nadu,Tiruchirappalli,618,31,high,False,,Under investigation
+OUT-IND-00391,Dengue,2024-10-28,India,West Bengal,Bardhaman,4637,15,moderate,True,https://news.example/391,
+OUT-IND-00392,Dengue,2025-07-24,India,West Bengal,Darjeeling,3264,112,moderate,Unknown,https://news.example/392,Reported by PHC
+OUT-IND-00393,Hepatitis A,2023-10-18,India,Gujarat,Vadodara,2247,36,moderate,Unknown,,
+OUT-IND-00394,Influenza,09-10-2024,India,West Bengal,Darjeeling,4372,207,moderate,Unknown,,Under investigation
+OUT-IND-00395,Kala-azar,2025-03-11 09:31:08,India,Maharashtra,Mumbai,4297,205,low,False,https://news.example/395,Hospital admissions rising
+OUT-IND-00396,Scrub Typhus,2023-10-03 21:24:08,India,Assam,Guwahati,4987,198,low,False,https://news.example/396,Lab confirmed cases
+OUT-IND-00397,Dengue,2024-09-23,India,Maharashtra,Pune,1045,51,moderate,Unknown,https://news.example/397,Lab confirmed cases
+OUT-IND-00398,Influenza,2025-01-26,India,Kerala,Kannur,4077,151,low,True,https://news.example/398,Hospital admissions rising
+OUT-IND-00399,Kala-azar,2024-10-22,India,Kerala,Kochi,1469,43,low,Unknown,https://news.example/399,
+OUT-IND-00400,Kala-azar,2024-09-24,India,Odisha,Sambalpur,513,6,low,True,https://news.example/400,
+OUT-IND-00401,Influenza,2024-11-07,India,Odisha,Cuttack,719,7,low,False,https://news.example/401,
+OUT-IND-00402,COVID-19,2024-05-11,India,Tamil Nadu,Coimbatore,1013,,low,True,https://news.example/402,
+OUT-IND-00403,Hepatitis A,12-08-2023,India,Odisha,Cuttack,2271,164,moderate,False,https://news.example/403,Under investigation
+OUT-IND-00404,COVID-19,2024-06-27,India,Rajasthan,Jodhpur,1613,119,moderate,False,https://news.example/404,
+OUT-IND-00405,Cholera,2023-07-17 13:59:33,India,Maharashtra,Pune,1207,27,low,Unknown,https://news.example/405,Lab confirmed cases
+OUT-IND-00406,Scrub Typhus,29-03-2023,India,Bihar,Patna,4644,159,low,False,https://news.example/406,Hospital admissions rising
+OUT-IND-00407,Measles,2025-01-10,India,Karnataka,Mangalore,3700,177,moderate,False,,
+OUT-IND-00408,Measles,2023-11-02,India,Karnataka,Hubli,2421,32,moderate,True,https://news.example/408,Spike after monsoon
+OUT-IND-00409,Measles,2024-11-09,India,Rajasthan,Jaipur,2045,93,low,Unknown,https://news.example/409,Under investigation
+OUT-IND-00410,COVID-19,2025-06-22,India,Maharashtra,Nagpur,3565,193,moderate,Unknown,,Under investigation
+OUT-IND-00411,Scrub Typhus,2025-07-03,India,Uttar Pradesh,Meerut,1060,60,low,True,https://news.example/411,Cluster in school
+OUT-IND-00412,Cholera,2024-01-24,India,Rajasthan,Udaipur,1117,12,moderate,True,https://news.example/412,Reported by PHC
+OUT-IND-00413,Scrub Typhus,2024-03-26,India,Tamil Nadu,Madurai,998,,low,False,https://news.example/413,
+OUT-IND-00414,Influenza,2025-08-02,India,Tamil Nadu,Madurai,1678,122,low,True,https://news.example/414,
+OUT-IND-00415,COVID-19,2025-07-12,India,Tamil Nadu,Salem,3541,239,low,True,https://news.example/415,
+OUT-IND-00416,Cholera,2024-09-09,India,Karnataka,Mangalore,4066,277,moderate,Unknown,https://news.example/416,
+OUT-IND-00417,Influenza,2025-04-06,India,Gujarat,Bhavnagar,1072,73,low,False,https://news.example/417,Cluster in school
+OUT-IND-00418,Dengue,2025-10-02 18:55:02,India,Rajasthan,Jodhpur,1726,41,low,True,https://news.example/418,
+OUT-IND-00419,Hepatitis A,2024-08-16,India,Gujarat,Ahmedabad,964,67,low,False,https://news.example/419,Reported by PHC
+OUT-IND-00420,Measles,2025-07-29,India,Tamil Nadu,Chennai,3299,180,low,True,https://news.example/420,
+OUT-IND-00421,Scrub Typhus,2023-11-13,India,Delhi,West Delhi,1483,82,low,True,https://news.example/421,Cluster in school
+OUT-IND-00422,Dengue,2025-09-11,India,Rajasthan,Jodhpur,2143,34,low,Unknown,https://news.example/422,
+OUT-IND-00423,Influenza,2025-06-01,India,Tamil Nadu,Madurai,301,12,moderate,False,,Reported by PHC
+OUT-IND-00424,COVID-19,2024-02-19,India,Kerala,Kochi,2168,87,low,Unknown,https://news.example/424,
+OUT-IND-00425,Hepatitis A,2023-07-20,India,West Bengal,Howrah,2142,7,moderate,Unknown,,Under investigation
+OUT-IND-00426,Kala-azar,2024-09-20,India,Odisha,Bhubaneswar,1848,64,moderate,Unknown,,Lab confirmed cases
+OUT-IND-00427,Influenza,10-01-2025,India,Assam,Silchar,4526,190,low,False,,
+OUT-IND-00428,Hepatitis A,2025-04-19,India,Kerala,Kochi,3227,254,low,False,https://news.example/428,Under investigation
+OUT-IND-00429,Cholera,2024-03-05,India,Uttar Pradesh,Meerut,4580,106,moderate,False,,Reported by PHC
+OUT-IND-00430,Hepatitis A,26-03-2024,India,Assam,Silchar,4550,,low,Unknown,https://news.example/430,Cluster in school
+OUT-IND-00431,Cholera,2024-02-15,India,Delhi,South Delhi,107,7,moderate,True,https://news.example/431,
+OUT-IND-00432,Measles,2023-08-06,India,Kerala,Kochi,4307,157,low,Unknown,,Reported by PHC
+OUT-IND-00433,Dengue,2023-01-27,India,Kerala,Kozhikode,4298,49,moderate,False,https://news.example/433,Reported by PHC
+OUT-IND-00434,Influenza,2023-07-03,India,Tamil Nadu,Salem,3943,13,low,Unknown,https://news.example/434,Hospital admissions rising
+OUT-IND-00435,Measles,2024-01-07 18:43:25,India,West Bengal,Siliguri,969,23,moderate,False,,
+OUT-IND-00436,Kala-azar,08-11-2025,India,Maharashtra,Nagpur,4650,81,moderate,False,https://news.example/436,
+OUT-IND-00437,Hepatitis A,2024-02-05,India,Uttar Pradesh,Agra,4006,60,low,False,https://news.example/437,
+OUT-IND-00438,Scrub Typhus,2024-02-26,India,Bihar,Muzaffarpur,1499,108,low,Unknown,https://news.example/438,Reported by PHC
+OUT-IND-00439,Influenza,2025-12-08,India,Kerala,Thiruvananthapuram,4956,177,low,False,https://news.example/439,
+OUT-IND-00440,Kala-azar,2025-04-21,India,Odisha,Cuttack,4065,195,low,False,https://news.example/440,Hospital admissions rising
+OUT-IND-00441,Hepatitis A,24-06-2024,India,Assam,Jorhat,4246,198,low,False,https://news.example/441,
+OUT-IND-00442,COVID-19,2024-12-15,India,Odisha,Bhubaneswar,1955,113,high,False,https://news.example/442,Lab confirmed cases
+OUT-IND-00443,Scrub Typhus,2024-05-09,India,Maharashtra,Nagpur,1390,0,low,False,https://news.example/443,Lab confirmed cases
+OUT-IND-00444,Kala-azar,2024-06-13,India,Uttar Pradesh,Kanpur,222,11,low,True,https://news.example/444,Hospital admissions rising
+OUT-IND-00445,Scrub Typhus,2024-03-18,India,Karnataka,Belgaum,4372,206,low,True,https://news.example/445,
+OUT-IND-00446,Dengue,2023-03-29,India,Tamil Nadu,Salem,2267,7,low,False,,
+OUT-IND-00447,Influenza,2024-03-23,India,Odisha,Puri,2110,80,low,Unknown,https://news.example/447,
+OUT-IND-00448,Dengue,2025-06-03,India,Rajasthan,Bikaner,2387,119,low,False,https://news.example/448,Hospital admissions rising
+OUT-IND-00449,COVID-19,2023-10-07 06:52:50,India,Karnataka,Mysuru,4673,135,low,Unknown,,Spike after monsoon
+OUT-IND-00450,Scrub Typhus,2023-07-01,India,Kerala,Thiruvananthapuram,4008,247,moderate,True,https://news.example/450,
+OUT-IND-00451,COVID-19,2024-06-21,India,Tamil Nadu,Salem,3781,240,low,True,https://news.example/451,Spike after monsoon
+OUT-IND-00452,Kala-azar,2024-10-20,India,Tamil Nadu,Coimbatore,3041,242,low,Unknown,,
+OUT-IND-00453,Dengue,2025-04-19,India,Bihar,Gaya,3829,,low,Unknown,https://news.example/453,Hospital admissions rising
+OUT-IND-00454,COVID-19,2023-09-03 19:11:15,India,Gujarat,Ahmedabad,3270,111,low,True,,
+OUT-IND-00455,Cholera,2024-02-29 07:31:26,India,Bihar,Patna,4101,171,high,Unknown,https://news.example/455,Spike after monsoon
+OUT-IND-00456,COVID-19,2025-01-14,India,Maharashtra,Nashik,246,8,low,True,https://news.example/456,
+OUT-IND-00457,Kala-azar,2024-07-04,India,Gujarat,Bhavnagar,1608,58,low,False,https://news.example/457,Hospital admissions rising
+OUT-IND-00458,Hepatitis A,15-01-2023,India,Bihar,Bhagalpur,2149,122,low,True,https://news.example/458,
+OUT-IND-00459,COVID-19,16-05-2024,India,Rajasthan,Alwar,3195,131,low,True,https://news.example/459,Lab confirmed cases
+OUT-IND-00460,Kala-azar,2023-03-27,India,Tamil Nadu,Madurai,4691,300,low,True,https://news.example/460,
+OUT-IND-00461,Scrub Typhus,2024-12-01,India,West Bengal,Kolkata,444,23,low,Unknown,,Cluster in school
+OUT-IND-00462,Dengue,2024-03-24,India,West Bengal,Darjeeling,4919,84,high,False,https://news.example/462,
+OUT-IND-00463,Measles,2025-06-20,India,Karnataka,Bengaluru,4860,180,low,True,https://news.example/463,Lab confirmed cases
+OUT-IND-00464,Cholera,26-10-2023,India,Maharashtra,Mumbai,4992,47,low,False,,
+OUT-IND-00465,Dengue,2023-10-14,India,Bihar,Purnia,3150,32,moderate,True,https://news.example/465,Spike after monsoon
+OUT-IND-00466,Influenza,2023-04-25 11:19:33,India,Assam,Dibrugarh,2359,55,high,False,https://news.example/466,Hospital admissions rising
+OUT-IND-00467,Hepatitis A,2023-11-04,India,Assam,Tezpur,2700,83,low,True,https://news.example/467,Spike after monsoon
+OUT-IND-00468,Kala-azar,21-11-2025,India,Delhi,South Delhi,3577,67,low,True,https://news.example/468,Cluster in school
+OUT-IND-00469,Cholera,07-05-2025,India,Bihar,Muzaffarpur,4309,40,low,False,https://news.example/469,
+OUT-IND-00470,COVID-19,03-11-2024,India,Assam,Jorhat,2145,116,low,Unknown,https://news.example/470,Spike after monsoon
+OUT-IND-00471,Scrub Typhus,2024-07-30,India,Rajasthan,Alwar,944,41,moderate,Unknown,https://news.example/471,
+OUT-IND-00472,Kala-azar,2023-03-26,India,Odisha,Rourkela,2724,,high,False,https://news.example/472,
+OUT-IND-00473,Kala-azar,24-01-2025,India,Assam,Dibrugarh,4165,31,low,Unknown,,Cluster in school
+OUT-IND-00474,Influenza,2025-07-14,India,Tamil Nadu,Tiruchirappalli,4040,294,moderate,False,https://news.example/474,
+OUT-IND-00475,COVID-19,31-10-2023,India,Rajasthan,Bikaner,4808,127,low,False,https://news.example/475,Spike after monsoon
+OUT-IND-00476,Measles,2024-08-05,India,Uttar Pradesh,Varanasi,2544,188,low,False,https://news.example/476,Spike after monsoon
+OUT-IND-00477,Hepatitis A,29-11-2024,India,Karnataka,Belgaum,4003,168,low,True,https://news.example/477,Spike after monsoon
+OUT-IND-00478,Kala-azar,2024-06-23,India,West Bengal,Siliguri,171,1,moderate,True,https://news.example/478,Lab confirmed cases
+OUT-IND-00479,Dengue,02-08-2024,India,Karnataka,Bengaluru,928,25,low,False,https://news.example/479,Lab confirmed cases
+OUT-IND-00480,Measles,2025-01-16,India,Uttar Pradesh,Varanasi,1972,90,low,False,https://news.example/480,Reported by PHC
+OUT-IND-00481,Dengue,2024-03-15,India,Kerala,Kannur,3963,212,low,True,https://news.example/481,
+OUT-IND-00482,Hepatitis A,2023-07-07,India,Tamil Nadu,Salem,3420,26,low,True,https://news.example/482,Reported by PHC
+OUT-IND-00483,Influenza,2023-11-21,India,Rajasthan,Udaipur,4744,118,low,Unknown,https://news.example/483,Spike after monsoon
+OUT-IND-00484,Kala-azar,2023-03-15,India,Kerala,Kannur,4241,279,low,Unknown,,
+OUT-IND-00485,Influenza,2023-06-10,India,Rajasthan,Jodhpur,3027,44,low,False,https://news.example/485,Spike after monsoon
+OUT-IND-00486,Measles,2024-03-20 13:15:31,India,Bihar,Gaya,4813,1,moderate,True,https://news.example/486,Lab confirmed cases
+OUT-IND-00487,COVID-19,2025-12-26,India,Bihar,Patna,4328,230,low,False,https://news.example/487,Hospital admissions rising
+OUT-IND-00488,Scrub Typhus,2024-04-21,India,Delhi,Central Delhi,760,11,moderate,False,https://news.example/488,
+OUT-IND-00489,Hepatitis A,2023-03-03,India,Tamil Nadu,Madurai,4578,350,moderate,False,https://news.example/489,Hospital admissions rising
+OUT-IND-00490,Cholera,2025-11-27,India,Assam,Silchar,4503,154,low,Unknown,,Hospital admissions rising
+OUT-IND-00491,Measles,25-02-2025,India,Tamil Nadu,Madurai,1780,85,low,False,https://news.example/491,Hospital admissions rising
+OUT-IND-00492,Scrub Typhus,2024-07-25,India,Karnataka,Belgaum,1251,74,moderate,Unknown,https://news.example/492,
+OUT-IND-00493,Measles,2025-11-29,India,West Bengal,Siliguri,998,68,low,True,https://news.example/493,
+OUT-IND-00494,Scrub Typhus,2025-10-01,India,Tamil Nadu,Tiruchirappalli,430,13,low,Unknown,https://news.example/494,
+OUT-IND-00495,Kala-azar,2024-02-22,India,Bihar,Patna,4030,266,high,False,https://news.example/495,Spike after monsoon
+OUT-IND-00496,Hepatitis A,2025-02-27,India,Uttar Pradesh,Meerut,2667,115,moderate,Unknown,https://news.example/496,Reported by PHC
+OUT-IND-00497,COVID-19,2023-01-05,India,Rajasthan,Bikaner,2889,217,moderate,False,https://news.example/497,Hospital admissions rising
+OUT-IND-00498,Kala-azar,2024-06-24,India,Bihar,Bhagalpur,3394,84,low,False,https://news.example/498,Reported by PHC
+OUT-IND-00499,Cholera,2024-06-02,India,Karnataka,Mangalore,504,5,high,Unknown,https://news.example/499,Reported by PHC
+OUT-IND-00500,Kala-azar,2023-04-14,India,Uttar Pradesh,Kanpur,679,5,low,Unknown,https://news.example/500,
+OUT-IND-00501,Measles,2023-07-27,India,West Bengal,Howrah,2594,140,low,Unknown,,Reported by PHC
+OUT-IND-00502,Dengue,22-10-2025,India,Delhi,West Delhi,3898,210,moderate,True,,Hospital admissions rising
+OUT-IND-00503,Hepatitis A,2024-02-29,India,Tamil Nadu,Coimbatore,785,,low,Unknown,https://news.example/503,Under investigation
+OUT-IND-00504,Scrub Typhus,2025-01-14,India,Maharashtra,Mumbai,4941,136,low,Unknown,https://news.example/504,Reported by PHC
+OUT-IND-00505,Influenza,2023-02-12,India,Uttar Pradesh,Meerut,1088,23,low,Unknown,https://news.example/505,Spike after monsoon
+OUT-IND-00506,Scrub Typhus,2024-02-01,India,Uttar Pradesh,Meerut,52,3,moderate,Unknown,https://news.example/506,
+OUT-IND-00507,Cholera,10-11-2023,India,Kerala,Thiruvananthapuram,1147,70,low,False,https://news.example/507,Cluster in school
+OUT-IND-00508,Scrub Typhus,2024-05-04 04:02:18,India,Tamil Nadu,Tiruchirappalli,2014,32,low,True,https://news.example/508,Cluster in school
+OUT-IND-00509,COVID-19,2023-03-30,India,Uttar Pradesh,Agra,1649,105,high,False,https://news.example/509,Hospital admissions rising
+OUT-IND-00510,Dengue,2024-11-10,India,Gujarat,Vadodara,3449,71,moderate,Unknown,,Lab confirmed cases
+OUT-IND-00511,Scrub Typhus,2024-10-05,India,Delhi,East Delhi,64,2,high,Unknown,https://news.example/511,Under investigation
+OUT-IND-00512,Influenza,2024-10-15,India,Assam,Guwahati,623,11,low,Unknown,,Hospital admissions rising
+OUT-IND-00513,COVID-19,17-01-2025,India,Delhi,South Delhi,1538,29,moderate,True,,
+OUT-IND-00514,COVID-19,2024-10-16 13:21:30,India,Odisha,Sambalpur,460,18,low,True,https://news.example/514,
+OUT-IND-00515,Dengue,2024-06-26,India,Delhi,East Delhi,4329,321,high,False,https://news.example/515,
+OUT-IND-00516,Scrub Typhus,2023-05-13,India,Tamil Nadu,Chennai,2497,8,moderate,True,,
+OUT-IND-00517,COVID-19,2024-04-04 06:48:15,India,Uttar Pradesh,Kanpur,54,2,moderate,True,https://news.example/517,
+OUT-IND-00518,Dengue,2024-06-23,India,Kerala,Kannur,3678,75,low,False,,
+OUT-IND-00519,Hepatitis A,29-11-2024,India,Kerala,Kochi,1390,87,moderate,True,https://news.example/519,Lab confirmed cases
+OUT-IND-00520,Influenza,2025-02-05,India,Kerala,Kannur,889,56,low,False,https://news.example/520,Hospital admissions rising
+OUT-IND-00521,Scrub Typhus,2024-05-04,India,Odisha,Sambalpur,567,43,low,False,https://news.example/521,
+OUT-IND-00522,COVID-19,2024-01-23,India,Assam,Tezpur,604,13,high,False,https://news.example/522,
+OUT-IND-00523,Kala-azar,2023-03-30,India,Odisha,Rourkela,2425,90,moderate,Unknown,https://news.example/523,Cluster in school
+OUT-IND-00524,Kala-azar,15-10-2025,India,Gujarat,Ahmedabad,3131,1,low,False,,Spike after monsoon
+OUT-IND-00525,Cholera,2024-01-09,India,West Bengal,Darjeeling,4760,81,low,True,https://news.example/525,Lab confirmed cases
+OUT-IND-00526,Cholera,2025-06-12,India,Kerala,Thrissur,164,0,high,True,https://news.example/526,Spike after monsoon
+OUT-IND-00527,Measles,08-01-2023,India,Assam,Silchar,551,3,low,True,https://news.example/527,Hospital admissions rising
+OUT-IND-00528,Measles,2024-12-06 21:42:44,India,Rajasthan,Jaipur,4292,251,moderate,True,,Lab confirmed cases
+OUT-IND-00529,COVID-19,2025-11-03,India,Odisha,Puri,824,42,low,Unknown,https://news.example/529,Under investigation
+OUT-IND-00530,Measles,2025-10-02,India,West Bengal,Kolkata,2605,92,low,Unknown,https://news.example/530,Under investigation
+OUT-IND-00531,Kala-azar,2023-09-04 11:25:15,India,Maharashtra,Nagpur,4661,339,low,False,https://news.example/531,Lab confirmed cases
+OUT-IND-00532,Kala-azar,2025-10-12,India,Maharashtra,Mumbai,3477,136,moderate,Unknown,https://news.example/532,Lab confirmed cases
+OUT-IND-00533,Kala-azar,25-09-2023,India,Rajasthan,Jaipur,4015,134,low,False,https://news.example/533,
+OUT-IND-00534,Dengue,2024-09-20,India,Bihar,Purnia,1927,154,low,False,https://news.example/534,
+OUT-IND-00535,Cholera,2024-02-14,India,Kerala,Thrissur,3113,109,moderate,True,,
+OUT-IND-00536,Dengue,2024-01-23,India,Assam,Jorhat,1958,54,moderate,True,https://news.example/536,Hospital admissions rising
+OUT-IND-00537,Measles,2025-12-22,India,Uttar Pradesh,Agra,3912,120,low,False,,
+OUT-IND-00538,COVID-19,2025-10-02,India,Assam,Silchar,4131,95,low,False,https://news.example/538,Lab confirmed cases
+OUT-IND-00539,Scrub Typhus,2023-09-08,India,Odisha,Rourkela,4675,65,low,True,,Lab confirmed cases
+OUT-IND-00540,Hepatitis A,2024-05-15,India,Uttar Pradesh,Lucknow,2269,112,low,Unknown,https://news.example/540,
+OUT-IND-00541,Kala-azar,15-09-2025,India,Odisha,Puri,4609,153,low,True,https://news.example/541,
+OUT-IND-00542,Hepatitis A,2024-05-22,India,Karnataka,Mangalore,627,21,low,True,https://news.example/542,Cluster in school
+OUT-IND-00543,COVID-19,2024-07-10,India,Delhi,Central Delhi,1541,89,moderate,False,https://news.example/543,
+OUT-IND-00544,Dengue,2023-07-25,India,Karnataka,Mysuru,3094,202,low,True,https://news.example/544,
+OUT-IND-00545,COVID-19,2024-07-11,India,West Bengal,Bardhaman,4745,139,low,True,,
+OUT-IND-00546,Cholera,2025-08-28,India,Delhi,East Delhi,1581,107,low,True,https://news.example/546,
+OUT-IND-00547,Kala-azar,2025-05-01,India,Rajasthan,Alwar,931,19,moderate,Unknown,https://news.example/547,Reported by PHC
+OUT-IND-00548,Scrub Typhus,20-09-2024,India,Karnataka,Belgaum,636,20,moderate,True,https://news.example/548,Reported by PHC
+OUT-IND-00549,Measles,2025-04-23,India,Maharashtra,Mumbai,1322,38,moderate,False,https://news.example/549,Reported by PHC
+OUT-IND-00550,COVID-19,10-09-2023,India,Maharashtra,Pune,2800,203,low,Unknown,https://news.example/550,Cluster in school
+OUT-IND-00551,COVID-19,20-06-2023,India,Maharashtra,Nashik,2017,58,low,False,https://news.example/551,Under investigation
+OUT-IND-00552,Kala-azar,2023-04-14,India,Gujarat,Ahmedabad,2047,134,moderate,True,,Under investigation
+OUT-IND-00553,Cholera,2024-01-24,India,Kerala,Kannur,611,48,moderate,Unknown,,
+OUT-IND-00554,Kala-azar,2025-03-28,India,Gujarat,Vadodara,4216,310,low,False,https://news.example/554,Spike after monsoon
+OUT-IND-00555,Cholera,2024-01-28,India,Tamil Nadu,Chennai,1615,92,moderate,True,,Reported by PHC
+OUT-IND-00556,Kala-azar,2024-10-16,India,Uttar Pradesh,Agra,3599,50,moderate,Unknown,https://news.example/556,Cluster in school
+OUT-IND-00557,COVID-19,2024-01-01,India,Delhi,North Delhi,4792,329,moderate,Unknown,https://news.example/557,Under investigation
+OUT-IND-00558,Influenza,2024-08-17,India,Rajasthan,Jaipur,57,1,moderate,False,https://news.example/558,Hospital admissions rising
+OUT-IND-00559,COVID-19,05-08-2024,India,Assam,Guwahati,3377,2,high,True,https://news.example/559,
+OUT-IND-00560,Kala-azar,2023-04-16,India,Maharashtra,Pune,4146,157,low,Unknown,https://news.example/560,
+OUT-IND-00561,Cholera,2023-06-01,India,Assam,Silchar,1204,76,low,Unknown,https://news.example/561,
+OUT-IND-00562,Cholera,2024-07-13,India,West Bengal,Howrah,4725,160,low,True,https://news.example/562,Under investigation
+OUT-IND-00563,COVID-19,2023-05-07,India,Kerala,Kochi,1126,45,low,Unknown,https://news.example/563,
+OUT-IND-00564,Measles,2023-09-14,India,Odisha,Bhubaneswar,2063,100,low,True,https://news.example/564,
+OUT-IND-00565,Influenza,2024-06-02,India,Uttar Pradesh,Kanpur,4399,20,moderate,False,https://news.example/565,Reported by PHC
+OUT-IND-00566,Measles,2025-10-07,India,Bihar,Purnia,3495,240,low,Unknown,https://news.example/566,Hospital admissions rising
+OUT-IND-00567,Kala-azar,2025-07-08,India,Kerala,Thiruvananthapuram,1463,107,moderate,True,,Cluster in school
+OUT-IND-00568,Scrub Typhus,2025-10-06 04:18:51,India,Kerala,Thiruvananthapuram,3785,70,low,True,https://news.example/568,Reported by PHC
+OUT-IND-00569,Measles,2024-02-29,India,Odisha,Sambalpur,3977,222,moderate,Unknown,https://news.example/569,Under investigation
+OUT-IND-00570,Hepatitis A,31-07-2023,India,Karnataka,Belgaum,1387,65,low,False,https://news.example/570,Lab confirmed cases
+OUT-IND-00571,Influenza,2025-11-22,India,Rajasthan,Bikaner,326,20,moderate,False,https://news.example/571,Hospital admissions rising
+OUT-IND-00572,Influenza,2025-01-22,India,Kerala,Thrissur,580,46,low,Unknown,https://news.example/572,
+OUT-IND-00573,COVID-19,01-10-2024,India,Uttar Pradesh,Kanpur,468,30,high,Unknown,,
+OUT-IND-00574,Dengue,2025-03-29,India,Assam,Silchar,2839,129,low,False,,
+OUT-IND-00575,Kala-azar,2025-01-04,India,Uttar Pradesh,Meerut,2108,91,low,True,,Reported by PHC
+OUT-IND-00576,Cholera,22-01-2024,India,Kerala,Kochi,2683,89,low,Unknown,https://news.example/576,Lab confirmed cases
+OUT-IND-00577,Dengue,2023-02-23,India,Odisha,Bhubaneswar,4079,54,moderate,False,,Reported by PHC
+OUT-IND-00578,Hepatitis A,2024-05-30,India,Uttar Pradesh,Lucknow,1945,36,low,False,,Lab confirmed cases
+OUT-IND-00579,Influenza,2023-12-20,India,Maharashtra,Pune,4465,264,low,True,https://news.example/579,Under investigation
+OUT-IND-00580,Scrub Typhus,26-06-2025,India,Uttar Pradesh,Varanasi,2623,30,low,True,https://news.example/580,Reported by PHC
+OUT-IND-00581,Measles,2024-03-21,India,Karnataka,Hubli,2506,52,low,True,https://news.example/581,Under investigation
+OUT-IND-00582,Cholera,03-06-2025,India,Karnataka,Bengaluru,2739,148,moderate,Unknown,https://news.example/582,
+OUT-IND-00583,Measles,13-05-2024,India,Rajasthan,Jaipur,2440,95,moderate,Unknown,,
+OUT-IND-00584,Hepatitis A,2024-06-01,India,Tamil Nadu,Chennai,715,8,low,False,,Lab confirmed cases
+OUT-IND-00585,COVID-19,12-01-2024,India,Bihar,Gaya,2307,146,low,True,,Cluster in school
+OUT-IND-00586,COVID-19,2025-10-11,India,Karnataka,Mangalore,1679,33,low,False,https://news.example/586,Spike after monsoon
+OUT-IND-00587,COVID-19,2023-05-15,India,West Bengal,Kolkata,2395,31,low,False,https://news.example/587,Lab confirmed cases
+OUT-IND-00588,Hepatitis A,25-08-2025,India,Delhi,Central Delhi,1203,16,moderate,Unknown,https://news.example/588,Hospital admissions rising
+OUT-IND-00589,Hepatitis A,2025-09-28,India,Delhi,Central Delhi,629,48,low,Unknown,https://news.example/589,Under investigation
+OUT-IND-00590,Cholera,02-09-2025,India,Gujarat,Rajkot,3040,55,low,False,https://news.example/590,Cluster in school
+OUT-IND-00591,Kala-azar,2024-04-02,India,Rajasthan,Alwar,1317,64,low,True,https://news.example/591,Spike after monsoon
+OUT-IND-00592,Scrub Typhus,2025-04-19 02:41:47,India,Uttar Pradesh,Meerut,3738,114,low,Unknown,https://news.example/592,
+OUT-IND-00593,Cholera,2024-05-22,India,Tamil Nadu,Chennai,877,62,moderate,Unknown,https://news.example/593,Cluster in school
+OUT-IND-00594,Hepatitis A,2024-05-03,India,Rajasthan,Udaipur,1149,35,moderate,Unknown,,Cluster in school
+OUT-IND-00595,Cholera,2024-10-09,India,Kerala,Thrissur,3364,160,moderate,False,,Spike after monsoon
+OUT-IND-00596,Influenza,2025-07-28,India,Uttar Pradesh,Kanpur,2287,175,moderate,False,https://news.example/596,Reported by PHC
+OUT-IND-00597,Measles,2024-06-30,India,Bihar,Bhagalpur,296,16,moderate,Unknown,https://news.example/597,Hospital admissions rising
+OUT-IND-00598,COVID-19,05-08-2023,India,Bihar,Gaya,257,14,moderate,Unknown,https://news.example/598,
+OUT-IND-00599,COVID-19,13-09-2023,India,Gujarat,Ahmedabad,2418,176,low,Unknown,https://news.example/599,
+OUT-IND-00600,COVID-19,2024-09-28,India,Kerala,Thiruvananthapuram,3350,267,low,False,,
+OUT-IND-00601,Dengue,2023-05-02,India,Tamil Nadu,Tiruchirappalli,4612,240,low,True,https://news.example/601,Under investigation
+OUT-IND-00602,Scrub Typhus,2023-11-18,India,Karnataka,Mysuru,386,21,low,True,https://news.example/602,
+OUT-IND-00603,Dengue,2025-12-21,India,Bihar,Muzaffarpur,3956,131,moderate,Unknown,,Cluster in school
+OUT-IND-00604,Measles,2025-11-17 14:28:39,India,Tamil Nadu,Coimbatore,4873,256,high,Unknown,,Hospital admissions rising
+OUT-IND-00605,Influenza,2023-02-15,India,Tamil Nadu,Tiruchirappalli,4321,98,low,Unknown,https://news.example/605,
+OUT-IND-00606,Hepatitis A,2025-01-01,India,Kerala,Kozhikode,3045,201,low,False,https://news.example/606,Spike after monsoon
+OUT-IND-00607,Kala-azar,2024-05-18,India,Maharashtra,Mumbai,3771,79,low,False,https://news.example/607,
+OUT-IND-00608,Dengue,2023-10-10,India,Karnataka,Hubli,1269,9,moderate,False,,
+OUT-IND-00609,Measles,2023-02-26,India,Bihar,Gaya,4005,205,moderate,True,,
+OUT-IND-00610,COVID-19,2024-09-25,India,Delhi,Central Delhi,3473,224,moderate,True,https://news.example/610,Reported by PHC
+OUT-IND-00611,COVID-19,09-10-2024,India,Bihar,Gaya,983,52,low,Unknown,https://news.example/611,Under investigation
+OUT-IND-00612,Measles,26-04-2025,India,Tamil Nadu,Coimbatore,699,54,moderate,False,,Reported by PHC
+OUT-IND-00613,Dengue,18-09-2023,India,West Bengal,Bardhaman,3021,27,low,Unknown,https://news.example/613,
+OUT-IND-00614,Kala-azar,2023-10-01,India,Delhi,South Delhi,4548,117,moderate,Unknown,,Cluster in school
+OUT-IND-00615,Cholera,2025-11-06,India,Bihar,Gaya,2754,,moderate,False,,Hospital admissions rising
+OUT-IND-00616,COVID-19,2024-03-09,India,Assam,Jorhat,2415,91,low,Unknown,https://news.example/616,Hospital admissions rising
+OUT-IND-00617,Measles,2025-03-10,India,Tamil Nadu,Madurai,4812,156,low,True,,
+OUT-IND-00618,Kala-azar,2025-06-08,India,West Bengal,Howrah,3748,186,moderate,False,https://news.example/618,Cluster in school
+OUT-IND-00619,COVID-19,2025-02-16,India,Bihar,Bhagalpur,825,2,moderate,False,,Cluster in school
+OUT-IND-00620,Measles,2025-06-10,India,Uttar Pradesh,Kanpur,3557,113,low,Unknown,https://news.example/620,
+OUT-IND-00621,Kala-azar,2025-01-08,India,West Bengal,Darjeeling,854,37,low,Unknown,https://news.example/621,
+OUT-IND-00622,Kala-azar,2024-08-31,India,Maharashtra,Pune,4895,271,low,False,https://news.example/622,Hospital admissions rising
+OUT-IND-00623,Kala-azar,2025-05-25,India,Delhi,South Delhi,4091,135,low,Unknown,https://news.example/623,Reported by PHC
+OUT-IND-00624,COVID-19,26-12-2024,India,Odisha,Sambalpur,4154,88,low,True,https://news.example/624,Hospital admissions rising
+OUT-IND-00625,Influenza,18-06-2025,India,Bihar,Gaya,4335,74,high,False,https://news.example/625,
+OUT-IND-00626,Scrub Typhus,2025-09-01,India,West Bengal,Darjeeling,3782,138,moderate,Unknown,https://news.example/626,
+OUT-IND-00627,Measles,2023-07-23,India,Uttar Pradesh,Varanasi,4526,258,low,True,https://news.example/627,
+OUT-IND-00628,Measles,25-12-2025,India,Odisha,Cuttack,1327,99,moderate,Unknown,https://news.example/628,
+OUT-IND-00629,Hepatitis A,2025-10-01,India,Gujarat,Rajkot,2236,159,low,Unknown,https://news.example/629,Cluster in school
+OUT-IND-00630,Dengue,2025-06-21,India,Karnataka,Mysuru,1770,47,low,False,,
+OUT-IND-00631,Scrub Typhus,2023-12-05,India,Gujarat,Rajkot,1587,80,low,Unknown,https://news.example/631,Under investigation
+OUT-IND-00632,Influenza,2025-10-14,India,Uttar Pradesh,Kanpur,2921,28,high,False,,Under investigation
+OUT-IND-00633,Influenza,2025-07-17,India,Kerala,Thrissur,4656,26,low,True,https://news.example/633,Hospital admissions rising
+OUT-IND-00634,Kala-azar,2025-09-02 08:05:47,India,Kerala,Kochi,2551,13,moderate,True,https://news.example/634,Hospital admissions rising
+OUT-IND-00635,Hepatitis A,2025-12-12,India,Assam,Guwahati,4458,0,moderate,False,,Spike after monsoon
+OUT-IND-00636,Dengue,2023-09-06,India,Kerala,Kochi,2288,62,low,Unknown,https://news.example/636,Under investigation
+OUT-IND-00637,Kala-azar,2024-03-05,India,Delhi,South Delhi,2686,199,moderate,Unknown,https://news.example/637,
+OUT-IND-00638,COVID-19,2023-03-02,India,Gujarat,Bhavnagar,1611,,high,Unknown,https://news.example/638,Hospital admissions rising
+OUT-IND-00639,Hepatitis A,2024-11-19,India,Kerala,Kannur,2292,56,high,True,https://news.example/639,Lab confirmed cases
+OUT-IND-00640,COVID-19,22-11-2025,India,Bihar,Bhagalpur,3970,277,low,True,https://news.example/640,Under investigation
+OUT-IND-00641,Measles,2024-08-30,India,Uttar Pradesh,Lucknow,3586,127,low,Unknown,https://news.example/641,
+OUT-IND-00642,Kala-azar,2024-11-25,India,Rajasthan,Bikaner,1023,17,low,True,https://news.example/642,Reported by PHC
+OUT-IND-00643,COVID-19,2025-04-01,India,Maharashtra,Nagpur,3990,133,moderate,False,https://news.example/643,Cluster in school
+OUT-IND-00644,Kala-azar,2025-02-12,India,Kerala,Kannur,275,21,low,Unknown,https://news.example/644,Under investigation
+OUT-IND-00645,Measles,2025-07-03,India,Rajasthan,Udaipur,618,5,low,Unknown,https://news.example/645,Hospital admissions rising
+OUT-IND-00646,Measles,2023-07-07,India,West Bengal,Howrah,1935,115,low,False,,
+OUT-IND-00647,COVID-19,11-03-2024,India,Tamil Nadu,Salem,898,34,low,Unknown,https://news.example/647,Cluster in school
+OUT-IND-00648,Hepatitis A,2023-01-30,India,Karnataka,Hubli,23,1,moderate,True,https://news.example/648,Spike after monsoon
+OUT-IND-00649,Hepatitis A,2024-01-01 22:57:37,India,Uttar Pradesh,Agra,1144,28,moderate,Unknown,,Cluster in school
+OUT-IND-00650,Hepatitis A,2025-01-15,India,Kerala,Kochi,3964,37,low,True,,Under investigation
+OUT-IND-00651,Dengue,15-12-2024,India,Bihar,Purnia,944,18,moderate,True,https://news.example/651,
+OUT-IND-00652,Influenza,02-01-2023,India,Assam,Tezpur,2734,207,low,False,https://news.example/652,Spike after monsoon
+OUT-IND-00653,COVID-19,2024-07-04,India,Maharashtra,Pune,2015,103,low,True,,
+OUT-IND-00654,Scrub Typhus,27-06-2025,India,Assam,Tezpur,3615,14,moderate,True,https://news.example/654,Spike after monsoon
+OUT-IND-00655,Hepatitis A,2024-05-05,India,Kerala,Kozhikode,3647,26,moderate,Unknown,https://news.example/655,Lab confirmed cases
+OUT-IND-00656,Kala-azar,2024-02-08,India,Tamil Nadu,Madurai,3586,195,low,Unknown,https://news.example/656,Cluster in school
+OUT-IND-00657,Hepatitis A,08-09-2024,India,Gujarat,Rajkot,2663,95,moderate,False,https://news.example/657,
+OUT-IND-00658,Hepatitis A,2024-07-15,India,Tamil Nadu,Chennai,4145,119,moderate,False,,Lab confirmed cases
+OUT-IND-00659,Measles,29-02-2024,India,Delhi,East Delhi,4686,324,low,True,https://news.example/659,Under investigation
+OUT-IND-00660,COVID-19,2023-02-18,India,Kerala,Kozhikode,1007,17,moderate,True,https://news.example/660,Reported by PHC
+OUT-IND-00661,Influenza,2025-07-17 15:04:23,India,Uttar Pradesh,Agra,2179,118,moderate,False,https://news.example/661,
+OUT-IND-00662,Hepatitis A,2023-07-22,India,Assam,Guwahati,2541,167,low,Unknown,https://news.example/662,Hospital admissions rising
+OUT-IND-00663,Kala-azar,2025-02-27,India,Odisha,Puri,2062,100,low,False,,Under investigation
+OUT-IND-00664,Hepatitis A,2025-06-11,India,Bihar,Gaya,2627,18,low,True,https://news.example/664,Under investigation
+OUT-IND-00665,Kala-azar,2025-10-23,India,Rajasthan,Jodhpur,1177,38,moderate,True,,
+OUT-IND-00666,COVID-19,28-04-2025,India,Odisha,Bhubaneswar,1395,68,low,Unknown,,Under investigation
+OUT-IND-00667,Dengue,17-02-2025,India,Maharashtra,Mumbai,1145,55,low,True,,
+OUT-IND-00668,COVID-19,2024-01-24 07:15:52,India,Karnataka,Bengaluru,163,1,high,Unknown,https://news.example/668,Spike after monsoon
+OUT-IND-00669,Cholera,2024-10-24,India,Rajasthan,Alwar,4081,68,moderate,False,,
+OUT-IND-00670,Influenza,2025-04-23,India,Tamil Nadu,Coimbatore,2073,133,low,True,https://news.example/670,Under investigation
+OUT-IND-00671,Influenza,23-07-2025,India,Bihar,Purnia,730,21,low,False,https://news.example/671,Under investigation
+OUT-IND-00672,Scrub Typhus,28-12-2024,India,Bihar,Gaya,4401,128,low,Unknown,https://news.example/672,
+OUT-IND-00673,Measles,16-08-2023,India,Maharashtra,Mumbai,3541,217,high,False,https://news.example/673,Hospital admissions rising
+OUT-IND-00674,Hepatitis A,16-03-2025,India,Assam,Dibrugarh,4397,220,low,False,https://news.example/674,Hospital admissions rising
+OUT-IND-00675,Dengue,2025-09-12,India,Karnataka,Hubli,4967,24,low,True,,Hospital admissions rising
+OUT-IND-00676,Cholera,02-10-2024,India,Bihar,Purnia,1043,24,low,Unknown,https://news.example/676,Spike after monsoon
+OUT-IND-00677,Measles,2023-03-26,India,Uttar Pradesh,Lucknow,2883,97,low,False,https://news.example/677,
+OUT-IND-00678,Influenza,2023-07-12,India,Delhi,Central Delhi,3482,120,moderate,Unknown,https://news.example/678,
+OUT-IND-00679,Kala-azar,2025-02-23,India,Odisha,Cuttack,1971,23,high,True,,Lab confirmed cases
+OUT-IND-00680,Kala-azar,2024-08-04,India,Assam,Tezpur,2242,15,low,False,https://news.example/680,Cluster in school
+OUT-IND-00681,Hepatitis A,2024-07-27,India,Maharashtra,Nashik,4918,126,high,Unknown,,Under investigation
+OUT-IND-00682,Measles,2024-06-26,India,Maharashtra,Pune,2477,51,low,Unknown,,
+OUT-IND-00683,Hepatitis A,2024-05-09 04:48:55,India,Karnataka,Mangalore,4006,112,low,False,https://news.example/683,
+OUT-IND-00684,Scrub Typhus,2025-01-01,India,Delhi,East Delhi,1846,79,low,True,https://news.example/684,
+OUT-IND-00685,Dengue,2023-08-05,India,West Bengal,Siliguri,2024,147,moderate,True,https://news.example/685,Cluster in school
+OUT-IND-00686,Measles,2024-12-09,India,Delhi,Central Delhi,805,32,moderate,True,https://news.example/686,
+OUT-IND-00687,Measles,2024-11-07,India,Gujarat,Bhavnagar,2360,121,low,Unknown,https://news.example/687,
+OUT-IND-00688,Kala-azar,2023-03-30,India,Assam,Tezpur,917,14,low,False,https://news.example/688,Cluster in school
+OUT-IND-00689,Kala-azar,2023-06-29 05:05:50,India,Uttar Pradesh,Agra,734,43,low,True,,
+OUT-IND-00690,Measles,2023-04-04,India,Assam,Guwahati,2262,48,low,True,https://news.example/690,
+OUT-IND-00691,Hepatitis A,2025-05-06,India,Odisha,Sambalpur,2072,1,moderate,False,https://news.example/691,Cluster in school
+OUT-IND-00692,Cholera,2024-05-04,India,West Bengal,Bardhaman,3784,259,high,False,https://news.example/692,Reported by PHC
+OUT-IND-00693,Measles,2024-03-23,India,Maharashtra,Thane,3049,3,low,True,https://news.example/693,Lab confirmed cases
+OUT-IND-00694,COVID-19,2025-05-18,India,Uttar Pradesh,Meerut,3899,169,low,False,https://news.example/694,Spike after monsoon
+OUT-IND-00695,Scrub Typhus,2024-05-09,India,Gujarat,Ahmedabad,3451,112,low,False,https://news.example/695,Reported by PHC
+OUT-IND-00696,Cholera,2023-05-14,India,Rajasthan,Udaipur,3366,170,low,False,https://news.example/696,Reported by PHC
+OUT-IND-00697,Scrub Typhus,10-08-2023,India,Rajasthan,Udaipur,4094,197,low,Unknown,https://news.example/697,Under investigation
+OUT-IND-00698,Measles,13-04-2024,India,Maharashtra,Mumbai,3668,78,low,False,https://news.example/698,
+OUT-IND-00699,Influenza,2023-11-24,India,Kerala,Thiruvananthapuram,1048,33,low,False,https://news.example/699,
+OUT-IND-00700,Hepatitis A,2024-04-15,India,Gujarat,Surat,3386,35,low,False,https://news.example/700,
+OUT-IND-00701,Measles,2023-06-08,India,Maharashtra,Thane,3987,302,low,True,,
+OUT-IND-00702,Measles,2023-11-09,India,Tamil Nadu,Coimbatore,3026,183,high,Unknown,https://news.example/702,Reported by PHC
+OUT-IND-00703,Influenza,2023-02-22,India,Rajasthan,Udaipur,3544,168,low,True,https://news.example/703,Hospital admissions rising
+OUT-IND-00704,Scrub Typhus,2025-10-18,India,Bihar,Bhagalpur,197,14,low,False,https://news.example/704,Hospital admissions rising
+OUT-IND-00705,Dengue,2024-03-30,India,Assam,Silchar,40,2,low,False,https://news.example/705,Lab confirmed cases
+OUT-IND-00706,Measles,2024-11-17,India,Rajasthan,Udaipur,2738,109,low,False,https://news.example/706,
+OUT-IND-00707,Measles,2024-11-01,India,Karnataka,Mysuru,1302,80,high,Unknown,https://news.example/707,Hospital admissions rising
+OUT-IND-00708,Cholera,2024-07-07,India,Gujarat,Ahmedabad,1577,87,low,Unknown,https://news.example/708,Hospital admissions rising
+OUT-IND-00709,Scrub Typhus,2023-07-25 09:38:46,India,Maharashtra,Nagpur,3165,12,high,Unknown,https://news.example/709,Under investigation
+OUT-IND-00710,Kala-azar,2025-12-04 19:10:17,India,Odisha,Sambalpur,2053,65,moderate,True,https://news.example/710,Lab confirmed cases
+OUT-IND-00711,Influenza,2025-05-24,India,Kerala,Thrissur,2655,22,low,False,https://news.example/711,Under investigation
+OUT-IND-00712,Cholera,2023-07-27,India,Odisha,Cuttack,4461,,low,Unknown,,Hospital admissions rising
+OUT-IND-00713,Dengue,2025-10-08 19:50:15,India,Delhi,South Delhi,4997,1,low,Unknown,https://news.example/713,Cluster in school
+OUT-IND-00714,Cholera,2024-03-16,India,Kerala,Kannur,3007,1,moderate,True,https://news.example/714,
+OUT-IND-00715,Dengue,2025-03-19,India,Karnataka,Mysuru,1777,74,moderate,Unknown,https://news.example/715,
+OUT-IND-00716,Influenza,2023-09-08,India,Delhi,South Delhi,3494,17,moderate,True,https://news.example/716,
+OUT-IND-00717,Cholera,2025-09-22,India,Kerala,Kannur,3268,7,low,True,https://news.example/717,Lab confirmed cases
+OUT-IND-00718,Hepatitis A,02-12-2024,India,Gujarat,Rajkot,1742,44,high,False,https://news.example/718,Reported by PHC
+OUT-IND-00719,Hepatitis A,2023-05-29,India,Kerala,Kozhikode,4038,316,low,False,https://news.example/719,Spike after monsoon
+OUT-IND-00720,Dengue,2025-09-15,India,Maharashtra,Pune,1527,108,low,True,https://news.example/720,Lab confirmed cases
+OUT-IND-00721,Dengue,2024-08-02,India,Rajasthan,Jodhpur,4653,91,moderate,True,,Lab confirmed cases
+OUT-IND-00722,Kala-azar,2024-03-15,India,Uttar Pradesh,Meerut,624,8,moderate,False,,
+OUT-IND-00723,Influenza,2023-12-02,India,Delhi,Central Delhi,916,59,low,Unknown,https://news.example/723,Under investigation
+OUT-IND-00724,Hepatitis A,2025-10-08,India,Delhi,East Delhi,832,10,low,Unknown,,Hospital admissions rising
+OUT-IND-00725,Measles,22-04-2025,India,Odisha,Sambalpur,4898,,low,False,,Hospital admissions rising
+OUT-IND-00726,Dengue,23-04-2024,India,West Bengal,Siliguri,1398,78,low,True,https://news.example/726,
+OUT-IND-00727,Kala-azar,09-01-2025,India,Tamil Nadu,Chennai,636,17,moderate,True,https://news.example/727,Spike after monsoon
+OUT-IND-00728,Scrub Typhus,2024-06-15,India,Maharashtra,Thane,1342,52,high,False,,Hospital admissions rising
+OUT-IND-00729,Dengue,2025-10-04,India,Gujarat,Bhavnagar,57,1,high,Unknown,https://news.example/729,Reported by PHC
+OUT-IND-00730,Measles,2024-04-20,India,Uttar Pradesh,Meerut,64,1,low,False,https://news.example/730,
+OUT-IND-00731,Influenza,2023-02-22,India,Rajasthan,Jodhpur,4483,66,low,True,,
+OUT-IND-00732,Dengue,24-05-2025,India,Tamil Nadu,Chennai,3141,18,moderate,Unknown,,
+OUT-IND-00733,Dengue,2023-05-12,India,West Bengal,Howrah,3843,139,moderate,False,https://news.example/733,
+OUT-IND-00734,COVID-19,2024-07-10,India,Bihar,Muzaffarpur,3604,261,low,True,https://news.example/734,
+OUT-IND-00735,Dengue,2023-02-21,India,Maharashtra,Nashik,2440,20,high,Unknown,https://news.example/735,
+OUT-IND-00736,Kala-azar,15-07-2024,India,Kerala,Thiruvananthapuram,2747,127,moderate,False,https://news.example/736,Hospital admissions rising
+OUT-IND-00737,Hepatitis A,28-03-2025,India,Delhi,North Delhi,790,19,moderate,False,https://news.example/737,
+OUT-IND-00738,Measles,22-09-2023,India,Gujarat,Ahmedabad,1685,64,moderate,False,https://news.example/738,Reported by PHC
+OUT-IND-00739,COVID-19,2023-10-06,India,Gujarat,Rajkot,1554,7,moderate,False,https://news.example/739,Lab confirmed cases
+OUT-IND-00740,Influenza,29-08-2025,India,Rajasthan,Alwar,2956,127,low,False,https://news.example/740,Under investigation
+OUT-IND-00741,Scrub Typhus,25-08-2025,India,Karnataka,Mangalore,131,4,low,Unknown,,Under investigation
+OUT-IND-00742,Kala-azar,2025-12-18,India,Karnataka,Belgaum,3147,73,low,Unknown,https://news.example/742,Under investigation
+OUT-IND-00743,Measles,2024-12-11,India,Odisha,Puri,1965,141,moderate,False,https://news.example/743,
+OUT-IND-00744,Influenza,2024-11-13 07:53:15,India,Gujarat,Surat,2554,99,moderate,True,https://news.example/744,Hospital admissions rising
+OUT-IND-00745,Scrub Typhus,2023-08-27,India,Tamil Nadu,Chennai,1092,50,moderate,False,https://news.example/745,
+OUT-IND-00746,COVID-19,17-12-2023,India,Karnataka,Hubli,4327,93,moderate,True,https://news.example/746,
+OUT-IND-00747,COVID-19,29-08-2023,India,Uttar Pradesh,Varanasi,2511,74,high,True,,
+OUT-IND-00748,COVID-19,2024-11-11,India,Tamil Nadu,Salem,2367,20,moderate,Unknown,https://news.example/748,Cluster in school
+OUT-IND-00749,Measles,2025-11-01,India,West Bengal,Darjeeling,3008,159,low,False,https://news.example/749,Hospital admissions rising
+OUT-IND-00750,Hepatitis A,2024-08-13,India,Tamil Nadu,Tiruchirappalli,4885,226,low,False,https://news.example/750,
+OUT-IND-00751,Influenza,2023-08-31,India,Uttar Pradesh,Meerut,18,1,moderate,False,https://news.example/751,
+OUT-IND-00752,Cholera,2023-12-30 07:03:21,India,Tamil Nadu,Tiruchirappalli,3814,285,low,False,https://news.example/752,
+OUT-IND-00753,Cholera,2025-04-08 07:47:30,India,Delhi,North Delhi,4384,196,high,False,,Spike after monsoon
+OUT-IND-00754,COVID-19,2023-01-28,India,Tamil Nadu,Tiruchirappalli,4837,371,low,Unknown,https://news.example/754,Cluster in school
+OUT-IND-00755,Scrub Typhus,29-10-2023,India,Assam,Guwahati,524,31,low,Unknown,https://news.example/755,
+OUT-IND-00756,Influenza,2025-06-15,India,Kerala,Kozhikode,4763,,low,True,https://news.example/756,Cluster in school
+OUT-IND-00757,Influenza,2023-04-01,India,Kerala,Kannur,2084,47,high,False,,Under investigation
+OUT-IND-00758,Scrub Typhus,2023-08-20 01:35:25,India,Bihar,Gaya,655,44,moderate,False,,Spike after monsoon
+OUT-IND-00759,Scrub Typhus,2025-07-16,India,West Bengal,Bardhaman,2141,15,moderate,False,,
+OUT-IND-00760,Measles,01-04-2024,India,Maharashtra,Nashik,1390,108,low,False,,Reported by PHC
+OUT-IND-00761,Influenza,2024-07-13,India,Rajasthan,Udaipur,2652,178,low,False,https://news.example/761,Under investigation
+OUT-IND-00762,COVID-19,2024-10-05,India,Maharashtra,Nagpur,4709,307,moderate,True,https://news.example/762,
+OUT-IND-00763,Influenza,2023-03-24,India,Odisha,Bhubaneswar,1790,137,low,True,https://news.example/763,Cluster in school
+OUT-IND-00764,Dengue,22-02-2023,India,Uttar Pradesh,Agra,4348,282,moderate,Unknown,https://news.example/764,Hospital admissions rising
+OUT-IND-00765,Cholera,2024-03-09,India,Assam,Jorhat,3834,201,low,False,https://news.example/765,Spike after monsoon
+OUT-IND-00766,Measles,2025-10-21,India,Maharashtra,Mumbai,3191,70,low,Unknown,https://news.example/766,Spike after monsoon
+OUT-IND-00767,COVID-19,2024-08-23,India,Tamil Nadu,Madurai,2860,155,moderate,False,https://news.example/767,
+OUT-IND-00768,Kala-azar,21-08-2025,India,Bihar,Gaya,4840,228,moderate,False,https://news.example/768,Reported by PHC
+OUT-IND-00769,Kala-azar,22-09-2025,India,Gujarat,Surat,2065,90,moderate,Unknown,,
+OUT-IND-00770,Hepatitis A,2024-08-17,India,Odisha,Sambalpur,4855,26,low,False,https://news.example/770,Cluster in school
+OUT-IND-00771,Dengue,2024-07-14,India,Assam,Dibrugarh,3508,82,low,Unknown,https://news.example/771,Reported by PHC
+OUT-IND-00772,Cholera,2024-04-03,India,Delhi,Central Delhi,2781,112,low,Unknown,https://news.example/772,
+OUT-IND-00773,Influenza,2023-10-21,India,Delhi,North Delhi,2621,81,low,Unknown,https://news.example/773,Spike after monsoon
+OUT-IND-00774,Measles,2025-09-14,India,Bihar,Purnia,2029,157,low,True,https://news.example/774,Lab confirmed cases
+OUT-IND-00775,Hepatitis A,2023-05-02,India,Maharashtra,Nagpur,1153,,moderate,True,https://news.example/775,
+OUT-IND-00776,Dengue,2024-01-22,India,Rajasthan,Bikaner,4271,195,high,Unknown,https://news.example/776,Cluster in school
+OUT-IND-00777,Kala-azar,2023-05-16,India,Tamil Nadu,Chennai,3151,62,low,Unknown,https://news.example/777,
+OUT-IND-00778,Influenza,2023-06-27,India,Tamil Nadu,Madurai,2469,167,moderate,False,,Cluster in school
+OUT-IND-00779,Scrub Typhus,2025-08-23 17:03:46,India,Kerala,Kochi,1298,8,low,True,https://news.example/779,Hospital admissions rising
+OUT-IND-00780,Dengue,2025-08-07,India,Gujarat,Rajkot,3409,233,low,False,https://news.example/780,Reported by PHC
+OUT-IND-00781,Dengue,2025-10-29,India,Karnataka,Mangalore,2711,178,low,False,https://news.example/781,
+OUT-IND-00782,Influenza,2024-02-23,India,Delhi,East Delhi,3044,210,low,Unknown,https://news.example/782,
+OUT-IND-00783,Measles,2024-02-26,India,Karnataka,Bengaluru,573,41,low,False,https://news.example/783,Spike after monsoon
+OUT-IND-00784,COVID-19,2023-02-05,India,West Bengal,Howrah,3462,,low,Unknown,,Lab confirmed cases
+OUT-IND-00785,Measles,2025-09-04,India,Tamil Nadu,Salem,880,53,high,Unknown,https://news.example/785,Lab confirmed cases
+OUT-IND-00786,Dengue,2025-07-17,India,Gujarat,Bhavnagar,1428,6,low,False,https://news.example/786,
+OUT-IND-00787,Cholera,2025-01-09,India,Delhi,South Delhi,1690,28,low,Unknown,,Reported by PHC
+OUT-IND-00788,COVID-19,06-09-2024,India,Assam,Tezpur,2935,98,moderate,False,https://news.example/788,Spike after monsoon
+OUT-IND-00789,Measles,2024-08-23 13:16:49,India,Uttar Pradesh,Agra,2634,149,low,False,,
+OUT-IND-00790,Kala-azar,2025-02-08,India,Odisha,Sambalpur,2994,126,moderate,True,https://news.example/790,Hospital admissions rising
+OUT-IND-00791,Kala-azar,2024-09-08,India,Maharashtra,Mumbai,357,19,moderate,True,https://news.example/791,Cluster in school
+OUT-IND-00792,Hepatitis A,2025-10-28,India,Maharashtra,Pune,470,19,moderate,False,https://news.example/792,
+OUT-IND-00793,Measles,2025-05-17,India,Karnataka,Mangalore,2034,25,low,False,,Hospital admissions rising
+OUT-IND-00794,Influenza,28-02-2025,India,Bihar,Patna,2868,215,low,False,https://news.example/794,Cluster in school
+OUT-IND-00795,Cholera,2025-03-29,India,Delhi,West Delhi,4114,46,high,Unknown,,Hospital admissions rising
+OUT-IND-00796,COVID-19,2025-08-16,India,Uttar Pradesh,Varanasi,2664,106,moderate,True,https://news.example/796,Hospital admissions rising
+OUT-IND-00797,Scrub Typhus,2024-05-05,India,Maharashtra,Thane,1958,104,moderate,False,https://news.example/797,
+OUT-IND-00798,Kala-azar,2024-03-24,India,Kerala,Thiruvananthapuram,2738,48,low,False,https://news.example/798,Spike after monsoon
+OUT-IND-00799,COVID-19,2025-04-07,India,West Bengal,Bardhaman,1054,18,moderate,False,https://news.example/799,Hospital admissions rising
+OUT-IND-00800,Influenza,2025-09-22,India,Rajasthan,Bikaner,4306,259,moderate,False,https://news.example/800,Spike after monsoon
+OUT-IND-00801,Cholera,2023-11-28,India,Maharashtra,Nagpur,418,13,low,True,,Reported by PHC
+OUT-IND-00802,Influenza,2023-09-30,India,West Bengal,Howrah,988,36,low,Unknown,https://news.example/802,Spike after monsoon
+OUT-IND-00803,Kala-azar,2023-07-05,India,Kerala,Thrissur,4116,124,low,Unknown,https://news.example/803,
+OUT-IND-00804,Kala-azar,2023-01-10,India,Karnataka,Hubli,1229,1,low,False,https://news.example/804,Cluster in school
+OUT-IND-00805,Dengue,2025-02-04,India,Gujarat,Rajkot,2371,155,low,True,,Reported by PHC
+OUT-IND-00806,Scrub Typhus,2025-08-18,India,Karnataka,Mysuru,1786,78,moderate,True,https://news.example/806,Reported by PHC
+OUT-IND-00807,Influenza,2023-09-18,India,Karnataka,Mangalore,1879,105,low,Unknown,https://news.example/807,
+OUT-IND-00808,Cholera,29-05-2025,India,Rajasthan,Jaipur,4774,341,high,True,https://news.example/808,
+OUT-IND-00809,Scrub Typhus,2023-07-12,India,Odisha,Bhubaneswar,1341,10,low,Unknown,,Cluster in school
+OUT-IND-00810,COVID-19,2024-04-13,India,West Bengal,Siliguri,2489,129,low,True,,Reported by PHC
+OUT-IND-00811,Hepatitis A,2024-01-30,India,Uttar Pradesh,Lucknow,4026,88,moderate,Unknown,https://news.example/811,Spike after monsoon
+OUT-IND-00812,Hepatitis A,2024-12-07,India,Uttar Pradesh,Kanpur,1622,27,moderate,True,https://news.example/812,
+OUT-IND-00813,Hepatitis A,2025-04-29,India,Odisha,Rourkela,804,43,low,Unknown,,Reported by PHC
+OUT-IND-00814,Cholera,23-07-2025,India,Rajasthan,Jaipur,1031,50,low,False,https://news.example/814,
+OUT-IND-00815,Cholera,24-11-2023,India,Rajasthan,Udaipur,4911,121,low,True,https://news.example/815,
+OUT-IND-00816,Kala-azar,2025-08-14,India,Tamil Nadu,Salem,3389,45,low,Unknown,,Reported by PHC
+OUT-IND-00817,Dengue,2023-12-08 22:51:48,India,Delhi,West Delhi,3169,145,moderate,Unknown,https://news.example/817,Under investigation
+OUT-IND-00818,Hepatitis A,2024-09-16,India,Delhi,West Delhi,2159,75,low,Unknown,https://news.example/818,Lab confirmed cases
+OUT-IND-00819,Dengue,2025-03-20,India,Gujarat,Rajkot,1948,137,moderate,False,https://news.example/819,Spike after monsoon
+OUT-IND-00820,Kala-azar,2023-07-05,India,Odisha,Sambalpur,4869,204,moderate,Unknown,,Cluster in school
+OUT-IND-00821,Kala-azar,24-02-2025,India,Assam,Dibrugarh,959,36,low,Unknown,https://news.example/821,
+OUT-IND-00822,Influenza,2025-04-19,India,Bihar,Gaya,4351,21,high,False,,
+OUT-IND-00823,Dengue,2023-07-25 05:00:48,India,Bihar,Gaya,4734,202,moderate,False,https://news.example/823,
+OUT-IND-00824,Dengue,2024-04-02,India,Karnataka,Hubli,2050,96,low,False,,
+OUT-IND-00825,Hepatitis A,2024-10-29,India,Uttar Pradesh,Agra,2352,49,low,False,https://news.example/825,
+OUT-IND-00826,Hepatitis A,2024-05-14,India,Karnataka,Belgaum,2059,1,low,Unknown,https://news.example/826,Reported by PHC
+OUT-IND-00827,Cholera,13-04-2023,India,Odisha,Cuttack,4240,219,low,True,https://news.example/827,
+OUT-IND-00828,Kala-azar,2023-12-27,India,Delhi,West Delhi,3438,139,high,Unknown,https://news.example/828,
+OUT-IND-00829,Dengue,2024-09-18,India,Rajasthan,Jaipur,743,24,low,False,https://news.example/829,Hospital admissions rising
+OUT-IND-00830,Influenza,2023-05-25 21:03:56,India,Maharashtra,Mumbai,287,16,low,False,https://news.example/830,Hospital admissions rising
+OUT-IND-00831,Cholera,2025-10-13,India,Bihar,Bhagalpur,3293,118,moderate,Unknown,https://news.example/831,Under investigation
+OUT-IND-00832,Measles,2025-12-23,India,Karnataka,Bengaluru,4713,34,low,True,,
+OUT-IND-00833,COVID-19,2024-06-02,India,Bihar,Purnia,1435,8,low,Unknown,https://news.example/833,Cluster in school
+OUT-IND-00834,Dengue,2024-08-24,India,Odisha,Bhubaneswar,4731,92,low,False,https://news.example/834,Lab confirmed cases
+OUT-IND-00835,Scrub Typhus,2023-10-13,India,Odisha,Cuttack,4443,347,low,False,https://news.example/835,
+OUT-IND-00836,Hepatitis A,17-10-2024,India,Delhi,West Delhi,582,19,low,True,https://news.example/836,Hospital admissions rising
+OUT-IND-00837,Hepatitis A,2024-02-03,India,Tamil Nadu,Madurai,819,52,low,Unknown,https://news.example/837,
+OUT-IND-00838,Kala-azar,2024-01-05,India,Odisha,Bhubaneswar,3129,42,moderate,False,,Reported by PHC
+OUT-IND-00839,Hepatitis A,02-04-2024,India,Kerala,Kochi,864,60,low,True,https://news.example/839,Hospital admissions rising
+OUT-IND-00840,Hepatitis A,2023-10-07 21:35:35,India,Gujarat,Ahmedabad,4971,17,moderate,True,https://news.example/840,Under investigation
+OUT-IND-00841,Hepatitis A,2024-07-06,India,Uttar Pradesh,Agra,4125,95,low,True,,
+OUT-IND-00842,Hepatitis A,2023-08-15,India,Rajasthan,Bikaner,1391,76,low,True,https://news.example/842,Reported by PHC
+OUT-IND-00843,Hepatitis A,2025-04-09,India,Kerala,Kochi,3394,132,moderate,True,https://news.example/843,
+OUT-IND-00844,Scrub Typhus,2024-12-28,India,Uttar Pradesh,Kanpur,2462,76,moderate,Unknown,https://news.example/844,
+OUT-IND-00845,Hepatitis A,10-04-2023,India,Bihar,Purnia,4265,53,moderate,True,https://news.example/845,Reported by PHC
+OUT-IND-00846,Dengue,2024-12-06,India,Karnataka,Mysuru,3768,215,low,True,https://news.example/846,Spike after monsoon
+OUT-IND-00847,Kala-azar,2024-02-19,India,Assam,Tezpur,1717,57,low,False,https://news.example/847,Cluster in school
+OUT-IND-00848,Measles,2023-04-16,India,Rajasthan,Bikaner,2452,88,low,Unknown,,Cluster in school
+OUT-IND-00849,Measles,2025-01-06,India,Karnataka,Mangalore,2630,86,low,False,https://news.example/849,Under investigation
+OUT-IND-00850,Scrub Typhus,16-01-2023,India,West Bengal,Darjeeling,1660,68,high,Unknown,https://news.example/850,Cluster in school
+OUT-IND-00851,Measles,09-03-2025,India,Kerala,Thrissur,4189,193,low,False,https://news.example/851,Reported by PHC
+OUT-IND-00852,Cholera,2023-02-20,India,Karnataka,Hubli,4559,142,low,False,https://news.example/852,
+OUT-IND-00853,Influenza,09-09-2023,India,Assam,Dibrugarh,1270,73,high,True,https://news.example/853,Lab confirmed cases
+OUT-IND-00854,Kala-azar,02-01-2023,India,Delhi,West Delhi,3210,123,moderate,False,https://news.example/854,Spike after monsoon
+OUT-IND-00855,Dengue,2025-01-23,India,Tamil Nadu,Madurai,4417,162,low,Unknown,https://news.example/855,
+OUT-IND-00856,Dengue,2024-12-11,India,Maharashtra,Pune,230,5,low,False,https://news.example/856,Reported by PHC
+OUT-IND-00857,Kala-azar,2025-02-17,India,Tamil Nadu,Tiruchirappalli,822,64,low,False,https://news.example/857,
+OUT-IND-00858,Scrub Typhus,2025-05-05,India,Maharashtra,Thane,4423,274,low,False,https://news.example/858,
+OUT-IND-00859,Scrub Typhus,2023-12-25,India,Maharashtra,Thane,4724,185,low,True,https://news.example/859,Lab confirmed cases
+OUT-IND-00860,Scrub Typhus,2025-03-15,India,Gujarat,Surat,3250,8,moderate,False,https://news.example/860,Spike after monsoon
+OUT-IND-00861,Hepatitis A,2023-01-30,India,Delhi,West Delhi,1700,103,low,True,https://news.example/861,Reported by PHC
+OUT-IND-00862,Cholera,2023-06-15,India,Tamil Nadu,Salem,3549,122,low,Unknown,https://news.example/862,
+OUT-IND-00863,COVID-19,2025-03-06,India,Maharashtra,Mumbai,3075,192,high,Unknown,https://news.example/863,
+OUT-IND-00864,COVID-19,2024-11-09,India,Maharashtra,Thane,3100,229,low,True,https://news.example/864,Spike after monsoon
+OUT-IND-00865,Dengue,2023-06-13,India,Rajasthan,Bikaner,3397,30,low,False,https://news.example/865,Reported by PHC
+OUT-IND-00866,Measles,2025-06-24,India,Bihar,Patna,2749,212,moderate,True,https://news.example/866,
+OUT-IND-00867,Measles,2023-05-29 13:24:40,India,Tamil Nadu,Madurai,4028,147,low,False,https://news.example/867,Cluster in school
+OUT-IND-00868,COVID-19,2024-12-16,India,Kerala,Kannur,1456,35,low,True,https://news.example/868,
+OUT-IND-00869,Influenza,2023-01-29,India,Odisha,Rourkela,555,0,moderate,True,https://news.example/869,
+OUT-IND-00870,Influenza,2024-12-09,India,Bihar,Patna,250,13,low,False,https://news.example/870,Cluster in school
+OUT-IND-00871,COVID-19,2023-06-15,India,Kerala,Kannur,4710,182,low,True,,Under investigation
+OUT-IND-00872,Kala-azar,2023-11-17,India,Assam,Dibrugarh,1474,85,high,True,https://news.example/872,
+OUT-IND-00873,Dengue,21-06-2025,India,Delhi,Central Delhi,4486,,high,True,https://news.example/873,
+OUT-IND-00874,Measles,04-09-2025,India,Uttar Pradesh,Lucknow,1114,76,low,Unknown,https://news.example/874,
+OUT-IND-00875,COVID-19,2023-12-11,India,Uttar Pradesh,Lucknow,4919,77,moderate,True,https://news.example/875,Under investigation
+OUT-IND-00876,Kala-azar,2025-09-13,India,Maharashtra,Pune,2907,152,low,False,,Lab confirmed cases
+OUT-IND-00877,Measles,2023-02-09,India,Odisha,Sambalpur,216,8,moderate,False,https://news.example/877,
+OUT-IND-00878,Cholera,2025-11-21,India,Assam,Guwahati,167,0,moderate,False,https://news.example/878,Under investigation
+OUT-IND-00879,COVID-19,26-02-2023,India,Uttar Pradesh,Meerut,966,27,low,True,,
+OUT-IND-00880,Influenza,2025-08-21,India,Tamil Nadu,Madurai,1897,18,low,False,https://news.example/880,
+OUT-IND-00881,COVID-19,2024-12-31,India,Odisha,Rourkela,4130,271,low,Unknown,https://news.example/881,Cluster in school
+OUT-IND-00882,Hepatitis A,2025-04-09,India,Assam,Jorhat,41,1,low,Unknown,,Reported by PHC
+OUT-IND-00883,Measles,2023-10-31,India,Tamil Nadu,Chennai,866,24,low,Unknown,,
+OUT-IND-00884,Kala-azar,2024-07-31,India,Rajasthan,Alwar,1770,93,low,True,,Under investigation
+OUT-IND-00885,Influenza,2025-02-03,India,Gujarat,Rajkot,3528,148,high,True,,
+OUT-IND-00886,COVID-19,2025-12-07,India,West Bengal,Siliguri,2582,165,low,True,https://news.example/886,
+OUT-IND-00887,Scrub Typhus,2025-11-21,India,Delhi,West Delhi,1804,,high,False,,
+OUT-IND-00888,COVID-19,2024-12-09,India,Maharashtra,Thane,4916,239,moderate,False,https://news.example/888,
+OUT-IND-00889,Hepatitis A,28-09-2025,India,Assam,Tezpur,2496,84,low,False,,Lab confirmed cases
+OUT-IND-00890,Kala-azar,2023-03-23,India,Maharashtra,Nagpur,3417,34,moderate,False,https://news.example/890,Hospital admissions rising
+OUT-IND-00891,Hepatitis A,2025-07-12,India,Assam,Jorhat,3154,237,low,True,https://news.example/891,
+OUT-IND-00892,COVID-19,2023-07-17 16:55:47,India,Karnataka,Hubli,166,1,moderate,False,https://news.example/892,Reported by PHC
+OUT-IND-00893,Scrub Typhus,28-08-2025,India,Karnataka,Bengaluru,1324,87,low,Unknown,https://news.example/893,Hospital admissions rising
+OUT-IND-00894,Kala-azar,2023-07-26,India,Assam,Tezpur,4148,118,low,False,https://news.example/894,
+OUT-IND-00895,Measles,2025-05-09,India,Gujarat,Bhavnagar,905,49,low,False,https://news.example/895,Under investigation
+OUT-IND-00896,Cholera,07-12-2023,India,Assam,Guwahati,4606,273,low,Unknown,,Under investigation
+OUT-IND-00897,Influenza,2023-02-22,India,Assam,Jorhat,2394,178,low,Unknown,https://news.example/897,
+OUT-IND-00898,Cholera,2024-03-15,India,Maharashtra,Nagpur,3411,271,low,Unknown,https://news.example/898,
+OUT-IND-00899,Hepatitis A,2024-06-07,India,West Bengal,Bardhaman,783,19,low,True,https://news.example/899,
+OUT-IND-00900,Scrub Typhus,2023-04-03,India,Uttar Pradesh,Agra,1008,54,low,True,https://news.example/900,Under investigation
+OUT-IND-00901,COVID-19,28-12-2023,India,Rajasthan,Jodhpur,4124,169,moderate,False,,Cluster in school
+OUT-IND-00902,Scrub Typhus,02-11-2023,India,Assam,Jorhat,3071,218,moderate,Unknown,https://news.example/902,Cluster in school
+OUT-IND-00903,Influenza,2024-07-18,India,Bihar,Bhagalpur,3001,213,low,Unknown,https://news.example/903,Lab confirmed cases
+OUT-IND-00904,Hepatitis A,2023-05-18 22:20:12,India,Bihar,Muzaffarpur,4809,73,low,Unknown,https://news.example/904,Hospital admissions rising
+OUT-IND-00905,COVID-19,2024-10-25,India,Gujarat,Ahmedabad,3288,,moderate,False,https://news.example/905,Cluster in school
+OUT-IND-00906,Hepatitis A,2024-12-18,India,Maharashtra,Pune,483,7,low,True,https://news.example/906,Hospital admissions rising
+OUT-IND-00907,Cholera,10-09-2025,India,Uttar Pradesh,Kanpur,5,0,moderate,Unknown,https://news.example/907,Lab confirmed cases
+OUT-IND-00908,Dengue,12-03-2024,India,Gujarat,Rajkot,2669,,moderate,False,,Lab confirmed cases
+OUT-IND-00909,Hepatitis A,2024-03-07,India,Odisha,Rourkela,825,52,low,True,https://news.example/909,Cluster in school
+OUT-IND-00910,Hepatitis A,2024-12-13,India,Maharashtra,Pune,589,14,low,False,https://news.example/910,
+OUT-IND-00911,Influenza,2025-05-07,India,Delhi,North Delhi,2317,119,high,Unknown,,
+OUT-IND-00912,Dengue,2023-02-13,India,West Bengal,Bardhaman,881,44,low,True,https://news.example/912,
+OUT-IND-00913,Kala-azar,2025-08-23,India,Odisha,Sambalpur,1107,86,low,Unknown,https://news.example/913,Hospital admissions rising
+OUT-IND-00914,COVID-19,2024-10-26,India,Tamil Nadu,Chennai,1465,80,high,True,https://news.example/914,Hospital admissions rising
+OUT-IND-00915,Influenza,03-04-2024,India,Karnataka,Mangalore,4101,37,low,Unknown,,Under investigation
+OUT-IND-00916,COVID-19,2024-11-12,India,Rajasthan,Jaipur,1531,48,moderate,False,https://news.example/916,Lab confirmed cases
+OUT-IND-00917,Dengue,2025-02-01,India,Uttar Pradesh,Varanasi,903,3,low,Unknown,https://news.example/917,Reported by PHC
+OUT-IND-00918,Scrub Typhus,2025-02-03,India,Uttar Pradesh,Kanpur,3265,136,low,True,https://news.example/918,Reported by PHC
+OUT-IND-00919,Kala-azar,2024-10-13,India,Bihar,Gaya,4889,204,low,False,,Hospital admissions rising
+OUT-IND-00920,Influenza,2023-05-09,India,Bihar,Bhagalpur,3954,300,moderate,False,https://news.example/920,
+OUT-IND-00921,Kala-azar,2024-05-27,India,Gujarat,Bhavnagar,1785,44,low,True,https://news.example/921,Reported by PHC
+OUT-IND-00922,Scrub Typhus,2023-05-16,India,Rajasthan,Jaipur,4035,81,low,False,https://news.example/922,
+OUT-IND-00923,Cholera,2023-11-01 13:49:21,India,Kerala,Kozhikode,2034,36,low,Unknown,https://news.example/923,
+OUT-IND-00924,COVID-19,2024-07-06,India,Maharashtra,Mumbai,886,56,low,Unknown,https://news.example/924,Spike after monsoon
+OUT-IND-00925,Dengue,2024-09-10,India,Karnataka,Hubli,979,51,low,False,https://news.example/925,
+OUT-IND-00926,Cholera,2024-10-24,India,Rajasthan,Jaipur,4856,6,low,Unknown,https://news.example/926,
+OUT-IND-00927,Kala-azar,2024-01-30,India,Tamil Nadu,Chennai,207,1,low,Unknown,,Lab confirmed cases
+OUT-IND-00928,Scrub Typhus,2024-11-29 16:46:52,India,West Bengal,Darjeeling,3540,19,moderate,True,https://news.example/928,
+OUT-IND-00929,COVID-19,2025-05-06,India,Assam,Silchar,1124,9,low,False,https://news.example/929,Hospital admissions rising
+OUT-IND-00930,COVID-19,2023-08-24,India,Delhi,West Delhi,2841,221,low,True,,Reported by PHC
+OUT-IND-00931,COVID-19,03-06-2023,India,Assam,Silchar,3185,,low,True,,Spike after monsoon
+OUT-IND-00932,Cholera,2025-01-26,India,Odisha,Puri,2900,230,moderate,False,https://news.example/932,Hospital admissions rising
+OUT-IND-00933,Kala-azar,2024-08-07 19:22:54,India,Karnataka,Bengaluru,470,32,low,False,https://news.example/933,
+OUT-IND-00934,Measles,2025-02-28,India,Maharashtra,Thane,4617,97,moderate,True,https://news.example/934,
+OUT-IND-00935,Kala-azar,2025-09-28,India,Tamil Nadu,Salem,771,26,low,True,https://news.example/935,
+OUT-IND-00936,Dengue,2024-10-18,India,Gujarat,Vadodara,972,1,moderate,Unknown,,
+OUT-IND-00937,Cholera,2025-01-25,India,Rajasthan,Jodhpur,2288,172,moderate,Unknown,https://news.example/937,Under investigation
+OUT-IND-00938,Measles,2023-02-01,India,Assam,Dibrugarh,3139,156,low,False,https://news.example/938,Under investigation
+OUT-IND-00939,Influenza,2023-12-01,India,Gujarat,Rajkot,3395,42,moderate,False,https://news.example/939,
+OUT-IND-00940,Hepatitis A,2024-12-06 20:30:53,India,Assam,Tezpur,4596,16,low,True,https://news.example/940,
+OUT-IND-00941,Hepatitis A,2023-02-24,India,Gujarat,Ahmedabad,4621,9,low,False,https://news.example/941,
+OUT-IND-00942,Cholera,2024-03-13,India,Karnataka,Mangalore,2310,159,low,Unknown,,Cluster in school
+OUT-IND-00943,Dengue,2025-05-24 18:40:03,India,Rajasthan,Bikaner,3478,249,high,False,https://news.example/943,Lab confirmed cases
+OUT-IND-00944,Measles,2023-06-12,India,Odisha,Bhubaneswar,504,35,low,False,,Hospital admissions rising
+OUT-IND-00945,COVID-19,2023-06-23,India,West Bengal,Kolkata,3662,243,moderate,False,https://news.example/945,Cluster in school
+OUT-IND-00946,Measles,2024-10-26,India,Delhi,South Delhi,1852,33,low,True,https://news.example/946,Hospital admissions rising
+OUT-IND-00947,Cholera,2024-05-31,India,Gujarat,Rajkot,2778,27,moderate,Unknown,https://news.example/947,
+OUT-IND-00948,Hepatitis A,2024-09-24,India,Tamil Nadu,Salem,286,12,low,True,https://news.example/948,Hospital admissions rising
+OUT-IND-00949,Influenza,2024-09-01,India,Rajasthan,Alwar,130,10,low,False,https://news.example/949,Lab confirmed cases
+OUT-IND-00950,Kala-azar,2024-09-29,India,Uttar Pradesh,Meerut,3890,196,low,Unknown,https://news.example/950,Lab confirmed cases
+OUT-IND-00951,COVID-19,2023-04-22,India,Karnataka,Mysuru,2599,20,moderate,Unknown,https://news.example/951,Lab confirmed cases
+OUT-IND-00952,Cholera,2025-07-15,India,West Bengal,Siliguri,560,36,low,False,,Hospital admissions rising
+OUT-IND-00953,Kala-azar,2024-10-28,India,Karnataka,Belgaum,2381,83,high,Unknown,,
+OUT-IND-00954,Scrub Typhus,2023-12-21,India,Odisha,Puri,2722,13,low,False,https://news.example/954,Hospital admissions rising
+OUT-IND-00955,Cholera,2024-02-07,India,Delhi,East Delhi,4780,180,low,Unknown,https://news.example/955,Hospital admissions rising
+OUT-IND-00956,COVID-19,11-11-2023,India,Odisha,Puri,1108,,low,Unknown,,
+OUT-IND-00957,COVID-19,2025-04-15,India,Delhi,West Delhi,4884,93,low,False,https://news.example/957,
+OUT-IND-00958,Hepatitis A,2025-03-25,India,Assam,Guwahati,115,0,low,False,https://news.example/958,Reported by PHC
+OUT-IND-00959,Measles,2023-11-17,India,Delhi,North Delhi,3964,150,moderate,Unknown,https://news.example/959,Hospital admissions rising
+OUT-IND-00960,Cholera,2025-11-23,India,Assam,Silchar,368,11,low,True,https://news.example/960,Cluster in school
+OUT-IND-00961,Influenza,2024-06-08,India,Delhi,South Delhi,1926,110,low,Unknown,https://news.example/961,Hospital admissions rising
+OUT-IND-00962,Hepatitis A,05-03-2025,India,Tamil Nadu,Coimbatore,2743,123,low,True,https://news.example/962,
+OUT-IND-00963,Dengue,2024-06-09,India,Assam,Guwahati,3911,93,moderate,True,https://news.example/963,
+OUT-IND-00964,Cholera,2025-03-18,India,Gujarat,Vadodara,3378,254,moderate,False,https://news.example/964,
+OUT-IND-00965,Influenza,2024-04-16,India,Delhi,North Delhi,3467,125,moderate,Unknown,,
+OUT-IND-00966,Hepatitis A,31-01-2025,India,West Bengal,Bardhaman,2969,114,moderate,False,https://news.example/966,Reported by PHC
+OUT-IND-00967,Scrub Typhus,2023-04-24,India,Rajasthan,Jaipur,1441,28,moderate,False,https://news.example/967,
+OUT-IND-00968,Influenza,2024-01-11,India,Odisha,Bhubaneswar,723,44,moderate,Unknown,,Hospital admissions rising
+OUT-IND-00969,Cholera,2025-03-19,India,Kerala,Thrissur,3616,152,low,Unknown,https://news.example/969,Spike after monsoon
+OUT-IND-00970,Cholera,2024-11-20,India,Bihar,Purnia,3285,8,low,False,,Cluster in school
+OUT-IND-00971,Cholera,2023-06-08,India,Maharashtra,Nagpur,463,29,moderate,Unknown,https://news.example/971,Spike after monsoon
+OUT-IND-00972,Measles,15-01-2025,India,Kerala,Kochi,1601,121,moderate,Unknown,https://news.example/972,Under investigation
+OUT-IND-00973,Dengue,2024-10-11,India,Gujarat,Surat,4458,235,low,True,https://news.example/973,Reported by PHC
+OUT-IND-00974,Hepatitis A,2024-01-09,India,Gujarat,Ahmedabad,4958,391,moderate,True,https://news.example/974,Lab confirmed cases
+OUT-IND-00975,COVID-19,2023-09-18,India,Maharashtra,Mumbai,1777,26,low,True,https://news.example/975,
+OUT-IND-00976,Cholera,2023-11-17,India,West Bengal,Kolkata,3560,274,low,False,https://news.example/976,Spike after monsoon
+OUT-IND-00977,Kala-azar,20-12-2023,India,Rajasthan,Udaipur,3068,151,low,False,https://news.example/977,Hospital admissions rising
+OUT-IND-00978,Scrub Typhus,2023-11-17,India,Uttar Pradesh,Meerut,3020,33,moderate,False,https://news.example/978,
+OUT-IND-00979,Hepatitis A,06-11-2023,India,Karnataka,Bengaluru,4481,90,moderate,True,https://news.example/979,Reported by PHC
+OUT-IND-00980,Hepatitis A,2025-10-16,India,Rajasthan,Alwar,1589,104,low,True,https://news.example/980,
+OUT-IND-00981,Cholera,2024-07-21,India,Tamil Nadu,Tiruchirappalli,2630,175,low,Unknown,,Spike after monsoon
+OUT-IND-00982,Kala-azar,2023-04-11,India,Rajasthan,Udaipur,403,30,low,Unknown,https://news.example/982,Reported by PHC
+OUT-IND-00983,Hepatitis A,2023-01-25,India,Rajasthan,Jaipur,87,4,high,Unknown,https://news.example/983,Hospital admissions rising
+OUT-IND-00984,Scrub Typhus,2025-10-20,India,Tamil Nadu,Madurai,4820,272,moderate,Unknown,https://news.example/984,
+OUT-IND-00985,Influenza,06-03-2025,India,Bihar,Bhagalpur,1985,59,low,False,https://news.example/985,Lab confirmed cases
+OUT-IND-00986,Influenza,2023-10-30,India,Karnataka,Hubli,3526,87,low,Unknown,https://news.example/986,
+OUT-IND-00987,Dengue,2024-02-28,India,Gujarat,Vadodara,4086,160,low,True,,
+OUT-IND-00988,Influenza,25-09-2023,India,Tamil Nadu,Tiruchirappalli,217,13,low,True,https://news.example/988,Under investigation
+OUT-IND-00989,Influenza,2023-02-02,India,West Bengal,Siliguri,2598,155,low,False,https://news.example/989,Hospital admissions rising
+OUT-IND-00990,Kala-azar,2025-01-17,India,West Bengal,Siliguri,3615,269,low,False,https://news.example/990,Under investigation
+OUT-IND-00991,Scrub Typhus,2025-07-16,India,Bihar,Bhagalpur,928,68,low,False,https://news.example/991,Lab confirmed cases
+OUT-IND-00992,Measles,12-05-2024,India,Kerala,Kannur,2623,122,low,False,https://news.example/992,Cluster in school
+OUT-IND-00993,Hepatitis A,2024-03-31,India,Kerala,Kochi,4221,189,low,True,https://news.example/993,
+OUT-IND-00994,Dengue,2025-10-06,India,Uttar Pradesh,Varanasi,4407,113,low,True,https://news.example/994,Spike after monsoon
+OUT-IND-00995,Cholera,2023-01-26,India,Maharashtra,Nagpur,2873,112,low,False,https://news.example/995,
+OUT-IND-00996,Influenza,2024-07-21,India,Assam,Dibrugarh,1515,16,moderate,Unknown,https://news.example/996,Spike after monsoon
+OUT-IND-00997,Hepatitis A,2024-05-20 01:49:48,India,Assam,Dibrugarh,3330,103,low,True,https://news.example/997,Reported by PHC
+OUT-IND-00998,Hepatitis A,2023-02-11,India,Uttar Pradesh,Meerut,1282,93,moderate,Unknown,https://news.example/998,Spike after monsoon
+OUT-IND-00999,Hepatitis A,2025-08-21,India,Bihar,Bhagalpur,4523,359,moderate,True,https://news.example/999,
+OUT-IND-01000,Kala-azar,21-11-2025,India,Gujarat,Surat,3583,210,low,False,https://news.example/1000,Hospital admissions rising
+OUT-IND-01001,Dengue,2023-04-24,India,Uttar Pradesh,Lucknow,2395,93,moderate,False,https://news.example/1001,
+OUT-IND-01002,Scrub Typhus,2023-02-05 19:14:45,India,Bihar,Patna,1491,18,low,True,https://news.example/1002,
+OUT-IND-01003,Hepatitis A,2024-11-12,India,Karnataka,Bengaluru,643,27,low,True,https://news.example/1003,
+OUT-IND-01004,Dengue,2024-10-08,India,Delhi,North Delhi,4836,283,low,True,https://news.example/1004,Lab confirmed cases
+OUT-IND-01005,Scrub Typhus,07-10-2024,India,Gujarat,Vadodara,4511,186,low,False,https://news.example/1005,Lab confirmed cases
+OUT-IND-01006,Hepatitis A,2025-01-29,India,Rajasthan,Jodhpur,3715,12,low,True,https://news.example/1006,Hospital admissions rising
+OUT-IND-01007,Kala-azar,2023-09-21,India,Delhi,Central Delhi,2602,62,low,True,https://news.example/1007,Cluster in school
+OUT-IND-01008,Scrub Typhus,2023-11-15,India,Karnataka,Hubli,4699,43,low,True,https://news.example/1008,Spike after monsoon
+OUT-IND-01009,Scrub Typhus,14-03-2023,India,Odisha,Cuttack,4336,110,low,Unknown,https://news.example/1009,
+OUT-IND-01010,Kala-azar,2025-05-17,India,Rajasthan,Jaipur,1630,108,low,False,,Hospital admissions rising
+OUT-IND-01011,Hepatitis A,2024-12-29,India,Uttar Pradesh,Meerut,1995,83,low,True,https://news.example/1011,Lab confirmed cases
+OUT-IND-01012,Dengue,2024-12-25 09:02:11,India,Gujarat,Surat,2689,205,moderate,Unknown,https://news.example/1012,Under investigation
+OUT-IND-01013,Measles,17-10-2024,India,Bihar,Purnia,4331,108,low,Unknown,https://news.example/1013,Reported by PHC
+OUT-IND-01014,COVID-19,2023-02-13,India,Maharashtra,Thane,936,,low,False,,Hospital admissions rising
+OUT-IND-01015,Kala-azar,2023-08-28,India,Assam,Dibrugarh,113,1,low,Unknown,https://news.example/1015,
+OUT-IND-01016,COVID-19,2025-06-13,India,Bihar,Muzaffarpur,2331,,low,Unknown,https://news.example/1016,
+OUT-IND-01017,Dengue,2024-09-08,India,Uttar Pradesh,Meerut,4537,66,moderate,True,https://news.example/1017,Under investigation
+OUT-IND-01018,Dengue,2024-09-27,India,Bihar,Muzaffarpur,2522,85,low,False,https://news.example/1018,Lab confirmed cases
+OUT-IND-01019,Cholera,2025-03-17,India,Bihar,Gaya,1783,124,low,True,https://news.example/1019,Reported by PHC
+OUT-IND-01020,Scrub Typhus,09-12-2025,India,Gujarat,Ahmedabad,1931,75,moderate,Unknown,,Reported by PHC
+OUT-IND-01021,Scrub Typhus,14-03-2023,India,West Bengal,Darjeeling,286,6,low,Unknown,https://news.example/1021,Reported by PHC
+OUT-IND-01022,Hepatitis A,2024-10-09,India,Gujarat,Surat,84,3,low,False,,Under investigation
+OUT-IND-01023,Dengue,16-10-2025,India,Karnataka,Bengaluru,4834,59,moderate,False,https://news.example/1023,
+OUT-IND-01024,Scrub Typhus,2024-08-25,India,Karnataka,Belgaum,890,70,low,True,,
+OUT-IND-01025,Hepatitis A,2025-01-27,India,West Bengal,Darjeeling,916,44,low,True,,Hospital admissions rising
+OUT-IND-01026,Kala-azar,28-11-2023,India,West Bengal,Darjeeling,4785,255,moderate,Unknown,https://news.example/1026,Reported by PHC
+OUT-IND-01027,Hepatitis A,2023-05-03,India,Maharashtra,Thane,4142,231,low,True,https://news.example/1027,Spike after monsoon
+OUT-IND-01028,COVID-19,17-03-2023,India,Kerala,Kannur,1414,105,low,False,https://news.example/1028,
+OUT-IND-01029,Scrub Typhus,2025-01-27,India,Tamil Nadu,Chennai,2141,88,moderate,Unknown,https://news.example/1029,Cluster in school
+OUT-IND-01030,Hepatitis A,08-08-2024,India,Odisha,Sambalpur,3024,168,moderate,Unknown,https://news.example/1030,Spike after monsoon
+OUT-IND-01031,Scrub Typhus,2024-06-04,India,Rajasthan,Jaipur,3974,69,low,True,https://news.example/1031,Cluster in school
+OUT-IND-01032,Scrub Typhus,01-10-2024,India,Uttar Pradesh,Kanpur,3894,1,moderate,False,https://news.example/1032,
+OUT-IND-01033,Cholera,07-01-2023,India,Tamil Nadu,Madurai,3567,97,low,False,,
+OUT-IND-01034,Cholera,21-10-2023,India,Rajasthan,Jodhpur,3525,45,low,False,https://news.example/1034,
+OUT-IND-01035,Scrub Typhus,2024-12-21,India,Maharashtra,Thane,1086,80,low,True,https://news.example/1035,
+OUT-IND-01036,Measles,2023-05-07,India,Rajasthan,Alwar,2244,134,high,Unknown,,Cluster in school
+OUT-IND-01037,Hepatitis A,2024-02-25,India,West Bengal,Darjeeling,1511,27,low,True,https://news.example/1037,
+OUT-IND-01038,Kala-azar,2024-05-21,India,Delhi,East Delhi,3355,228,high,False,https://news.example/1038,Hospital admissions rising
+OUT-IND-01039,Measles,2023-09-11,India,Rajasthan,Alwar,2400,137,high,Unknown,https://news.example/1039,Reported by PHC
+OUT-IND-01040,Scrub Typhus,2024-07-03,India,Assam,Silchar,1589,51,low,False,https://news.example/1040,
+OUT-IND-01041,Hepatitis A,17-06-2024,India,West Bengal,Bardhaman,4945,2,high,False,,Lab confirmed cases
+OUT-IND-01042,Hepatitis A,04-03-2024,India,Bihar,Purnia,261,12,low,Unknown,https://news.example/1042,Cluster in school
+OUT-IND-01043,Kala-azar,2023-01-31,India,Gujarat,Bhavnagar,2478,53,low,Unknown,,
+OUT-IND-01044,Influenza,2025-11-14,India,Bihar,Patna,3261,5,low,False,,Spike after monsoon
+OUT-IND-01045,Influenza,2025-01-18 02:07:22,India,Rajasthan,Alwar,2262,171,moderate,Unknown,https://news.example/1045,
+OUT-IND-01046,Influenza,2024-10-12,India,Tamil Nadu,Chennai,692,,low,False,,Hospital admissions rising
+OUT-IND-01047,Hepatitis A,2024-12-24,India,Odisha,Puri,3254,72,low,Unknown,,
+OUT-IND-01048,Cholera,2023-09-27,India,Rajasthan,Alwar,2760,200,low,Unknown,,Hospital admissions rising
+OUT-IND-01049,Dengue,2023-03-30 04:04:03,India,Karnataka,Mangalore,4337,39,low,False,https://news.example/1049,Under investigation
+OUT-IND-01050,Scrub Typhus,2025-12-08,India,West Bengal,Darjeeling,4624,244,moderate,True,https://news.example/1050,Hospital admissions rising
+OUT-IND-01051,Hepatitis A,2025-12-28,India,Uttar Pradesh,Lucknow,4525,200,low,Unknown,https://news.example/1051,
+OUT-IND-01052,Measles,2024-02-06,India,Karnataka,Hubli,3715,143,moderate,Unknown,,
+OUT-IND-01053,Hepatitis A,29-11-2024,India,Maharashtra,Mumbai,3205,20,low,Unknown,,Lab confirmed cases
+OUT-IND-01054,Influenza,30-10-2024,India,Tamil Nadu,Salem,3678,273,moderate,Unknown,,
+OUT-IND-01055,Cholera,2024-11-07 04:38:50,India,Rajasthan,Jaipur,1698,116,moderate,True,https://news.example/1055,
+OUT-IND-01056,COVID-19,2024-05-24,India,Tamil Nadu,Salem,2423,94,low,Unknown,,Under investigation
+OUT-IND-01057,Influenza,2024-07-03,India,Uttar Pradesh,Meerut,427,11,moderate,False,https://news.example/1057,
+OUT-IND-01058,Hepatitis A,2025-01-06 20:23:41,India,Gujarat,Vadodara,140,5,low,Unknown,https://news.example/1058,
+OUT-IND-01059,Kala-azar,2023-03-06,India,Odisha,Puri,445,7,low,True,,Spike after monsoon
+OUT-IND-01060,Cholera,2023-01-05,India,Assam,Tezpur,1717,95,moderate,Unknown,https://news.example/1060,
+OUT-IND-01061,Measles,2023-03-05,India,Tamil Nadu,Tiruchirappalli,1638,53,low,True,https://news.example/1061,
+OUT-IND-01062,Scrub Typhus,2024-02-29,India,West Bengal,Kolkata,3177,33,moderate,False,https://news.example/1062,
+OUT-IND-01063,Hepatitis A,2023-04-18 04:12:06,India,Kerala,Kozhikode,64,0,moderate,True,https://news.example/1063,
+OUT-IND-01064,Kala-azar,2023-04-05,India,Odisha,Rourkela,903,46,low,True,https://news.example/1064,
+OUT-IND-01065,Measles,2024-04-21,India,West Bengal,Siliguri,1289,28,low,False,,
+OUT-IND-01066,Cholera,2024-05-06,India,Tamil Nadu,Chennai,231,5,moderate,Unknown,https://news.example/1066,Hospital admissions rising
+OUT-IND-01067,Hepatitis A,2025-04-28,India,Maharashtra,Nashik,3469,,low,True,https://news.example/1067,Reported by PHC
+OUT-IND-01068,Hepatitis A,2023-06-16,India,Gujarat,Vadodara,4752,241,low,False,,Cluster in school
+OUT-IND-01069,Cholera,2023-12-01,India,Odisha,Rourkela,1000,59,high,Unknown,https://news.example/1069,Under investigation
+OUT-IND-01070,COVID-19,2024-05-25,India,West Bengal,Bardhaman,868,14,low,False,,
+OUT-IND-01071,Dengue,2024-09-30 09:26:28,India,Odisha,Sambalpur,1777,52,low,Unknown,https://news.example/1071,
+OUT-IND-01072,Influenza,2025-04-03,India,Bihar,Muzaffarpur,2542,81,moderate,Unknown,https://news.example/1072,Lab confirmed cases
+OUT-IND-01073,Dengue,2023-09-08,India,Tamil Nadu,Chennai,744,25,moderate,True,https://news.example/1073,
+OUT-IND-01074,Measles,2023-09-15,India,Kerala,Thiruvananthapuram,4361,46,moderate,Unknown,https://news.example/1074,
+OUT-IND-01075,Kala-azar,2024-10-13,India,Maharashtra,Pune,3119,214,low,True,,
+OUT-IND-01076,Measles,27-03-2025,India,Tamil Nadu,Coimbatore,3586,76,moderate,True,,
+OUT-IND-01077,Influenza,2023-09-08,India,Tamil Nadu,Chennai,3876,149,moderate,False,,
+OUT-IND-01078,Kala-azar,2024-08-24,India,Maharashtra,Nashik,601,27,high,False,https://news.example/1078,Cluster in school
+OUT-IND-01079,Influenza,2023-11-01,India,Kerala,Kozhikode,3462,75,low,False,https://news.example/1079,
+OUT-IND-01080,Influenza,2024-07-07,India,Kerala,Kannur,2577,,low,False,https://news.example/1080,
+OUT-IND-01081,Hepatitis A,2024-04-03,India,Gujarat,Ahmedabad,2381,190,moderate,True,https://news.example/1081,
+OUT-IND-01082,Influenza,2023-04-04,India,Rajasthan,Alwar,4388,350,moderate,False,https://news.example/1082,
+OUT-IND-01083,COVID-19,2023-08-07,India,Maharashtra,Nagpur,2644,71,moderate,False,https://news.example/1083,
+OUT-IND-01084,Kala-azar,2025-01-30 20:54:38,India,Odisha,Cuttack,3841,244,low,Unknown,https://news.example/1084,
+OUT-IND-01085,Cholera,17-09-2025,India,Karnataka,Bengaluru,2620,1,moderate,True,https://news.example/1085,Spike after monsoon
+OUT-IND-01086,Kala-azar,2025-03-25,India,Rajasthan,Udaipur,3668,9,moderate,False,,
+OUT-IND-01087,Dengue,2024-12-18,India,Maharashtra,Thane,4674,34,low,False,https://news.example/1087,
+OUT-IND-01088,Scrub Typhus,2023-12-19,India,West Bengal,Darjeeling,3490,48,low,False,https://news.example/1088,Spike after monsoon
+OUT-IND-01089,Influenza,2025-11-16,India,Delhi,East Delhi,213,17,high,Unknown,https://news.example/1089,Hospital admissions rising
+OUT-IND-01090,Cholera,2023-11-04 03:29:59,India,Kerala,Thiruvananthapuram,4773,71,moderate,True,https://news.example/1090,
+OUT-IND-01091,Scrub Typhus,2025-03-10,India,Delhi,North Delhi,1123,88,moderate,True,https://news.example/1091,Reported by PHC
+OUT-IND-01092,Hepatitis A,2023-12-25,India,Kerala,Kannur,952,33,low,False,https://news.example/1092,Hospital admissions rising
+OUT-IND-01093,COVID-19,2024-02-17,India,Karnataka,Mysuru,4030,250,moderate,True,https://news.example/1093,Spike after monsoon
+OUT-IND-01094,Hepatitis A,2023-01-25,India,Odisha,Cuttack,1517,76,low,False,https://news.example/1094,Reported by PHC
+OUT-IND-01095,Dengue,2024-08-11,India,Kerala,Thrissur,413,21,high,True,https://news.example/1095,
+OUT-IND-01096,Measles,2025-01-05,India,Assam,Silchar,4485,311,moderate,Unknown,https://news.example/1096,
+OUT-IND-01097,Cholera,2025-07-31,India,Gujarat,Surat,3718,266,moderate,True,https://news.example/1097,Lab confirmed cases
+OUT-IND-01098,Dengue,2023-11-01,India,Delhi,West Delhi,2627,168,moderate,True,,
+OUT-IND-01099,COVID-19,2024-01-20,India,Gujarat,Vadodara,364,8,low,Unknown,https://news.example/1099,Under investigation
+OUT-IND-01100,Kala-azar,2023-12-16,India,Odisha,Bhubaneswar,1034,21,high,Unknown,https://news.example/1100,Cluster in school
+OUT-IND-01101,Hepatitis A,2023-05-02 23:36:19,India,Odisha,Puri,1698,26,low,True,https://news.example/1101,Reported by PHC
+OUT-IND-01102,Dengue,2025-09-09,India,Rajasthan,Jodhpur,1015,14,low,Unknown,https://news.example/1102,
+OUT-IND-01103,Influenza,2024-03-04,India,Rajasthan,Jaipur,3051,59,low,False,https://news.example/1103,
+OUT-IND-01104,Influenza,2024-02-09,India,Rajasthan,Jaipur,2280,112,moderate,True,https://news.example/1104,
+OUT-IND-01105,Dengue,2024-05-27,India,Gujarat,Ahmedabad,3242,187,low,True,https://news.example/1105,Hospital admissions rising
+OUT-IND-01106,Dengue,2024-04-21 10:41:32,India,Maharashtra,Nagpur,4250,104,high,Unknown,https://news.example/1106,
+OUT-IND-01107,Hepatitis A,2024-01-02,India,Bihar,Purnia,1904,82,low,True,https://news.example/1107,
+OUT-IND-01108,Influenza,2023-12-06 16:31:47,India,Assam,Tezpur,2901,17,high,False,https://news.example/1108,
+OUT-IND-01109,Influenza,02-07-2025,India,Karnataka,Bengaluru,3124,174,moderate,True,https://news.example/1109,Lab confirmed cases
+OUT-IND-01110,Influenza,2023-07-24,India,Karnataka,Bengaluru,566,44,low,True,https://news.example/1110,
+OUT-IND-01111,Hepatitis A,2024-05-16,India,Maharashtra,Thane,935,32,moderate,True,https://news.example/1111,
+OUT-IND-01112,COVID-19,2025-09-21,India,Maharashtra,Pune,1731,,low,Unknown,https://news.example/1112,Spike after monsoon
+OUT-IND-01113,COVID-19,2023-09-23,India,Uttar Pradesh,Meerut,1179,50,low,False,https://news.example/1113,
+OUT-IND-01114,Influenza,2024-07-06 07:09:23,India,West Bengal,Bardhaman,2632,108,high,True,https://news.example/1114,
+OUT-IND-01115,Dengue,2023-09-03,India,West Bengal,Siliguri,3689,17,moderate,False,https://news.example/1115,Lab confirmed cases
+OUT-IND-01116,Kala-azar,2024-10-19,India,Karnataka,Mangalore,4401,309,moderate,False,https://news.example/1116,
+OUT-IND-01117,Kala-azar,2025-07-03 23:44:46,India,West Bengal,Howrah,4413,228,low,True,,
+OUT-IND-01118,Kala-azar,2024-10-29,India,Kerala,Kozhikode,2299,,moderate,True,,Hospital admissions rising
+OUT-IND-01119,Dengue,2024-05-12,India,Assam,Tezpur,197,8,moderate,True,https://news.example/1119,
+OUT-IND-01120,Dengue,2023-02-09,India,West Bengal,Siliguri,2088,69,high,False,https://news.example/1120,
+OUT-IND-01121,Influenza,2024-08-24,India,Maharashtra,Mumbai,2400,65,moderate,False,https://news.example/1121,Hospital admissions rising
+OUT-IND-01122,Scrub Typhus,2025-06-21,India,Tamil Nadu,Salem,2960,72,high,Unknown,https://news.example/1122,Cluster in school
+OUT-IND-01123,Cholera,2024-10-09,India,West Bengal,Darjeeling,496,12,low,Unknown,https://news.example/1123,Reported by PHC
+OUT-IND-01124,Cholera,2023-12-16,India,Rajasthan,Jaipur,875,49,low,Unknown,https://news.example/1124,Spike after monsoon
+OUT-IND-01125,COVID-19,2024-11-06,India,Uttar Pradesh,Meerut,2526,86,high,False,https://news.example/1125,Spike after monsoon
+OUT-IND-01126,Influenza,2024-07-16,India,Kerala,Kannur,3967,198,moderate,True,https://news.example/1126,Lab confirmed cases
+OUT-IND-01127,COVID-19,2023-09-07,India,Delhi,South Delhi,3294,83,low,False,,
+OUT-IND-01128,Measles,2025-05-08,India,Tamil Nadu,Tiruchirappalli,4138,92,low,False,,Lab confirmed cases
+OUT-IND-01129,Measles,30-06-2023,India,Rajasthan,Jaipur,1984,32,low,Unknown,https://news.example/1129,Reported by PHC
+OUT-IND-01130,COVID-19,2024-10-26 02:45:54,India,Assam,Jorhat,2181,76,high,Unknown,https://news.example/1130,Spike after monsoon
+OUT-IND-01131,Hepatitis A,06-06-2024,India,West Bengal,Howrah,1923,148,low,Unknown,https://news.example/1131,Lab confirmed cases
+OUT-IND-01132,Hepatitis A,03-09-2025,India,Rajasthan,Jaipur,3920,244,low,False,https://news.example/1132,Hospital admissions rising
+OUT-IND-01133,Hepatitis A,2024-10-20,India,Rajasthan,Jaipur,1213,72,low,Unknown,https://news.example/1133,
+OUT-IND-01134,Influenza,10-06-2025,India,Tamil Nadu,Tiruchirappalli,3544,204,moderate,Unknown,https://news.example/1134,
+OUT-IND-01135,Dengue,18-02-2025,India,Uttar Pradesh,Kanpur,1034,78,low,False,https://news.example/1135,Under investigation
+OUT-IND-01136,Influenza,11-05-2025,India,Rajasthan,Udaipur,3666,59,low,False,https://news.example/1136,Hospital admissions rising
+OUT-IND-01137,Kala-azar,2025-05-01,India,Odisha,Sambalpur,2483,114,low,False,https://news.example/1137,
+OUT-IND-01138,COVID-19,2023-04-24,India,Gujarat,Rajkot,2992,191,low,True,https://news.example/1138,
+OUT-IND-01139,COVID-19,2024-10-18,India,Maharashtra,Thane,2653,99,high,True,https://news.example/1139,Reported by PHC
+OUT-IND-01140,Kala-azar,20-11-2024,India,Uttar Pradesh,Varanasi,3879,209,low,False,https://news.example/1140,
+OUT-IND-01141,Hepatitis A,2024-11-30 00:43:28,India,Maharashtra,Thane,1316,93,low,Unknown,https://news.example/1141,Lab confirmed cases
+OUT-IND-01142,Scrub Typhus,2024-10-31,India,West Bengal,Bardhaman,4558,284,low,False,https://news.example/1142,Cluster in school
+OUT-IND-01143,COVID-19,2024-04-25,India,West Bengal,Kolkata,3471,276,low,Unknown,,Hospital admissions rising
+OUT-IND-01144,Scrub Typhus,2023-12-20,India,Tamil Nadu,Salem,4916,146,low,False,,Hospital admissions rising
+OUT-IND-01145,COVID-19,2024-12-27,India,Kerala,Kannur,4062,239,moderate,False,,
+OUT-IND-01146,Measles,2023-08-17,India,Assam,Guwahati,3509,11,moderate,Unknown,https://news.example/1146,
+OUT-IND-01147,Dengue,2023-07-22,India,Uttar Pradesh,Lucknow,606,39,low,True,https://news.example/1147,
+OUT-IND-01148,Hepatitis A,2023-02-13,India,Gujarat,Ahmedabad,1612,78,moderate,Unknown,,Cluster in school
+OUT-IND-01149,Cholera,31-12-2023,India,Tamil Nadu,Coimbatore,3541,89,moderate,False,https://news.example/1149,Spike after monsoon
+OUT-IND-01150,Measles,2024-12-22 19:07:07,India,Odisha,Puri,1430,38,low,False,,Spike after monsoon
+OUT-IND-01151,Dengue,2023-07-13,India,Rajasthan,Bikaner,2927,24,high,Unknown,,Cluster in school
+OUT-IND-01152,Hepatitis A,2025-02-27 21:27:41,India,Uttar Pradesh,Meerut,4749,111,low,False,https://news.example/1152,Under investigation
+OUT-IND-01153,Kala-azar,2023-11-22,India,Uttar Pradesh,Varanasi,2457,121,moderate,True,https://news.example/1153,Under investigation
+OUT-IND-01154,Cholera,20-01-2023,India,Maharashtra,Pune,1469,60,moderate,Unknown,https://news.example/1154,Hospital admissions rising
+OUT-IND-01155,COVID-19,2025-01-02,India,West Bengal,Darjeeling,2704,40,low,Unknown,https://news.example/1155,Reported by PHC
+OUT-IND-01156,COVID-19,2024-05-18,India,Bihar,Purnia,1177,71,moderate,Unknown,https://news.example/1156,Cluster in school
+OUT-IND-01157,Cholera,18-12-2023,India,Assam,Guwahati,3574,259,low,False,https://news.example/1157,
+OUT-IND-01158,Kala-azar,2023-02-06,India,Maharashtra,Nagpur,1355,79,high,False,https://news.example/1158,
+OUT-IND-01159,Cholera,2023-06-02,India,Gujarat,Surat,412,18,low,True,https://news.example/1159,Spike after monsoon
+OUT-IND-01160,Hepatitis A,2023-10-03,India,Assam,Guwahati,2293,176,low,True,https://news.example/1160,Cluster in school
+OUT-IND-01161,Cholera,2024-08-19,India,Rajasthan,Jaipur,1819,81,low,Unknown,,Cluster in school
+OUT-IND-01162,Dengue,2024-10-24,India,Maharashtra,Mumbai,3026,215,low,True,https://news.example/1162,
+OUT-IND-01163,Dengue,2025-08-02,India,Odisha,Bhubaneswar,1562,121,low,False,https://news.example/1163,Hospital admissions rising
+OUT-IND-01164,COVID-19,2025-06-30,India,Delhi,Central Delhi,1746,123,moderate,Unknown,,
+OUT-IND-01165,Dengue,2025-04-27,India,Assam,Dibrugarh,4519,80,high,True,https://news.example/1165,Lab confirmed cases
+OUT-IND-01166,Kala-azar,2023-06-08,India,Maharashtra,Nashik,3124,216,moderate,False,https://news.example/1166,
+OUT-IND-01167,Dengue,2024-05-26,India,Kerala,Kozhikode,340,26,low,True,https://news.example/1167,Lab confirmed cases
+OUT-IND-01168,Scrub Typhus,2023-04-18,India,Tamil Nadu,Madurai,2588,17,moderate,Unknown,https://news.example/1168,Under investigation
+OUT-IND-01169,Dengue,2025-09-13,India,Maharashtra,Pune,1561,89,moderate,False,https://news.example/1169,Under investigation
+OUT-IND-01170,Scrub Typhus,25-10-2025,India,Uttar Pradesh,Varanasi,2723,81,low,True,https://news.example/1170,
+OUT-IND-01171,COVID-19,2025-03-03,India,Tamil Nadu,Chennai,2159,128,low,True,https://news.example/1171,
+OUT-IND-01172,Kala-azar,2023-11-23,India,Kerala,Thrissur,4088,59,low,Unknown,https://news.example/1172,
+OUT-IND-01173,Kala-azar,2023-06-04,India,Rajasthan,Jaipur,2706,125,low,True,https://news.example/1173,Lab confirmed cases
+OUT-IND-01174,Scrub Typhus,08-07-2024,India,Maharashtra,Nagpur,749,57,high,Unknown,,Reported by PHC
+OUT-IND-01175,Scrub Typhus,2025-12-21,India,Gujarat,Ahmedabad,2839,16,low,True,,Lab confirmed cases
+OUT-IND-01176,COVID-19,2025-11-10,India,Delhi,East Delhi,3640,73,low,False,https://news.example/1176,Lab confirmed cases
+OUT-IND-01177,Hepatitis A,2025-06-30 21:34:05,India,Delhi,Central Delhi,3598,22,low,True,https://news.example/1177,Cluster in school
+OUT-IND-01178,Hepatitis A,2025-08-15,India,Delhi,South Delhi,859,40,low,False,https://news.example/1178,
+OUT-IND-01179,Hepatitis A,2023-06-14,India,West Bengal,Kolkata,3746,56,moderate,Unknown,https://news.example/1179,Spike after monsoon
+OUT-IND-01180,Dengue,2024-01-02,India,Rajasthan,Udaipur,3013,111,low,Unknown,https://news.example/1180,Hospital admissions rising
+OUT-IND-01181,Cholera,2025-09-26,India,West Bengal,Siliguri,757,10,moderate,True,https://news.example/1181,
+OUT-IND-01182,Influenza,2023-01-22 18:50:09,India,Tamil Nadu,Coimbatore,908,57,high,Unknown,https://news.example/1182,Hospital admissions rising
+OUT-IND-01183,COVID-19,28-07-2024,India,West Bengal,Siliguri,446,6,low,True,https://news.example/1183,Under investigation
+OUT-IND-01184,Scrub Typhus,2025-03-11,India,Odisha,Puri,4370,276,low,True,https://news.example/1184,
+OUT-IND-01185,Dengue,2025-12-25,India,Delhi,Central Delhi,787,55,low,True,,Hospital admissions rising
+OUT-IND-01186,Cholera,11-12-2023,India,Kerala,Kannur,3263,234,low,False,https://news.example/1186,
+OUT-IND-01187,Kala-azar,2025-03-12,India,Uttar Pradesh,Lucknow,3104,111,moderate,True,https://news.example/1187,Hospital admissions rising
+OUT-IND-01188,Dengue,2024-01-30,India,Rajasthan,Bikaner,446,23,low,False,https://news.example/1188,Cluster in school
+OUT-IND-01189,Hepatitis A,2023-12-31,India,Assam,Dibrugarh,2261,140,high,True,https://news.example/1189,
+OUT-IND-01190,Cholera,23-02-2024,India,Rajasthan,Bikaner,4579,49,moderate,Unknown,https://news.example/1190,Lab confirmed cases
+OUT-IND-01191,Dengue,2023-01-10,India,Maharashtra,Mumbai,2643,131,low,True,https://news.example/1191,
+OUT-IND-01192,Hepatitis A,2025-05-31,India,Maharashtra,Nagpur,2566,182,low,Unknown,https://news.example/1192,Lab confirmed cases
+OUT-IND-01193,Kala-azar,2024-07-19,India,Maharashtra,Nashik,2007,159,moderate,False,https://news.example/1193,Under investigation
+OUT-IND-01194,Scrub Typhus,2024-05-11,India,Odisha,Sambalpur,3850,,low,Unknown,https://news.example/1194,Cluster in school
+OUT-IND-01195,Kala-azar,2023-08-21 00:43:49,India,Tamil Nadu,Madurai,392,3,moderate,True,https://news.example/1195,Under investigation
+OUT-IND-01196,Measles,2024-09-03,India,Gujarat,Vadodara,4442,0,low,True,https://news.example/1196,
+OUT-IND-01197,Kala-azar,2023-01-06,India,Rajasthan,Udaipur,2822,47,low,Unknown,,
+OUT-IND-01198,Kala-azar,2023-08-28,India,Uttar Pradesh,Lucknow,1287,10,low,False,https://news.example/1198,Hospital admissions rising
+OUT-IND-01199,Cholera,2023-09-08,India,Maharashtra,Nagpur,987,34,low,True,https://news.example/1199,Spike after monsoon
+OUT-IND-01200,Influenza,2023-01-07,India,Delhi,Central Delhi,342,23,high,True,https://news.example/1200,Under investigation
+OUT-IND-01201,Influenza,2025-08-26,India,Karnataka,Mysuru,1192,48,low,Unknown,https://news.example/1201,Cluster in school
+OUT-IND-01202,Dengue,2023-11-05,India,Maharashtra,Thane,1460,77,low,True,https://news.example/1202,Cluster in school
+OUT-IND-01203,Cholera,2023-11-01,India,Gujarat,Ahmedabad,1009,26,moderate,False,https://news.example/1203,Cluster in school
+OUT-IND-01204,COVID-19,2025-05-31,India,Assam,Dibrugarh,2353,110,low,False,https://news.example/1204,
+OUT-IND-01205,Scrub Typhus,2024-07-27,India,Odisha,Rourkela,3447,60,low,Unknown,https://news.example/1205,Spike after monsoon
+OUT-IND-01206,Dengue,2023-08-09,India,Odisha,Cuttack,4511,210,moderate,True,https://news.example/1206,
+OUT-IND-01207,Measles,2024-03-06,India,Tamil Nadu,Coimbatore,1819,134,moderate,True,,
+OUT-IND-01208,Scrub Typhus,2023-11-11,India,Uttar Pradesh,Lucknow,2118,,moderate,True,https://news.example/1208,Under investigation
+OUT-IND-01209,Scrub Typhus,2024-09-12,India,West Bengal,Bardhaman,4094,199,low,True,https://news.example/1209,Hospital admissions rising
+OUT-IND-01210,Measles,2025-04-26,India,West Bengal,Darjeeling,2924,124,low,True,https://news.example/1210,Under investigation
+OUT-IND-01211,Hepatitis A,2023-03-30,India,Karnataka,Mysuru,243,18,low,False,https://news.example/1211,Spike after monsoon
+OUT-IND-01212,Scrub Typhus,2025-12-08,India,Uttar Pradesh,Lucknow,3246,1,low,Unknown,https://news.example/1212,Lab confirmed cases
+OUT-IND-01213,Dengue,2025-07-31,India,Karnataka,Hubli,1425,83,low,False,https://news.example/1213,
+OUT-IND-01214,COVID-19,2025-10-29,India,West Bengal,Siliguri,4290,81,low,True,https://news.example/1214,
+OUT-IND-01215,Hepatitis A,2025-10-28 13:34:49,India,West Bengal,Howrah,616,38,low,Unknown,https://news.example/1215,Lab confirmed cases
+OUT-IND-01216,Kala-azar,2023-01-18,India,Assam,Jorhat,339,16,low,Unknown,https://news.example/1216,Under investigation
+OUT-IND-01217,Kala-azar,2024-06-11 14:35:36,India,Odisha,Rourkela,365,25,high,Unknown,,Reported by PHC
+OUT-IND-01218,Scrub Typhus,2025-07-26 20:08:24,India,Rajasthan,Bikaner,491,13,low,Unknown,https://news.example/1218,Hospital admissions rising
+OUT-IND-01219,Influenza,2024-10-17 19:56:36,India,Tamil Nadu,Chennai,3904,155,low,True,https://news.example/1219,Lab confirmed cases
+OUT-IND-01220,Cholera,2023-12-21 20:49:21,India,Gujarat,Bhavnagar,1976,32,low,Unknown,https://news.example/1220,
+OUT-IND-01221,Cholera,2025-09-23,India,Uttar Pradesh,Varanasi,807,56,low,True,https://news.example/1221,Cluster in school
+OUT-IND-01222,Measles,2025-03-05 08:30:38,India,Gujarat,Vadodara,4934,369,low,True,https://news.example/1222,Hospital admissions rising
+OUT-IND-01223,Scrub Typhus,2023-03-21,India,Gujarat,Surat,3913,69,low,False,https://news.example/1223,Hospital admissions rising
+OUT-IND-01224,Kala-azar,2023-08-24,India,Tamil Nadu,Chennai,3679,197,low,Unknown,https://news.example/1224,Hospital admissions rising
+OUT-IND-01225,Measles,2023-09-14,India,West Bengal,Howrah,2815,76,low,False,https://news.example/1225,Hospital admissions rising
+OUT-IND-01226,COVID-19,2023-04-23 05:08:45,India,Assam,Dibrugarh,3441,138,low,Unknown,,Reported by PHC
+OUT-IND-01227,Scrub Typhus,2025-11-24,India,Kerala,Kochi,1912,137,low,True,https://news.example/1227,Cluster in school
+OUT-IND-01228,Dengue,2025-01-03,India,Delhi,South Delhi,2072,128,moderate,True,https://news.example/1228,Hospital admissions rising
+OUT-IND-01229,COVID-19,2025-04-02,India,Karnataka,Mangalore,2202,13,low,False,,Lab confirmed cases
+OUT-IND-01230,Scrub Typhus,2025-04-20,India,Assam,Dibrugarh,1900,1,moderate,True,,
+OUT-IND-01231,Cholera,2025-03-10,India,West Bengal,Howrah,298,13,low,Unknown,https://news.example/1231,Under investigation
+OUT-IND-01232,Influenza,2023-08-06,India,Maharashtra,Mumbai,2914,151,moderate,False,https://news.example/1232,Reported by PHC
+OUT-IND-01233,Measles,2023-07-16,India,Maharashtra,Mumbai,4252,204,low,Unknown,https://news.example/1233,
+OUT-IND-01234,Influenza,06-01-2024,India,Maharashtra,Nagpur,1070,70,low,False,https://news.example/1234,
+OUT-IND-01235,Scrub Typhus,2025-04-23 11:52:49,India,Delhi,Central Delhi,3276,54,low,False,,Under investigation
+OUT-IND-01236,Measles,2025-10-10,India,Kerala,Thiruvananthapuram,2072,,low,True,https://news.example/1236,
+OUT-IND-01237,Kala-azar,2024-06-10,India,Gujarat,Rajkot,4713,343,low,True,https://news.example/1237,Lab confirmed cases
+OUT-IND-01238,Kala-azar,2024-01-30,India,Maharashtra,Nagpur,4017,134,low,False,,
+OUT-IND-01239,COVID-19,2025-10-17,India,Karnataka,Belgaum,4912,287,low,False,https://news.example/1239,
+OUT-IND-01240,Cholera,06-12-2024,India,Odisha,Bhubaneswar,1341,67,moderate,True,https://news.example/1240,Spike after monsoon
+OUT-IND-01241,COVID-19,2024-04-18,India,West Bengal,Howrah,2017,34,moderate,False,https://news.example/1241,
+OUT-IND-01242,Dengue,2023-10-25,India,Karnataka,Mysuru,2533,116,low,False,https://news.example/1242,
+OUT-IND-01243,COVID-19,2025-07-19,India,Tamil Nadu,Tiruchirappalli,3223,246,low,Unknown,https://news.example/1243,Cluster in school
+OUT-IND-01244,Measles,2023-01-21,India,Kerala,Thrissur,611,,low,False,https://news.example/1244,Reported by PHC
+OUT-IND-01245,Hepatitis A,2024-05-22,India,Assam,Tezpur,2128,32,low,False,https://news.example/1245,Reported by PHC
+OUT-IND-01246,COVID-19,2024-08-05,India,Maharashtra,Pune,586,,moderate,False,https://news.example/1246,
+OUT-IND-01247,Hepatitis A,19-12-2024,India,Karnataka,Mangalore,2870,166,low,True,https://news.example/1247,
+OUT-IND-01248,COVID-19,18-11-2025,India,Odisha,Bhubaneswar,3395,110,low,Unknown,,Reported by PHC
+OUT-IND-01249,Cholera,2025-07-10,India,Karnataka,Mangalore,2208,158,low,False,,Lab confirmed cases
+OUT-IND-01250,Kala-azar,2023-12-01,India,Delhi,West Delhi,826,23,low,Unknown,,Lab confirmed cases
+OUT-IND-01251,Kala-azar,2025-10-12 16:37:13,India,Tamil Nadu,Madurai,3805,233,low,True,https://news.example/1251,Spike after monsoon
+OUT-IND-01252,Kala-azar,2025-04-03 12:42:13,India,Bihar,Patna,1520,22,high,Unknown,https://news.example/1252,
+OUT-IND-01253,Influenza,2023-01-07 15:38:33,India,Gujarat,Surat,431,31,low,Unknown,https://news.example/1253,Lab confirmed cases
+OUT-IND-01254,Cholera,2025-11-25,India,Gujarat,Bhavnagar,2694,166,low,Unknown,https://news.example/1254,
+OUT-IND-01255,Measles,2025-01-11,India,Rajasthan,Udaipur,882,69,moderate,Unknown,https://news.example/1255,Hospital admissions rising
+OUT-IND-01256,Kala-azar,29-03-2025,India,Rajasthan,Jodhpur,4954,,low,False,,Under investigation
+OUT-IND-01257,Influenza,2024-08-04,India,Delhi,East Delhi,4452,252,high,False,https://news.example/1257,
+OUT-IND-01258,Cholera,2024-04-11,India,Kerala,Kannur,1747,126,low,False,https://news.example/1258,Under investigation
+OUT-IND-01259,Kala-azar,2025-01-08,India,Gujarat,Rajkot,1168,2,moderate,True,,Under investigation
+OUT-IND-01260,Scrub Typhus,26-04-2023,India,Rajasthan,Bikaner,2876,32,high,True,https://news.example/1260,
+OUT-IND-01261,Measles,2023-01-06,India,Karnataka,Bengaluru,1768,98,high,True,,Under investigation
+OUT-IND-01262,Cholera,2024-08-10,India,Odisha,Puri,3153,45,low,Unknown,https://news.example/1262,
+OUT-IND-01263,Cholera,2023-12-01,India,Kerala,Kozhikode,1691,34,moderate,True,https://news.example/1263,Hospital admissions rising
+OUT-IND-01264,Scrub Typhus,2024-05-29,India,Tamil Nadu,Madurai,2193,29,low,Unknown,https://news.example/1264,
+OUT-IND-01265,Hepatitis A,2024-02-19,India,Delhi,North Delhi,52,1,moderate,False,https://news.example/1265,Spike after monsoon
+OUT-IND-01266,Dengue,2025-12-17,India,Karnataka,Hubli,3643,56,moderate,True,https://news.example/1266,Lab confirmed cases
+OUT-IND-01267,Scrub Typhus,2025-12-24,India,Karnataka,Bengaluru,1070,61,low,True,https://news.example/1267,
+OUT-IND-01268,COVID-19,15-04-2025,India,Kerala,Thrissur,3762,4,high,Unknown,https://news.example/1268,
+OUT-IND-01269,Scrub Typhus,2023-01-03 12:41:23,India,Maharashtra,Mumbai,2804,177,low,False,https://news.example/1269,Lab confirmed cases
+OUT-IND-01270,Kala-azar,30-01-2024,India,Uttar Pradesh,Agra,4817,245,high,True,https://news.example/1270,
+OUT-IND-01271,Hepatitis A,2023-11-08,India,Assam,Guwahati,447,19,moderate,False,https://news.example/1271,
+OUT-IND-01272,COVID-19,06-05-2025,India,Bihar,Patna,3074,85,low,False,,
+OUT-IND-01273,Dengue,2023-01-01 22:33:04,India,Delhi,West Delhi,3424,103,low,Unknown,https://news.example/1273,
+OUT-IND-01274,Cholera,2023-04-14,India,Gujarat,Ahmedabad,998,6,low,False,,
+OUT-IND-01275,Scrub Typhus,2025-08-19,India,Kerala,Kannur,3529,53,low,False,https://news.example/1275,Spike after monsoon
+OUT-IND-01276,Hepatitis A,2025-08-02,India,Bihar,Patna,3443,76,low,Unknown,,Under investigation
+OUT-IND-01277,Scrub Typhus,28-09-2024,India,Rajasthan,Alwar,3706,276,low,Unknown,,Cluster in school
+OUT-IND-01278,Kala-azar,2025-06-01 14:16:58,India,Rajasthan,Bikaner,4115,119,low,True,https://news.example/1278,
+OUT-IND-01279,Measles,2024-11-12,India,Tamil Nadu,Tiruchirappalli,2908,,moderate,True,https://news.example/1279,
+OUT-IND-01280,Measles,15-05-2023,India,Odisha,Bhubaneswar,3129,187,low,True,https://news.example/1280,
+OUT-IND-01281,Measles,2024-09-23 20:53:53,India,Tamil Nadu,Tiruchirappalli,976,57,low,False,,Reported by PHC
+OUT-IND-01282,Cholera,2023-08-05,India,Bihar,Gaya,4670,120,low,Unknown,,
+OUT-IND-01283,COVID-19,15-11-2025,India,Uttar Pradesh,Lucknow,1977,148,moderate,True,https://news.example/1283,Hospital admissions rising
+OUT-IND-01284,Measles,2024-07-30,India,West Bengal,Howrah,492,34,low,True,https://news.example/1284,Cluster in school
+OUT-IND-01285,Dengue,2023-07-10 22:40:04,India,Gujarat,Bhavnagar,1316,68,low,True,https://news.example/1285,Hospital admissions rising
+OUT-IND-01286,Cholera,2025-12-06,India,Bihar,Muzaffarpur,2388,20,low,Unknown,https://news.example/1286,
+OUT-IND-01287,Kala-azar,08-11-2023,India,Gujarat,Rajkot,2280,0,low,False,,
+OUT-IND-01288,Dengue,2024-07-27 00:16:39,India,Rajasthan,Jodhpur,3930,301,high,False,https://news.example/1288,
+OUT-IND-01289,Scrub Typhus,2023-05-01,India,Maharashtra,Pune,2995,201,low,False,,Reported by PHC
+OUT-IND-01290,Influenza,2024-09-27,India,Delhi,South Delhi,3836,51,moderate,Unknown,https://news.example/1290,Reported by PHC
+OUT-IND-01291,Measles,2023-06-04,India,Delhi,North Delhi,311,4,moderate,False,,Reported by PHC
+OUT-IND-01292,Kala-azar,2025-09-22,India,Delhi,East Delhi,3879,167,low,Unknown,,
+OUT-IND-01293,Kala-azar,2024-06-24,India,Odisha,Rourkela,2280,46,low,Unknown,https://news.example/1293,
+OUT-IND-01294,Influenza,20-07-2024,India,Gujarat,Rajkot,3037,26,low,Unknown,https://news.example/1294,Reported by PHC
+OUT-IND-01295,Measles,2025-08-21,India,Delhi,South Delhi,4131,312,low,True,https://news.example/1295,Cluster in school
+OUT-IND-01296,Scrub Typhus,2023-10-29,India,Bihar,Gaya,2058,24,moderate,Unknown,https://news.example/1296,Lab confirmed cases
+OUT-IND-01297,Kala-azar,2023-12-06,India,Uttar Pradesh,Agra,4021,114,low,True,https://news.example/1297,Reported by PHC
+OUT-IND-01298,Kala-azar,2023-04-01 09:50:33,India,Uttar Pradesh,Meerut,1399,37,low,Unknown,https://news.example/1298,
+OUT-IND-01299,Measles,2025-12-04,India,Odisha,Rourkela,1473,111,moderate,False,,Hospital admissions rising
+OUT-IND-01300,Influenza,2025-11-03 23:13:24,India,Bihar,Bhagalpur,160,5,low,True,https://news.example/1300,Cluster in school
+OUT-IND-01301,Influenza,2025-04-17 11:54:01,India,Odisha,Bhubaneswar,521,12,moderate,Unknown,https://news.example/1301,
+OUT-IND-01302,Hepatitis A,2024-08-07 14:30:59,India,Tamil Nadu,Chennai,2765,217,moderate,Unknown,https://news.example/1302,
+OUT-IND-01303,Cholera,2025-06-19 18:34:30,India,Kerala,Kochi,65,5,high,False,,Cluster in school
+OUT-IND-01304,Scrub Typhus,2024-04-01 19:24:51,India,Delhi,South Delhi,2705,191,low,True,https://news.example/1304,Hospital admissions rising
+OUT-IND-01305,COVID-19,2024-11-11,India,Tamil Nadu,Madurai,2685,39,high,True,,
+OUT-IND-01306,Scrub Typhus,04-07-2024,India,West Bengal,Howrah,1078,49,low,Unknown,,Spike after monsoon
+OUT-IND-01307,Measles,2024-02-19,India,Maharashtra,Nashik,2155,9,high,Unknown,https://news.example/1307,Cluster in school
+OUT-IND-01308,Hepatitis A,2023-05-25,India,Assam,Dibrugarh,4770,374,low,False,https://news.example/1308,Hospital admissions rising
+OUT-IND-01309,Measles,2024-05-17,India,Kerala,Thiruvananthapuram,1562,46,low,False,https://news.example/1309,Lab confirmed cases
+OUT-IND-01310,Dengue,2025-02-24,India,Uttar Pradesh,Lucknow,601,20,low,Unknown,https://news.example/1310,Under investigation
+OUT-IND-01311,COVID-19,19-11-2025,India,Bihar,Purnia,4252,15,low,True,https://news.example/1311,Spike after monsoon
+OUT-IND-01312,COVID-19,23-02-2024,India,Assam,Dibrugarh,211,13,low,Unknown,https://news.example/1312,Under investigation
+OUT-IND-01313,Hepatitis A,04-03-2024,India,Tamil Nadu,Madurai,3998,57,moderate,True,https://news.example/1313,Lab confirmed cases
+OUT-IND-01314,COVID-19,03-04-2024,India,West Bengal,Darjeeling,596,4,moderate,Unknown,,
+OUT-IND-01315,Cholera,06-04-2023,India,Odisha,Cuttack,3842,249,low,False,https://news.example/1315,
+OUT-IND-01316,Measles,15-05-2023,India,Rajasthan,Jaipur,3871,85,low,Unknown,https://news.example/1316,
+OUT-IND-01317,Hepatitis A,2025-06-21,India,West Bengal,Howrah,61,1,moderate,True,,Hospital admissions rising
+OUT-IND-01318,Measles,30-12-2023,India,Maharashtra,Nagpur,1152,40,low,Unknown,,Spike after monsoon
+OUT-IND-01319,Cholera,2024-03-23,India,Maharashtra,Nashik,2144,88,low,False,,
+OUT-IND-01320,Kala-azar,2024-12-05,India,Maharashtra,Thane,349,,moderate,True,https://news.example/1320,Lab confirmed cases
+OUT-IND-01321,Measles,23-03-2025,India,Kerala,Kochi,1392,69,moderate,True,,Hospital admissions rising
+OUT-IND-01322,Influenza,06-07-2023,India,Maharashtra,Thane,2554,,moderate,False,https://news.example/1322,
+OUT-IND-01323,Influenza,2025-08-11,India,West Bengal,Kolkata,4022,144,low,Unknown,https://news.example/1323,
+OUT-IND-01324,Cholera,2024-04-13,India,Odisha,Rourkela,1695,28,high,Unknown,,
+OUT-IND-01325,Cholera,2024-07-11,India,Maharashtra,Nagpur,980,4,moderate,False,https://news.example/1325,Lab confirmed cases
+OUT-IND-01326,Dengue,2023-09-15,India,Karnataka,Mysuru,3243,28,moderate,Unknown,https://news.example/1326,
+OUT-IND-01327,Scrub Typhus,2023-07-11,India,Gujarat,Vadodara,1651,107,low,True,,
+OUT-IND-01328,COVID-19,2025-01-11,India,Karnataka,Belgaum,1644,25,low,Unknown,,
+OUT-IND-01329,Scrub Typhus,2023-10-18,India,Kerala,Kannur,3999,47,moderate,False,https://news.example/1329,
+OUT-IND-01330,COVID-19,2023-02-06,India,Uttar Pradesh,Lucknow,2095,94,moderate,False,https://news.example/1330,Lab confirmed cases
+OUT-IND-01331,Kala-azar,2023-11-27,India,West Bengal,Howrah,4113,306,low,True,,
+OUT-IND-01332,Dengue,2025-12-05,India,Kerala,Thrissur,4948,,moderate,Unknown,,Hospital admissions rising
+OUT-IND-01333,Scrub Typhus,2023-09-03 23:37:59,India,Gujarat,Vadodara,1324,59,low,False,https://news.example/1333,Reported by PHC
+OUT-IND-01334,Hepatitis A,2023-10-25,India,Bihar,Gaya,4221,145,high,Unknown,https://news.example/1334,
+OUT-IND-01335,Kala-azar,19-10-2023,India,Delhi,Central Delhi,2107,142,high,True,https://news.example/1335,
+OUT-IND-01336,Hepatitis A,2025-09-26,India,Karnataka,Mangalore,2420,74,moderate,Unknown,https://news.example/1336,Lab confirmed cases
+OUT-IND-01337,Dengue,2024-03-22,India,Tamil Nadu,Madurai,2430,94,low,Unknown,https://news.example/1337,
+OUT-IND-01338,COVID-19,2024-12-17,India,West Bengal,Bardhaman,1604,108,high,False,,Hospital admissions rising
+OUT-IND-01339,Cholera,2023-07-10,India,Karnataka,Hubli,4999,,low,True,https://news.example/1339,Spike after monsoon
+OUT-IND-01340,Dengue,2024-08-31,India,Tamil Nadu,Tiruchirappalli,1236,53,low,False,,Spike after monsoon
+OUT-IND-01341,Scrub Typhus,2025-01-13,India,Delhi,South Delhi,2647,51,moderate,True,,
+OUT-IND-01342,Kala-azar,2023-02-27 11:19:59,India,Delhi,South Delhi,568,17,moderate,True,https://news.example/1342,Hospital admissions rising
+OUT-IND-01343,Cholera,2023-12-04,India,Rajasthan,Udaipur,3651,104,low,Unknown,https://news.example/1343,Under investigation
+OUT-IND-01344,Scrub Typhus,02-12-2023,India,Maharashtra,Thane,3468,181,low,True,,Spike after monsoon
+OUT-IND-01345,COVID-19,22-07-2024,India,Tamil Nadu,Tiruchirappalli,3929,237,low,False,https://news.example/1345,Reported by PHC
+OUT-IND-01346,Measles,2023-06-09,India,Uttar Pradesh,Lucknow,2505,146,low,True,https://news.example/1346,Spike after monsoon
+OUT-IND-01347,Measles,2023-09-03,India,Rajasthan,Bikaner,4268,171,moderate,True,https://news.example/1347,Under investigation
+OUT-IND-01348,Cholera,2023-10-16,India,Uttar Pradesh,Varanasi,1521,86,moderate,Unknown,https://news.example/1348,Reported by PHC
+OUT-IND-01349,Kala-azar,2025-12-19,India,Rajasthan,Jaipur,2859,219,low,Unknown,https://news.example/1349,Spike after monsoon
+OUT-IND-01350,Cholera,2025-06-05,India,Karnataka,Bengaluru,123,8,low,True,,
+OUT-IND-01351,Hepatitis A,2025-08-30,India,Odisha,Puri,3292,33,low,Unknown,,
+OUT-IND-01352,Scrub Typhus,2025-07-27,India,Kerala,Thrissur,2900,75,high,False,https://news.example/1352,
+OUT-IND-01353,Kala-azar,2024-09-25,India,Assam,Guwahati,3725,241,low,Unknown,https://news.example/1353,Spike after monsoon
+OUT-IND-01354,Measles,2025-04-26,India,Odisha,Rourkela,4984,236,moderate,Unknown,https://news.example/1354,Lab confirmed cases
+OUT-IND-01355,Dengue,2024-03-23,India,Odisha,Puri,2167,125,moderate,True,https://news.example/1355,Lab confirmed cases
+OUT-IND-01356,Scrub Typhus,10-04-2025,India,Uttar Pradesh,Agra,895,33,low,True,https://news.example/1356,Spike after monsoon
+OUT-IND-01357,Cholera,2023-11-04 16:28:24,India,Rajasthan,Jodhpur,4484,324,moderate,True,https://news.example/1357,Lab confirmed cases
+OUT-IND-01358,Influenza,2023-11-24,India,Gujarat,Ahmedabad,1525,54,moderate,False,https://news.example/1358,
+OUT-IND-01359,Cholera,2023-05-18,India,Rajasthan,Jaipur,617,16,low,True,,Lab confirmed cases
+OUT-IND-01360,Hepatitis A,2023-10-20,India,West Bengal,Bardhaman,536,18,low,True,,
+OUT-IND-01361,Cholera,2024-10-01,India,Karnataka,Mangalore,2652,203,high,False,https://news.example/1361,
+OUT-IND-01362,COVID-19,2025-12-29,India,West Bengal,Bardhaman,1443,29,low,Unknown,,Under investigation
+OUT-IND-01363,Scrub Typhus,2024-02-03,India,Karnataka,Belgaum,2443,93,low,Unknown,https://news.example/1363,Spike after monsoon
+OUT-IND-01364,Measles,2025-12-20 21:50:16,India,Maharashtra,Thane,562,39,low,Unknown,,Reported by PHC
+OUT-IND-01365,Cholera,2023-12-16,India,Rajasthan,Alwar,3829,193,low,Unknown,https://news.example/1365,Hospital admissions rising
+OUT-IND-01366,Dengue,2024-02-04,India,Tamil Nadu,Salem,4230,231,high,True,https://news.example/1366,Cluster in school
+OUT-IND-01367,Cholera,2023-01-14,India,Tamil Nadu,Madurai,27,2,low,Unknown,,
+OUT-IND-01368,Influenza,2025-09-30,India,West Bengal,Howrah,4757,244,low,Unknown,https://news.example/1368,Under investigation
+OUT-IND-01369,Influenza,27-09-2023,India,Karnataka,Hubli,1322,103,moderate,Unknown,,
+OUT-IND-01370,Dengue,2024-01-15,India,Bihar,Purnia,4128,17,high,True,,
+OUT-IND-01371,COVID-19,2024-05-15,India,Bihar,Gaya,596,30,moderate,False,https://news.example/1371,Cluster in school
+OUT-IND-01372,Hepatitis A,2025-08-24,India,Assam,Guwahati,2056,18,low,Unknown,,
+OUT-IND-01373,Dengue,2023-12-22,India,Rajasthan,Jaipur,1994,56,moderate,Unknown,https://news.example/1373,Lab confirmed cases
+OUT-IND-01374,Scrub Typhus,12-01-2024,India,Rajasthan,Jodhpur,4235,217,low,True,https://news.example/1374,Cluster in school
+OUT-IND-01375,Scrub Typhus,2023-11-01,India,Assam,Tezpur,1429,21,moderate,Unknown,https://news.example/1375,
+OUT-IND-01376,COVID-19,2024-04-18 22:24:31,India,Bihar,Gaya,4527,,moderate,False,https://news.example/1376,Spike after monsoon
+OUT-IND-01377,Scrub Typhus,2023-11-05,India,Odisha,Bhubaneswar,8,0,low,True,,
+OUT-IND-01378,Cholera,2025-07-03,India,Delhi,North Delhi,2702,54,moderate,Unknown,https://news.example/1378,Under investigation
+OUT-IND-01379,Cholera,24-09-2023,India,Gujarat,Surat,3762,12,moderate,True,https://news.example/1379,Lab confirmed cases
+OUT-IND-01380,COVID-19,2025-04-14,India,Odisha,Cuttack,4769,184,moderate,False,,Hospital admissions rising
+OUT-IND-01381,COVID-19,2025-04-30,India,Bihar,Gaya,1997,121,moderate,False,https://news.example/1381,Spike after monsoon
+OUT-IND-01382,Influenza,2024-12-02,India,Uttar Pradesh,Kanpur,3946,268,low,True,https://news.example/1382,Reported by PHC
+OUT-IND-01383,Measles,2025-11-16 06:28:18,India,West Bengal,Kolkata,2557,144,high,True,https://news.example/1383,
+OUT-IND-01384,Measles,2024-10-26,India,Tamil Nadu,Madurai,2879,99,low,True,,Hospital admissions rising
+OUT-IND-01385,Dengue,2023-05-27 03:46:00,India,Assam,Silchar,1919,105,low,True,https://news.example/1385,
+OUT-IND-01386,Cholera,2025-10-02,India,Tamil Nadu,Coimbatore,1285,70,high,Unknown,https://news.example/1386,
+OUT-IND-01387,Influenza,26-04-2025,India,Maharashtra,Thane,833,59,high,True,https://news.example/1387,Lab confirmed cases
+OUT-IND-01388,Dengue,2023-06-13,India,Assam,Dibrugarh,2491,173,low,False,https://news.example/1388,
+OUT-IND-01389,Dengue,2025-02-03,India,Kerala,Kannur,2990,77,low,True,https://news.example/1389,
+OUT-IND-01390,COVID-19,07-01-2023,India,Bihar,Muzaffarpur,3231,172,high,False,,Lab confirmed cases
+OUT-IND-01391,Kala-azar,2025-04-08,India,Kerala,Thiruvananthapuram,235,12,moderate,False,https://news.example/1391,Lab confirmed cases
+OUT-IND-01392,Cholera,2025-06-21,India,Karnataka,Bengaluru,171,2,low,Unknown,https://news.example/1392,Under investigation
+OUT-IND-01393,Dengue,2024-08-23,India,Rajasthan,Jaipur,3171,249,low,False,https://news.example/1393,
+OUT-IND-01394,Scrub Typhus,2024-01-26,India,West Bengal,Bardhaman,1480,47,low,Unknown,https://news.example/1394,
+OUT-IND-01395,COVID-19,11-02-2025,India,Assam,Jorhat,4479,350,low,False,https://news.example/1395,Under investigation
+OUT-IND-01396,Influenza,2023-02-10,India,Kerala,Kozhikode,1828,134,low,False,,
+OUT-IND-01397,Influenza,26-04-2023,India,Gujarat,Bhavnagar,1296,77,low,True,https://news.example/1397,
+OUT-IND-01398,Dengue,23-06-2023,India,Kerala,Kochi,2251,82,low,False,https://news.example/1398,
+OUT-IND-01399,Influenza,2024-12-02,India,Gujarat,Surat,4564,127,low,Unknown,,
+OUT-IND-01400,Kala-azar,2025-01-28,India,Gujarat,Ahmedabad,431,15,low,False,https://news.example/1400,Hospital admissions rising
+OUT-IND-01401,Kala-azar,21-09-2023,India,Assam,Dibrugarh,1087,76,low,True,https://news.example/1401,Under investigation
+OUT-IND-01402,COVID-19,31-08-2023,India,Uttar Pradesh,Agra,247,9,low,Unknown,,Cluster in school
+OUT-IND-01403,COVID-19,2025-12-18,India,Tamil Nadu,Coimbatore,4817,292,low,True,,
+OUT-IND-01404,Influenza,23-05-2025,India,Rajasthan,Alwar,4951,200,moderate,True,https://news.example/1404,Hospital admissions rising
+OUT-IND-01405,COVID-19,2024-08-31,India,Assam,Guwahati,1961,9,moderate,Unknown,https://news.example/1405,Spike after monsoon
+OUT-IND-01406,Cholera,2024-07-25,India,Tamil Nadu,Tiruchirappalli,437,23,low,False,https://news.example/1406,Hospital admissions rising
+OUT-IND-01407,Influenza,2024-11-15,India,Maharashtra,Thane,1337,35,high,False,https://news.example/1407,Spike after monsoon
+OUT-IND-01408,Scrub Typhus,2024-06-01,India,Assam,Guwahati,60,4,low,Unknown,https://news.example/1408,
+OUT-IND-01409,Hepatitis A,2023-08-24,India,Rajasthan,Alwar,153,10,low,False,https://news.example/1409,Spike after monsoon
+OUT-IND-01410,Hepatitis A,2023-08-06,India,Uttar Pradesh,Lucknow,1766,44,high,False,https://news.example/1410,Hospital admissions rising
+OUT-IND-01411,Hepatitis A,18-03-2025,India,Odisha,Rourkela,754,30,moderate,True,https://news.example/1411,Cluster in school
+OUT-IND-01412,Measles,2025-04-22,India,Odisha,Sambalpur,1905,143,low,Unknown,,Spike after monsoon
+OUT-IND-01413,Hepatitis A,2023-09-23,India,Odisha,Puri,4225,13,moderate,False,https://news.example/1413,Reported by PHC
+OUT-IND-01414,Cholera,2024-04-05,India,Maharashtra,Nagpur,2204,63,moderate,Unknown,https://news.example/1414,
+OUT-IND-01415,Measles,2025-02-17,India,Bihar,Muzaffarpur,4431,39,moderate,Unknown,https://news.example/1415,Reported by PHC
+OUT-IND-01416,Scrub Typhus,18-02-2023,India,Rajasthan,Jaipur,4827,9,low,False,https://news.example/1416,Reported by PHC
+OUT-IND-01417,COVID-19,2025-05-07,India,Rajasthan,Bikaner,315,19,low,True,,
+OUT-IND-01418,Measles,2023-09-09 20:29:20,India,Maharashtra,Nagpur,4211,74,low,Unknown,https://news.example/1418,Spike after monsoon
+OUT-IND-01419,COVID-19,09-02-2024,India,Gujarat,Rajkot,1854,84,low,Unknown,https://news.example/1419,
+OUT-IND-01420,Kala-azar,2025-07-05,India,Tamil Nadu,Madurai,3099,222,moderate,Unknown,https://news.example/1420,Under investigation
+OUT-IND-01421,Measles,2024-07-30,India,Maharashtra,Nashik,1752,78,low,Unknown,https://news.example/1421,Hospital admissions rising
+OUT-IND-01422,Dengue,24-01-2025,India,Bihar,Muzaffarpur,1737,109,low,False,https://news.example/1422,
+OUT-IND-01423,Measles,28-07-2024,India,Karnataka,Belgaum,3370,88,low,False,https://news.example/1423,Spike after monsoon
+OUT-IND-01424,Scrub Typhus,23-08-2023,India,Odisha,Sambalpur,1722,54,low,Unknown,https://news.example/1424,
+OUT-IND-01425,Hepatitis A,15-05-2025,India,Delhi,West Delhi,20,0,moderate,True,https://news.example/1425,
+OUT-IND-01426,Kala-azar,16-05-2024,India,Uttar Pradesh,Lucknow,2108,118,moderate,Unknown,,
+OUT-IND-01427,Scrub Typhus,2023-10-11,India,Odisha,Sambalpur,425,20,moderate,False,https://news.example/1427,
+OUT-IND-01428,Influenza,2025-06-01,India,Assam,Guwahati,2858,116,low,False,,Cluster in school
+OUT-IND-01429,Kala-azar,2025-12-31,India,Kerala,Kozhikode,2535,195,low,False,https://news.example/1429,Cluster in school
+OUT-IND-01430,Hepatitis A,2023-05-06,India,Tamil Nadu,Chennai,1351,93,moderate,True,https://news.example/1430,Spike after monsoon
+OUT-IND-01431,Measles,2024-12-01,India,Karnataka,Bengaluru,4767,,low,False,https://news.example/1431,
+OUT-IND-01432,Scrub Typhus,22-11-2023,India,Odisha,Sambalpur,1165,,low,False,https://news.example/1432,Reported by PHC
+OUT-IND-01433,Influenza,2024-09-09,India,Delhi,West Delhi,3044,88,moderate,False,https://news.example/1433,Cluster in school
+OUT-IND-01434,Hepatitis A,2024-08-15,India,Assam,Dibrugarh,242,11,low,Unknown,https://news.example/1434,Reported by PHC
+OUT-IND-01435,Dengue,2025-12-20 00:43:54,India,Rajasthan,Jodhpur,4636,92,moderate,Unknown,,Hospital admissions rising
+OUT-IND-01436,Dengue,04-06-2025,India,Bihar,Patna,4822,348,low,False,https://news.example/1436,Lab confirmed cases
+OUT-IND-01437,Hepatitis A,30-11-2024,India,Gujarat,Vadodara,1290,86,moderate,Unknown,https://news.example/1437,Cluster in school
+OUT-IND-01438,Dengue,2025-11-05,India,Kerala,Thrissur,4264,168,low,Unknown,https://news.example/1438,Spike after monsoon
+OUT-IND-01439,COVID-19,2023-09-17,India,Gujarat,Vadodara,3280,24,moderate,False,,Spike after monsoon
+OUT-IND-01440,Cholera,2025-09-10 06:39:10,India,Rajasthan,Udaipur,340,20,moderate,False,,
+OUT-IND-01441,Cholera,2023-06-15 20:39:47,India,Assam,Jorhat,4,0,low,True,https://news.example/1441,Hospital admissions rising
+OUT-IND-01442,Influenza,2024-06-01 13:05:40,India,Odisha,Puri,3214,215,low,True,https://news.example/1442,Hospital admissions rising
+OUT-IND-01443,Influenza,2025-06-26,India,Uttar Pradesh,Kanpur,3004,179,moderate,Unknown,,Lab confirmed cases
+OUT-IND-01444,Dengue,04-06-2023,India,Maharashtra,Mumbai,656,33,low,True,https://news.example/1444,Under investigation
+OUT-IND-01445,COVID-19,23-05-2023,India,Gujarat,Vadodara,3140,182,moderate,True,https://news.example/1445,
+OUT-IND-01446,COVID-19,2024-04-26,India,Delhi,West Delhi,4021,66,moderate,False,https://news.example/1446,
+OUT-IND-01447,Measles,2023-03-20,India,Gujarat,Ahmedabad,3224,232,high,True,https://news.example/1447,Hospital admissions rising
+OUT-IND-01448,Dengue,2023-09-08,India,Kerala,Kozhikode,323,5,moderate,True,https://news.example/1448,Reported by PHC
+OUT-IND-01449,Kala-azar,2023-07-14,India,Odisha,Bhubaneswar,2825,69,low,Unknown,https://news.example/1449,Reported by PHC
+OUT-IND-01450,COVID-19,2025-07-10,India,Gujarat,Vadodara,1846,57,low,False,https://news.example/1450,Reported by PHC
+OUT-IND-01451,Hepatitis A,20-06-2023,India,Gujarat,Bhavnagar,170,12,moderate,Unknown,https://news.example/1451,
+OUT-IND-01452,Influenza,2025-04-03,India,Rajasthan,Udaipur,1780,137,low,False,https://news.example/1452,
+OUT-IND-01453,COVID-19,2023-12-23,India,Maharashtra,Nagpur,3793,1,low,False,https://news.example/1453,
+OUT-IND-01454,Hepatitis A,19-02-2024,India,Gujarat,Vadodara,3557,45,high,True,https://news.example/1454,
+OUT-IND-01455,Dengue,2023-04-18,India,Delhi,South Delhi,2859,22,low,True,https://news.example/1455,Cluster in school
+OUT-IND-01456,Dengue,2024-06-12,India,Rajasthan,Jaipur,107,8,moderate,Unknown,,Cluster in school
+OUT-IND-01457,Cholera,2024-04-19,India,Tamil Nadu,Madurai,2610,199,low,False,,
+OUT-IND-01458,Influenza,2025-11-23,India,Odisha,Puri,4626,48,high,Unknown,https://news.example/1458,Hospital admissions rising
+OUT-IND-01459,Scrub Typhus,2023-06-24,India,Uttar Pradesh,Kanpur,3427,231,low,True,https://news.example/1459,Spike after monsoon
+OUT-IND-01460,Kala-azar,2024-07-15,India,Rajasthan,Bikaner,2517,121,moderate,False,https://news.example/1460,Reported by PHC
+OUT-IND-01461,Influenza,2024-08-20 10:11:20,India,Karnataka,Hubli,3764,194,low,Unknown,https://news.example/1461,Hospital admissions rising
+OUT-IND-01462,Dengue,2025-02-04,India,Bihar,Purnia,3161,185,low,Unknown,https://news.example/1462,Lab confirmed cases
+OUT-IND-01463,Cholera,04-02-2023,India,Kerala,Kozhikode,2892,15,moderate,Unknown,https://news.example/1463,Reported by PHC
+OUT-IND-01464,Scrub Typhus,17-02-2025,India,Assam,Tezpur,1823,14,moderate,False,https://news.example/1464,
+OUT-IND-01465,COVID-19,2025-01-10,India,Kerala,Thiruvananthapuram,4986,176,moderate,Unknown,https://news.example/1465,Cluster in school
+OUT-IND-01466,Scrub Typhus,2023-09-15 21:52:37,India,Kerala,Kannur,142,8,moderate,Unknown,,Lab confirmed cases
+OUT-IND-01467,COVID-19,2024-01-31,India,West Bengal,Kolkata,4717,179,high,Unknown,https://news.example/1467,Reported by PHC
+OUT-IND-01468,Measles,2025-04-14,India,Assam,Dibrugarh,3565,267,low,Unknown,https://news.example/1468,
+OUT-IND-01469,Scrub Typhus,12-07-2023,India,Tamil Nadu,Madurai,3800,48,moderate,False,https://news.example/1469,
+OUT-IND-01470,Measles,2024-09-09,India,Tamil Nadu,Tiruchirappalli,1647,60,moderate,Unknown,https://news.example/1470,Under investigation
+OUT-IND-01471,Scrub Typhus,2023-08-02,India,Assam,Silchar,1383,75,low,False,https://news.example/1471,Under investigation
+OUT-IND-01472,Influenza,2025-09-03 07:06:55,India,Delhi,East Delhi,1534,12,low,Unknown,https://news.example/1472,Hospital admissions rising
+OUT-IND-01473,Measles,08-06-2024,India,Tamil Nadu,Chennai,3624,129,low,False,https://news.example/1473,
+OUT-IND-01474,Cholera,2025-04-01,India,Tamil Nadu,Tiruchirappalli,2713,29,low,True,,
+OUT-IND-01475,Dengue,2023-10-22,India,Karnataka,Mangalore,2434,164,low,Unknown,https://news.example/1475,
+OUT-IND-01476,Influenza,2024-06-16,India,Uttar Pradesh,Agra,4314,248,low,False,https://news.example/1476,
+OUT-IND-01477,Measles,2023-09-01,India,Rajasthan,Jodhpur,3570,274,moderate,True,https://news.example/1477,Reported by PHC
+OUT-IND-01478,COVID-19,2023-09-17,India,Tamil Nadu,Madurai,4433,198,moderate,Unknown,,Reported by PHC
+OUT-IND-01479,Dengue,18-05-2025,India,Kerala,Kannur,2891,27,moderate,True,,Under investigation
+OUT-IND-01480,Influenza,2024-08-22,India,Bihar,Patna,3789,290,moderate,Unknown,https://news.example/1480,
+OUT-IND-01481,Cholera,2024-05-27,India,Uttar Pradesh,Meerut,68,1,low,True,,Hospital admissions rising
+OUT-IND-01482,COVID-19,2025-10-24 06:52:53,India,Uttar Pradesh,Agra,4929,,low,Unknown,https://news.example/1482,Reported by PHC
+OUT-IND-01483,Scrub Typhus,2023-01-05,India,Maharashtra,Thane,236,17,low,True,,
+OUT-IND-01484,Scrub Typhus,2025-03-07,India,Tamil Nadu,Chennai,2421,177,low,False,https://news.example/1484,
+OUT-IND-01485,Dengue,2025-07-16 16:00:59,India,Bihar,Bhagalpur,1382,49,low,True,https://news.example/1485,Spike after monsoon
+OUT-IND-01486,Influenza,2023-02-22,India,Uttar Pradesh,Meerut,985,70,low,True,https://news.example/1486,
+OUT-IND-01487,Influenza,2023-11-11,India,Gujarat,Bhavnagar,3255,245,moderate,Unknown,https://news.example/1487,
+OUT-IND-01488,Hepatitis A,2023-05-25,India,Maharashtra,Nashik,4444,217,low,True,https://news.example/1488,Cluster in school
+OUT-IND-01489,Measles,2023-12-09,India,West Bengal,Siliguri,2205,17,high,Unknown,,Spike after monsoon
+OUT-IND-01490,Influenza,08-12-2023,India,Gujarat,Surat,4869,79,moderate,False,,Under investigation
+OUT-IND-01491,Dengue,10-12-2023,India,Tamil Nadu,Salem,3199,249,moderate,False,https://news.example/1491,Reported by PHC
+OUT-IND-01492,Scrub Typhus,2024-04-15 11:23:54,India,Assam,Dibrugarh,4297,233,moderate,True,https://news.example/1492,
+OUT-IND-01493,Influenza,22-11-2025,India,Bihar,Gaya,799,10,moderate,True,https://news.example/1493,Under investigation
+OUT-IND-01494,Scrub Typhus,2025-04-18,India,Maharashtra,Pune,4794,29,high,Unknown,https://news.example/1494,
+OUT-IND-01495,COVID-19,2024-11-02,India,Gujarat,Bhavnagar,1285,23,low,Unknown,https://news.example/1495,Lab confirmed cases
+OUT-IND-01496,COVID-19,15-06-2023,India,Uttar Pradesh,Varanasi,4608,61,low,True,https://news.example/1496,Reported by PHC
+OUT-IND-01497,Kala-azar,2024-07-07,India,Rajasthan,Bikaner,352,18,moderate,False,,Under investigation
+OUT-IND-01498,Hepatitis A,2023-02-15 15:42:11,India,Odisha,Sambalpur,176,8,moderate,True,https://news.example/1498,
+OUT-IND-01499,Scrub Typhus,2024-10-21,India,Tamil Nadu,Coimbatore,1204,78,low,False,https://news.example/1499,Lab confirmed cases
+OUT-IND-01500,Influenza,2024-07-03,India,Rajasthan,Jaipur,4914,0,low,Unknown,https://news.example/1500,
+OUT-IND-DUP-000,Cholera,17-02-2025,India,Kerala,Thiruvananthapuram,4773,71,moderate,True,https://news.example/1090,
+OUT-IND-DUP-001,Scrub Typhus,13-07-2024,India,Uttar Pradesh,Agra,1686,102,moderate,True,,Under investigation
+OUT-IND-DUP-002,Hepatitis A,2024-08-23,India,Uttar Pradesh,Lucknow,2269,112,low,Unknown,https://news.example/540,
+OUT-IND-DUP-003,Kala-azar,07-08-2024,India,Gujarat,Vadodara,4216,310,low,False,https://news.example/554,Spike after monsoon
+OUT-IND-DUP-004,Cholera,2023-03-18,India,West Bengal,Bardhaman,3784,259,high,False,https://news.example/692,Reported by PHC
+OUT-IND-DUP-005,Dengue,2024-12-07,India,Karnataka,Mangalore,2711,178,low,False,https://news.example/781,
+OUT-IND-DUP-006,Hepatitis A,2023-03-23,India,Uttar Pradesh,Agra,3,0,moderate,True,https://news.example/58,Lab confirmed cases
+OUT-IND-DUP-007,Measles,2025-07-07 09:44:17,India,Odisha,Cuttack,1327,99,moderate,Unknown,https://news.example/628,
+OUT-IND-DUP-008,Scrub Typhus,2025-05-20,India,Maharashtra,Thane,873,50,moderate,Unknown,https://news.example/143,Cluster in school
+OUT-IND-DUP-009,Scrub Typhus,06-01-2025,India,Assam,Dibrugarh,4297,233,moderate,True,https://news.example/1492,
+OUT-IND-DUP-010,Hepatitis A,2025-08-26,India,West Bengal,Siliguri,4453,238,low,Unknown,https://news.example/42,Spike after monsoon
+OUT-IND-DUP-011,Hepatitis A,23-11-2023,India,Kerala,Kozhikode,4038,316,low,False,https://news.example/719,Spike after monsoon
+OUT-IND-DUP-012,Measles,2025-12-26,India,Kerala,Thiruvananthapuram,3066,181,low,True,,
+OUT-IND-DUP-013,Hepatitis A,2024-08-14,India,Uttar Pradesh,Agra,3,0,moderate,True,https://news.example/58,Lab confirmed cases
+OUT-IND-DUP-014,Scrub Typhus,2024-05-12 01:43:34,India,Karnataka,Mangalore,131,4,low,Unknown,,Under investigation
+OUT-IND-DUP-015,Scrub Typhus,2024-03-11,India,Kerala,Thrissur,3172,101,low,True,https://news.example/234,Spike after monsoon
+OUT-IND-DUP-016,Influenza,2023-09-28,India,Kerala,Thiruvananthapuram,4956,177,low,False,https://news.example/439,
+OUT-IND-DUP-017,Measles,2023-03-02 03:54:50,India,Odisha,Bhubaneswar,3129,187,low,True,https://news.example/1280,
+OUT-IND-DUP-018,COVID-19,2023-04-27,India,West Bengal,Kolkata,3662,243,moderate,False,https://news.example/945,Cluster in school
+OUT-IND-DUP-019,Dengue,2025-05-05,India,Gujarat,Rajkot,3409,233,low,False,https://news.example/780,Reported by PHC
+OUT-IND-DUP-020,Dengue,2025-07-31,India,Tamil Nadu,Tiruchirappalli,4612,240,low,True,https://news.example/601,Under investigation
+OUT-IND-DUP-021,Hepatitis A,2023-06-14,India,Uttar Pradesh,Agra,1144,28,moderate,Unknown,,Cluster in school
+OUT-IND-DUP-022,Measles,24-06-2024,India,Tamil Nadu,Tiruchirappalli,4138,92,low,False,,Lab confirmed cases
+OUT-IND-DUP-023,Cholera,2023-10-03,India,Maharashtra,Nagpur,3411,271,low,Unknown,https://news.example/898,
+OUT-IND-DUP-024,Scrub Typhus,2023-11-12,India,Uttar Pradesh,Varanasi,245,0,low,False,https://news.example/355,Lab confirmed cases
+OUT-IND-DUP-025,Influenza,2023-02-01,India,Gujarat,Surat,431,31,low,Unknown,https://news.example/1253,Lab confirmed cases
+OUT-IND-DUP-026,Hepatitis A,03-09-2025,India,Tamil Nadu,Chennai,715,8,low,False,,Lab confirmed cases
+OUT-IND-DUP-027,Measles,2025-07-24,India,Odisha,Sambalpur,1905,143,low,Unknown,,Spike after monsoon
+OUT-IND-DUP-028,Measles,2025-06-05 20:48:11,India,Karnataka,Hubli,2506,52,low,True,https://news.example/581,Under investigation
+OUT-IND-DUP-029,Hepatitis A,23-10-2025,India,Karnataka,Mangalore,2870,166,low,True,https://news.example/1247,
