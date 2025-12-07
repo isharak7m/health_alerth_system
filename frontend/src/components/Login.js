@@ -15,13 +15,10 @@ const Login = () => {
     
     try {
       await login(formData.username, formData.password);
-      toast.success('Login successful!');
       navigate('/dashboard');
     } catch (error) {
-      const errorMsg = typeof error.response?.data?.detail === 'string' 
-        ? error.response.data.detail 
-        : 'Login failed';
-      toast.error(errorMsg);
+      console.error('Login error:', error);
+      alert('Login failed. Please check your credentials.');
     } finally {
       setLoading(false);
     }

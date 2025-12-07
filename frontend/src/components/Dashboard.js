@@ -44,18 +44,20 @@ const Dashboard = () => {
       setHealthData(response.data);
     } catch (error) {
       console.error('Failed to fetch health data:', error);
+      setHealthData({ outbreaks: [], vaccinations: [] });
     }
   };
 
   const fetchAlerts = async () => {
     try {
       const response = await axios.get('/api/health/alerts');
-      setAlerts(response.data.alerts);
-      if (response.data.alerts.length > 0) {
+      setAlerts(response.data.alerts || []);
+      if (response.data.alerts && response.data.alerts.length > 0) {
         setShowAlerts(true);
       }
     } catch (error) {
       console.error('Failed to fetch alerts:', error);
+      setAlerts([]);
     }
   };
 
